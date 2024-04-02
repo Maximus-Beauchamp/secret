@@ -1,0 +1,25 @@
+.dashboard {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  padding-bottom: 10px;
+}
+
+.box {
+  padding: 20px;
+  border-radius: 10px;
+  border: 2px solid #f0f0f0;
+  min-height: 400px;
+}
+
+.left-container,
+.right-container {
+  display: grid;
+  gap: 10px;
+}
+
+.box3 {
+  grid-row: span 1;
+  grid-column: span 2;
+}

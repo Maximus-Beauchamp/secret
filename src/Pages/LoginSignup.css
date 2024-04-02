@@ -1,0 +1,122 @@
+/* LoginSignup.css */
+body{
+    background-color: #fcfcf3; /* Light cream color */
+    font-family: "Bebas Neue", sans-serif;
+}
+
+img {
+    width: 30px;
+    height: auto;
+}
+
+/* Adjustments for login_ prefixed classes */
+
+.login_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw; /* Use 100% of the viewport width */
+    margin: 0; /* Remove auto margin to allow full width */
+    background: white; /* Light cream color */
+    padding: 20px 0; /* Add some padding on top and bottom */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+    border-radius: 8px; /* Optional: adds a slight roundness to edges */
+    max-width: 600px; /* Limit the maximum width */
+    margin: 20px auto; /* Center the container with automatic margins */
+}
+
+.login_header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    margin-top: 30px; 
+}
+
+.login_text {
+    color: #000;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.login_underline {
+    width: 80px;
+    height: 6px;
+    background: #e7d287; /* Gold color */
+    border-radius: 9px;
+}
+
+.login_inputs {
+    margin-top: 55px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.login_input {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 480px;
+    height: 80px;
+    border-radius: 6px;
+    border: 1px solid #e7d287; /* Optional: added border to match theme */
+}
+
+/* Specific for the img inside .login_input */
+.login_input img {
+    margin: 0px 30px;
+}
+
+.login_input input {
+    height: 50px;
+    width: 400px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #000; /* Black text color */
+    font-size: 19px;
+}
+
+.login_forgot-password {
+    margin-top: 27px;
+    color: #000; /* Black text color */
+    font-size: 18px;
+}
+
+.login_forgot-password span{
+    color: #e7d287; /* Gold color */
+    cursor: pointer;
+}
+
+.login_submit-container {
+    display: flex;
+    gap: 30px;
+    margin: 60px auto;
+}
+
+.login_submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 59px;
+    color: #000; /* Black text color */
+    background: #e7d287; /* Gold color */
+    border-radius: 50px;
+    font-size: 19px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.login_notSelected {
+    background: white;
+    color: grey;
+}
+
+/* Hover effects for login_submit */
+.login_submit:hover {
+    background-color: #ccac00; /* Darker gold on hover */
+    transition: background-color 0.3s ease;
+}

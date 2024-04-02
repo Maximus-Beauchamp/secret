@@ -1,0 +1,70 @@
+body {
+  width: 100%;
+  height: 100%;
+  text-align: center; /* Center-align text for all child elements */
+}
+
+.hero_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: top; /* This centers the child elements vertically if needed */
+  width: 100%;
+  height: 800px; /* Adjust height as needed */
+  background-color: #fcfcf3;
+  padding: 10px;
+}
+
+.hero_image img {
+  align-self: top; /* Aligns the image to the top of the container */
+  width: auto; /* Adjust based on desired logo size, can also use px or em */
+  height: 500px; /* Maintains aspect ratio */
+  margin-top: 20px; /* Adjusts margin for spacing */
+}
+
+.hero_text {
+  height: 200px;
+  /* Ensure that the text alignment is explicitly defined if needed */
+  text-align: center; /* Center-align text within .hero_text */
+  font-family: "Dela Gothic One", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  margin-top: -100px;
+}
+
+p {
+  font-weight: normal;
+}
+
+
+.hero_text h1 {
+  font-size: 3.5rem; /* Slightly larger for impact */
+  color: black;
+}
+
+.hero_text p {
+  font-size: 1.4rem;
+}
+
+.hero_button {
+  padding: 1rem 3rem; /* Increased right and left padding for wider buttons */
+  font-family: "Bebas Neue", sans-serif; /* Updated font family */
+  font-style: normal;
+  font-size: 20px;
+  border-radius: 20px; /* Ovular shape maintained */
+  cursor: pointer;
+  transition: background-color 0.2s, transform 0.2s, font-weight 0.2s; /* Added font-weight to transitions */
+  background-color: var(--primary);
+  color: var(--text-color);
+  border: 1px solid var(--primary);
+  margin-top: 20px;
+  margin-right: 20px; /* Added right margin for spacing in nav bar */
+  display: inline-block; /* Ensures margin takes effect */
+}
+
+.hero_button:hover {
+  background-color: #c5c56d;
+  color: #ffffff;
+}
+
+/* Apply text-align: center; to body or specific parent containers to ensure all text aligns centrally. 
+Adjustments made to .hero_container and .hero_text ensure content is centered. */
