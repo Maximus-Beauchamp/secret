@@ -1,5 +1,4 @@
 const fs = require('fs');
-const puppeteer = require('puppeteer');
 const processItemsAndSave = require('./dataProcessing'); // Ensure this path is correct
 
 async function extractDiningHalls(page) {
