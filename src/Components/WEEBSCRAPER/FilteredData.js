@@ -9,7 +9,7 @@ try {
 }
 
 const parseHallsData = (hallsData) => {
-    const currentDate = new Date(2024, 3, 1).toLocaleDateString('en-US', { // Example date, adjust to use new Date() for current
+    const currentDate = new Date(2024, 3, 2).toLocaleDateString('en-US', { // Example date, adjust to use new Date() for current
       weekday: 'long',
       year: 'numeric',
       month: 'long',
