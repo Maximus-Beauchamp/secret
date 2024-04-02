@@ -40,7 +40,7 @@ const renderCustomLabel = ({ cx, cy, midAngle, innerRadius, outerRadius, percent
 
 const MacroNutrientPieChart = () => {
   // Use useContext to get the current macronutrient totals
-  const { protein, fat, carbs } = useContext(MealTotalsContext); // Assuming these are the provided values
+  const { protein, fat, carbs } = useContext(MealTotalsContext); 
 
   // Adjust 'data' to use the values from context
   const data = [

@@ -23,8 +23,6 @@ export const addMealToJournal = (meal, callback) => {
 
   // Use the callback to pass back both the updated journal and the new totals
   callback(updatedJournal, totals);
-  console.log(updatedJournal)
-  console.log(totals)
 };
 
 export const MealJournalDisplay = ({ mealJournal }) => {

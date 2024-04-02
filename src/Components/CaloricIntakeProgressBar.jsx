@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import { MealTotalsContext } from '../Contexts/MealTotalsContext'; // Adjust the import path as necessary
+import { MealTotalsContext } from '../Contexts/MealTotalsContext';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
 
 
