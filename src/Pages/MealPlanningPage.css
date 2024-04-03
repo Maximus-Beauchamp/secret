@@ -1,0 +1,62 @@
+/* General Body Styling */
+body {
+    width: 100%;
+    height: 100%;
+    text-align: center; /* Center text for all child elements */
+    font-family: "Bebas Neue", sans-serif; /* Ensures consistent font across the page */
+    background-color: #fcfcf3; /* Light cream color for background */
+  }
+  
+  /* Meal Planning Container */
+  .mealPlanning_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Align items to start of the container */
+    width: 100%;
+    max-width: 600px; /* Limit the maximum width to ensure content is centered */
+    margin: 20px auto; /* Center the container with automatic margins */
+    background-color: #fcfcf3; /* Light cream background */
+    padding: 20px; /* Padding around the content */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    border-radius: 8px; /* Rounded corners */
+  }
+  
+  /* Meal Planning Header */
+  .mealPlanning_header {
+    font-size: 3.5rem; /* Large, impactful text size */
+    color: black; /* Text color */
+    margin-bottom: 30px; /* Space below the header */
+  }
+  
+  /* Hall Selection & Button Styling */
+  .mealPlanning_hallSelection {
+    margin-top: 20px; /* Space from header or previous content */
+  }
+  
+  .mealPlanning_hallButton {
+    background-color: var(--primary, #e7d287); /* Defaulting to gold, allows for easy theme change */
+    color: var(--text-color, black); /* Default black, customizable via :root */
+    padding: 1rem 3rem;
+    font-size: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.2s;
+    border: 1px solid var(--primary, #e7d287);
+    margin: 10px auto; /* Center buttons and provide spacing */
+    display: block; /* Adjust display for margin auto to take effect */
+  }
+  
+  .mealPlanning_hallButton:hover {
+    background-color: #c5c56d; /* Lighter gold on hover */
+    color: #ffffff; /* White text on hover */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+  }
+  
+  /* Back Button Styling */
+  .mealPlanning_backButton {
+    /* Inherits styles from .mealPlanning_hallButton for consistency */
+    font-size: 1.2rem; /* Slightly smaller than hall buttons for visual hierarchy */
+    padding: 0.8rem 2.5rem; /* Adjust padding */
+    margin-bottom: 20px; /* Space above the detailed view or next section */
+  }
+  
