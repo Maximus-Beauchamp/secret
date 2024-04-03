@@ -43,13 +43,15 @@ const MealPlanningPage = () => {
       ) : (
         <>
           <h1 className="mealPlanning_header">Meal Planning</h1>
-          {diningHallsData.map((hall, index) => (
-            <div key={index} className="mealPlanning_hallSelection">
-              <h2 onClick={() => handleHallSelection(hall.name)} className="mealPlanning_hallButton">
-                {hall.name}
-              </h2>
-            </div>
-          ))}
+          <div className="hallGridContainer"> {/* Added this div to wrap the hall selections */}
+            {diningHallsData.map((hall, index) => (
+              <div key={index} className="mealPlanning_hallSelection">
+                <h2 onClick={() => handleHallSelection(hall.name)} className="mealPlanning_hallButton">
+                  {hall.name}
+                </h2>
+              </div>
+            ))}
+          </div>
         </>
       )}
       {showNotification && <Notification message="Food Logged" isVisible={showNotification} />}

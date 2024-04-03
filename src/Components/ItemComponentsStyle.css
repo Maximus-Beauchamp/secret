@@ -1,8 +1,18 @@
-/* DiningHallDetails Styling */
+body, html {
+  width: 100%; /* Ensure the full width of the viewport is covered */
+  margin: 0; /* Reset default margin */
+  padding: 0; /* Reset default padding */
+}
+
 .diningHallDetails {
   text-align: center;
   background-color: #fcfcf3; /* Light cream background */
-  max-width: 800px; /* Adjust as needed */
+  width: 800px; /* Fixed width */
+  max-width: 100%; /* Ensures it doesn't overflow on smaller screens */
+  margin: 0 auto; /* Center the element horizontally */
+  padding: 20px; /* Add some padding inside the container */
+  border-radius: 5px; /* Optional: adds rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: adds a subtle shadow */
 }
 
 .diningHallDetails h2 {
@@ -18,6 +28,13 @@
   margin-top: 30px; /* Space above meal type sections for clear separation */
   margin-bottom: 10px; /* Space below the meal type name before listing categories */
 }
+.hallGridContainer {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr); /* 7 columns */
+  grid-template-rows: repeat(2, auto); /* 2 rows */
+  gap: 20px; /* Space between items */
+  padding: 20px 0; /* Padding above and below the grid */
+}
 
 .mealTypeContainer {
   text-align: center; /* Align the meal type content to the left for readability */
@@ -27,14 +44,28 @@
 
 
 .itemContainer {
-  border: 2px solid #e7d287; /* Gold border for accent */
-  border-radius: 5px;
-  background-color: #fcfcf3; /* Light cream background */
-  position: relative;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adding a subtle shadow for depth */
+  flex-direction: column; /* Keeps items in a vertical stack */
+  align-items: flex-start; /* Aligns items to the start, making text align left */
+  position: relative; /* For absolute positioning of the addButton */
+  margin: 10px auto;
+  padding: 10px;
+  border: 2px solid #e7d287; /* Example border */
+  border-radius: 5px;
+  background-color: #fcfcf3;
+}
+
+.addButton {
+  position: absolute;
+  right: 10px; /* 10px from the right edge of the itemContainer */
+  top: 50%;
+  transform: translateY(-50%); /* Center it vertically */
+  background-color: #82ca9d;
+  color: #fff;
+  border: none;
+  padding: 5px 15px;
+  border-radius: 20px;
+  cursor: pointer;
 }
 
 .dropdownContent {
@@ -65,4 +96,25 @@
 
 .addButton:hover {
   background-color: #66b583; /* A slightly darker green on hover for feedback */
+}
+
+.mealTypeButton {
+  background-color: #e7d287; /* Soft gold color for the button background */
+  color: #ffffff; /* White text for contrast */
+  border: none;
+  padding: 15px 30px; /* Increased padding for a larger button */
+  border-radius: 20px; /* Rounded edges for a modern look */
+  cursor: pointer;
+  transition: background-color 0.2s; /* Smooth transition for hover effects */
+  font-size: 1.4rem; /* Increase font size for better visibility */
+  margin: 10px auto; /* Ensure some space around the button */
+  display: block; /* Block display to take full width */
+  width: 90%; /* Button takes 90% of its container's width */
+  max-width: 600px; /* Max-width to prevent overly wide buttons in large containers */
+  text-align: center; /* Ensure text is centered */
+}
+
+.mealTypeButton:hover {
+  background-color: #ccac00; /* Darker shade of gold for hover state */
+  font-weight: bold; /* Text becomes bold on hover */
 }

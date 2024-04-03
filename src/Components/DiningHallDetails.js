@@ -30,7 +30,7 @@ const MealComponent = ({ name, items, addMealToJournal }) => {
 
   return (
     <div>
-      <button onClick={() => setIsVisible(!isVisible)} style={{ display: 'block', width: '100%', marginBottom: '10px' }}>
+      <button onClick={() => setIsVisible(!isVisible)} className="mealTypeButton">
         {name}
       </button>
       {isVisible && (
@@ -43,6 +43,7 @@ const MealComponent = ({ name, items, addMealToJournal }) => {
     </div>
   );
 };
+  
 
 const DiningHallDetails = ({ hallDetails, addMealToJournal }) => {
   return (

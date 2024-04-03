@@ -5,59 +5,75 @@ body {
     text-align: center; /* Center text for all child elements */
     font-family: "Bebas Neue", sans-serif; /* Ensures consistent font across the page */
     background-color: #fcfcf3; /* Light cream color for background */
-  }
+}
   
-  /* Meal Planning Container */
-  .mealPlanning_container {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start; /* Align items to start of the container */
-    width: 100%;
-    max-width: 600px; /* Limit the maximum width to ensure content is centered */
-    margin: 20px auto; /* Center the container with automatic margins */
-    background-color: #fcfcf3; /* Light cream background */
-    padding: 20px; /* Padding around the content */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
-    border-radius: 8px; /* Rounded corners */
-  }
+/* Meal Planning Container */
+.mealPlanning_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Align items to start of the container */
+  width: 100%;
+  margin: 20px auto; /* Center the container with automatic margins */
+  background-color: #fcfcf3; /* Light cream background */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  border-radius: 8px; /* Rounded corners */
+}
+
+/* Meal Planning Header */
+.mealPlanning_header {
+  font-size: 3.5rem; /* Large, impactful text size */
+  color: black; /* Text color */
+  margin-bottom: 30px; /* Space below the header */
+}
+
+/* Hall Selection & Button Styling */
+.mealPlanning_hallSelection {
+  margin-top: 20px; /* Space from header or previous content */
   
-  /* Meal Planning Header */
-  .mealPlanning_header {
-    font-size: 3.5rem; /* Large, impactful text size */
-    color: black; /* Text color */
-    margin-bottom: 30px; /* Space below the header */
-  }
-  
-  /* Hall Selection & Button Styling */
-  .mealPlanning_hallSelection {
-    margin-top: 20px; /* Space from header or previous content */
-    
-  }
-  
-  .mealPlanning_hallButton {
-    background-color: var(--primary, #e7d287); /* Defaulting to gold, allows for easy theme change */
-    color: var(--text-color, black); /* Default black, customizable via :root */
-    padding: 1rem 3rem;
-    font-size: 20px;
-    border-radius: 20px;
-    cursor: pointer;
-    transition: background-color 0.2s, transform 0.2s;
-    border: 1px solid var(--primary, #e7d287);
-    margin: 10px auto; /* Center buttons and provide spacing */
-    display: block; /* Adjust display for margin auto to take effect */
-  }
-  
-  .mealPlanning_hallButton:hover {
-    background-color: #c5c56d; /* Lighter gold on hover */
-    color: #ffffff; /* White text on hover */
-    transform: scale(1.05); /* Slightly enlarge on hover */
-  }
-  
-  /* Back Button Styling */
-  .mealPlanning_backButton {
-    /* Inherits styles from .mealPlanning_hallButton for consistency */
-    font-size: 1.2rem; /* Slightly smaller than hall buttons for visual hierarchy */
-    padding: 0.8rem 2.5rem; /* Adjust padding */
-    margin-bottom: 20px; /* Space above the detailed view or next section */
-  }
-  
+}
+
+.mealPlanning_hallButton {
+  background-color: var(--primary, #e7d287); /* Defaulting to gold, allows for easy theme change */
+  color: var(--text-color, black); /* Default black, customizable via :root */
+  padding: 1rem 3rem;
+  font-size: 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.2s, transform 0.2s;
+  border: 1px solid var(--primary, #e7d287);
+  margin: 10px auto; /* Center buttons and provide spacing */
+  display: block; /* Adjust display for margin auto to take effect */
+}
+
+.mealPlanning_hallButton:hover {
+  background-color: #ccac00; /* Darker shade of gold for hover state */
+  font-weight: bold; /* Text becomes bold on hover */
+  color: #ffffff; /* White text on hover */
+  transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+/* Back Button Styling */
+.mealPlanning_backButton {
+  background-color: #4a90e2; /* A distinct blue for visibility and to signify action */
+  color: #ffffff; /* White text for contrast */
+  border: none;
+  padding: 12px 24px; /* Slightly larger padding for a more prominent button */
+  border-radius: 30px; /* Generously rounded corners */
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Enhanced transitions */
+  font-size: 1.1rem; /* Slightly larger font size for emphasis */
+  font-weight: bold; /* Bold text for clarity */
+  margin-bottom: 20px; /* Space below the button */
+  display: block; /* Block display for full width, if preferred */
+  width: auto; /* Adjust width to content */
+  margin: 20px auto; /* Center the button within its container */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* More pronounced shadow for depth */
+}
+
+.mealPlanning_backButton:hover, .mealPlanning_backButton:focus {
+  background-color: #357abd; /* A darker blue for interactivity */
+  transform: scale(1.05); /* Slightly scale up the button on hover/focus for feedback */
+  outline: none; /* Remove outline on focus to maintain style */
+}
+
+
