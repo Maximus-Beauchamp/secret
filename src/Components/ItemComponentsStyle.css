@@ -1,0 +1,27 @@
+.itemContainer {
+  margin: 10px auto;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dropdownContent {
+  text-align: center;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.itemName {
+  cursor: pointer;
+  width: 100%;
+}
+
+.addButton {
+  margin-top: 10px;
+  cursor: pointer;
+}
