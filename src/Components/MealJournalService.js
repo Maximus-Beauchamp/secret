@@ -5,13 +5,14 @@ export const getMealJournal = () => {
 
 export const calculateMealTotals = (meals) => {
   return meals.reduce((acc, meal) => {
-    acc.calories += parseInt(meal.calories_and_macros.total_calories.replace(' kcal', ''), 10);
-    acc.protein += parseInt(meal.calories_and_macros.protein.replace('g', ''), 10);
-    acc.carbs += parseInt(meal.calories_and_macros.carbs.replace('g', ''), 10);
-    acc.fat += parseInt(meal.calories_and_macros.fat.replace('g', ''), 10);
+    acc.calories += parseInt(meal.macros.totalCalories.replace(' calories', ''), 10); // Changed from 'total_calories' to 'totalCalories'
+    acc.protein += parseInt(meal.macros.protein.replace('g', ''), 10);
+    acc.carbs += parseInt(meal.macros.carbs.replace('g', ''), 10);
+    acc.fat += parseInt(meal.macros.fat.replace('g', ''), 10);
     return acc;
   }, { calories: 0, protein: 0, carbs: 0, fat: 0 });
 };
+
 
 export const addMealToJournal = (meal, callback) => {
   const savedJournal = getMealJournal();
@@ -31,7 +32,9 @@ export const MealJournalDisplay = ({ mealJournal }) => {
       <h2>FOOD JOURNAL</h2>
       <ul>
         {mealJournal.map((meal, index) => (
-          <li key={index}>{meal.name} - {meal.calories_and_macros.total_calories} calories</li>
+          <li key={index}>
+            {meal.name} - {meal.macros.totalCalories} calories
+          </li>
         ))}
       </ul>
     </div>
