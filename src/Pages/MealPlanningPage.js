@@ -3,6 +3,9 @@ import DiningHallDetails from '../Components/DiningHallDetails'; // Adjust the i
 import diningHallsData from '../Components/MealItems';
 import { getMealJournal, addMealToJournal, MealJournalDisplay } from '../Components/MealJournalService'; 
 import Notification from '../Components/Notification';
+import './MealPlanningPage.css';
+
+
 
 const MealPlanningPage = () => {
   const [mealJournal, setMealJournal] = useState(getMealJournal());
@@ -31,25 +34,25 @@ const MealPlanningPage = () => {
   };
 
   return (
-    <div>
+    <div className="mealPlanning_container">
       {selectedHall ? (
         <>
-          <button onClick={handleBackToList} style={{ margin: '10px', padding: '5px' }}>Back to Halls List</button>
+          <button onClick={handleBackToList} className="mealPlanning_backButton">Back to Halls List</button>
           <DiningHallDetails hallDetails={selectedHall} addMealToJournal={addMealToJournalHandler} />
         </>
       ) : (
         <>
-          <h1>Meal Planning</h1>
+          <h1 className="mealPlanning_header">Meal Planning</h1>
           {diningHallsData.map((hall, index) => (
-            <div key={index} style={{ margin: '10px', padding: '10px', border: '1px solid #ccc', borderRadius: '5px' }}>
-              <h2 onClick={() => handleHallSelection(hall.name)} style={{ cursor: 'pointer' }}>
+            <div key={index} className="mealPlanning_hallSelection">
+              <h2 onClick={() => handleHallSelection(hall.name)} className="mealPlanning_hallButton">
                 {hall.name}
               </h2>
             </div>
           ))}
         </>
       )}
-      <Notification message="Food Logged" isVisible={showNotification} />
+      {showNotification && <Notification message="Food Logged" isVisible={showNotification} />}
       <MealJournalDisplay mealJournal={mealJournal} />
     </div>
   );

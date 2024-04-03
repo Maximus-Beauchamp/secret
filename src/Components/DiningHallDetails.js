@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-
 import './ItemComponentsStyle.css';
 
 const ItemComponent = ({ item, addMealToJournal }) => {
@@ -47,10 +46,10 @@ const MealComponent = ({ name, items, addMealToJournal }) => {
 
 const DiningHallDetails = ({ hallDetails, addMealToJournal }) => {
   return (
-    <div>
+    <div className="diningHallDetails">
       <h2>{hallDetails.name}</h2>
       {hallDetails.mealsOfTheDay.map((mealType, index) => (
-        <div key={index}>
+        <div key={index} className="mealTypeContainer">
           <h3>{mealType.type}</h3>
           {mealType.categories.map((category, subIndex) => (
             <MealComponent key={subIndex} name={category.name} items={category.items} addMealToJournal={addMealToJournal} />
@@ -60,5 +59,6 @@ const DiningHallDetails = ({ hallDetails, addMealToJournal }) => {
     </div>
   );
 };
+
 
 export default DiningHallDetails;

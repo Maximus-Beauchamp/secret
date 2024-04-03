@@ -1,27 +1,68 @@
+/* DiningHallDetails Styling */
+.diningHallDetails {
+  text-align: center;
+  background-color: #fcfcf3; /* Light cream background */
+  max-width: 800px; /* Adjust as needed */
+}
+
+.diningHallDetails h2 {
+  color: #333; /* Darker for contrast */
+  font-size: 2.5rem; /* Large size for the dining hall name */
+  margin-bottom: 20px; /* Spacing below the hall name */
+  font-weight: bold; /* Ensure the title stands out */
+}
+
+.diningHallDetails h3 {
+  color: #555; /* Slightly lighter than the h2 for hierarchy */
+  font-size: 2rem; /* Distinguished but slightly smaller than the hall name */
+  margin-top: 30px; /* Space above meal type sections for clear separation */
+  margin-bottom: 10px; /* Space below the meal type name before listing categories */
+}
+
+.mealTypeContainer {
+  text-align: center; /* Align the meal type content to the left for readability */
+  margin: 0 auto; /* Center the container */
+  max-width: 600px; /* Adjust based on your design preference */
+}
+
+
 .itemContainer {
-  margin: 10px auto;
-  padding: 10px;
-  border: 1px solid #ccc;
+  border: 2px solid #e7d287; /* Gold border for accent */
   border-radius: 5px;
-  background-color: #f9f9f9;
+  background-color: #fcfcf3; /* Light cream background */
   position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adding a subtle shadow for depth */
 }
 
 .dropdownContent {
   text-align: center;
   width: 100%;
   margin-top: 10px;
+  font-size: 0.9rem; /* Slightly smaller font for the dropdown content */
 }
 
 .itemName {
   cursor: pointer;
   width: 100%;
+  color: #333; /* Darker text for readability */
+  font-weight: bold; /* Making item names stand out more */
+  margin-bottom: 5px; /* Spacing below the item name for visual separation */
 }
 
 .addButton {
   margin-top: 10px;
   cursor: pointer;
+  background-color: #82ca9d; /* Soft green for adding to journal, enhancing interactivity */
+  color: #fff; /* White text for contrast */
+  border: none;
+  padding: 5px 15px;
+  border-radius: 20px; /* Rounded edges for a friendly look */
+  transition: background-color 0.2s; /* Smooth transition for hover effect */
+}
+
+.addButton:hover {
+  background-color: #66b583; /* A slightly darker green on hover for feedback */
 }
