@@ -43,7 +43,7 @@ const MealPlanningPage = () => {
       ) : (
         <>
           <h1 className="mealPlanning_header">Meal Planning</h1>
-          <div className="hallGridContainer"> {/* Added this div to wrap the hall selections */}
+          <div className="hallGridContainer"> 
             {diningHallsData.map((hall, index) => (
               <div key={index} className="mealPlanning_hallSelection">
                 <h2 onClick={() => handleHallSelection(hall.name)} className="mealPlanning_hallButton">

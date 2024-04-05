@@ -46,7 +46,7 @@ body, html {
 .itemContainer {
   display: flex;
   flex-direction: column; /* Keeps items in a vertical stack */
-  align-items: flex-start; /* Aligns items to the start, making text align left */
+  align-items: center;
   position: relative; /* For absolute positioning of the addButton */
   margin: 10px auto;
   padding: 10px;
