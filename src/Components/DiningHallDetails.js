@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './ItemComponentsStyle.css';
+import makeOpenAIRequest from "./AI"
 
 const ItemComponent = ({ item, addMealToJournal }) => {
   const [isNutritionVisible, setIsNutritionVisible] = useState(false);
@@ -45,12 +46,20 @@ const MealComponent = ({ name, items, addMealToJournal, isVisible, onVisibilityC
         fat: item.macros.fat,
         totalCalories: item.macros.totalCalories,
       }));
-
+  
       console.log(`Meal Items for ${name}:`, mealItemsWithMacros);
       setJustMadeVisible(false); // Reset the flag after logging
+  
+      // Prepare the prompt
+      const prompt = `Given the goal to build muscle, which of these meals would be best? ${mealItemsWithMacros.map(item => `${item.name} with protein: ${item.protein}, carbs: ${item.carbs}, fat: ${item.fat}, total calories: ${item.totalCalories}`).join('; ')}.`;
+      console.log(prompt)
+      // Assume an async function makeOpenAIRequest(prompt) that handles the API request
+      makeOpenAIRequest(prompt).then(recommendation => {
+        console.log("OpenAI Recommendation:", recommendation);
+      }).catch(error => console.error("OpenAI Error:", error));
     }
   }, [justMadeVisible, items, name]);
-
+  
   return (
     <div>
       <button onClick={handleClick} className="mealTypeButton">
