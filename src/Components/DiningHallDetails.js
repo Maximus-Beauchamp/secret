@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import './ItemComponentsStyle.css';
-import makeOpenAIRequest from "./AI"
 
 const ItemComponent = ({ item, addMealToJournal }) => {
   const [isNutritionVisible, setIsNutritionVisible] = useState(false);
@@ -36,30 +35,31 @@ const MealComponent = ({ name, items, addMealToJournal, isVisible, onVisibilityC
     setJustMadeVisible(becomingVisible); // Update state based on whether the component is becoming visible
   };
 
-  // Effect hook to log items only once when the component becomes visible
+  // Effect hook to log items and prepare AI prompt only once when the component becomes visible
   useEffect(() => {
     if (justMadeVisible) {
-      const mealItemsWithMacros = items.map(item => ({
+      const mealItemsWithMacrosAndAllergens = items.map(item => ({
         name: item.name,
         protein: item.macros.protein,
         carbs: item.macros.carbs,
         fat: item.macros.fat,
         totalCalories: item.macros.totalCalories,
+        allergens: item.allergens.join(', ') // Assuming allergens is an array of strings
       }));
-  
-      console.log(`Meal Items for ${name}:`, mealItemsWithMacros);
+
+      console.log(`Meal Items for ${name}:`, mealItemsWithMacrosAndAllergens);
       setJustMadeVisible(false); // Reset the flag after logging
-  
+
       // Prepare the prompt
-      const prompt = `Given the goal to build muscle, which of these meals would be best? ${mealItemsWithMacros.map(item => `${item.name} with protein: ${item.protein}, carbs: ${item.carbs}, fat: ${item.fat}, total calories: ${item.totalCalories}`).join('; ')}.`;
+      const prompt = `Given the goal to build muscle, out of the following meals, return only the name of the best meal considering nutrition and avoiding allergens [Allergens to avoid: peanuts, shellfish]: ${mealItemsWithMacrosAndAllergens.map(item => `${item.name} with protein: ${item.protein}, carbs: ${item.carbs}, fat: ${item.fat}, total calories: ${item.totalCalories}, allergens: ${item.allergens}`).join('; ')}.`;
       console.log(prompt)
       // Assume an async function makeOpenAIRequest(prompt) that handles the API request
-      makeOpenAIRequest(prompt).then(recommendation => {
-        console.log("OpenAI Recommendation:", recommendation);
-      }).catch(error => console.error("OpenAI Error:", error));
+      // MakeOpenAIRequest(prompt)
+      // .then(recommendation => console.log("OpenAI Recommendation:", recommendation))
+      // .catch(error => console.error("OpenAI Error:", error));
     }
   }, [justMadeVisible, items, name]);
-  
+
   return (
     <div>
       <button onClick={handleClick} className="mealTypeButton">
@@ -75,6 +75,7 @@ const MealComponent = ({ name, items, addMealToJournal, isVisible, onVisibilityC
     </div>
   );
 };
+
 
 const DiningHallDetails = ({ hallDetails, addMealToJournal }) => {
   const [visibleMeal, setVisibleMeal] = useState({ type: null, category: null });

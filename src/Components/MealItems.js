@@ -16,7 +16,8 @@ const diningHallsData = [
                   "fat": "1.5g",
                   "carbs": "10g",
                   "totalCalories": "60 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Blueberries",
@@ -26,7 +27,19 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "4g",
                   "totalCalories": "15 calories"
-                }
+                },
+                "allergens": []
+              },
+              {
+                "name": "Chocolate Pancakes",
+                "photo_url": "http://example.com/chocolate-pancakes.jpg",
+                "macros": {
+                  "protein": "2g",
+                  "fat": "4.5g",
+                  "carbs": "18g",
+                  "totalCalories": "120 calories"
+                },
+                "allergens": []
               },
               {
                 "name": "Chocolate Syrup",
@@ -36,7 +49,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "28g",
                   "totalCalories": "100 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Craisins",
@@ -46,7 +60,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "28g",
                   "totalCalories": "110 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Ground Cinnamon",
@@ -56,7 +71,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "0g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Honey Cup",
@@ -66,17 +82,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "12g",
                   "totalCalories": "50 calories"
-                }
-              },
-              {
-                "name": "Lemon Blueberry Pancakes",
-                "photo_url": "http://example.com/lemon-blueberry-pancakes.jpg",
-                "macros": {
-                  "protein": "< 1g",
-                  "fat": "2g",
-                  "carbs": "16g",
-                  "totalCalories": "80 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Maple Syrup",
@@ -86,7 +93,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "13g",
                   "totalCalories": "50 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Oatmeal",
@@ -96,7 +104,8 @@ const diningHallsData = [
                   "fat": "2g",
                   "carbs": "18g",
                   "totalCalories": "100 calories"
-                }
+                },
+                "allergens": []
               }
             ]
           },
@@ -111,7 +120,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "34g",
                   "totalCalories": "130 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Cocoa Powder",
@@ -121,7 +131,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "1g",
                   "totalCalories": "5 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Diced Avocado",
@@ -131,7 +142,8 @@ const diningHallsData = [
                   "fat": "4.5g",
                   "carbs": "3g",
                   "totalCalories": "45 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Diced Strawberry",
@@ -141,7 +153,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "3g",
                   "totalCalories": "10 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Flax Seed",
@@ -151,7 +164,8 @@ const diningHallsData = [
                   "fat": "12g",
                   "carbs": "8g",
                   "totalCalories": "150 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Frozen Banana Slices",
@@ -161,7 +175,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "7g",
                   "totalCalories": "30 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Frozen Blueberries",
@@ -171,7 +186,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "3g",
                   "totalCalories": "15 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Frozen Mango Chunks",
@@ -181,7 +197,8 @@ const diningHallsData = [
                   "fat": "0.5g",
                   "carbs": "5g",
                   "totalCalories": "20 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Frozen Raspberries",
@@ -191,7 +208,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "3g",
                   "totalCalories": "15 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Oat Milk",
@@ -201,7 +219,8 @@ const diningHallsData = [
                   "fat": "3g",
                   "carbs": "6g",
                   "totalCalories": "60 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Pea Protein Powder",
@@ -211,7 +230,8 @@ const diningHallsData = [
                   "fat": "2g",
                   "carbs": "16g",
                   "totalCalories": "110 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Peach Pieces",
@@ -221,7 +241,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "3g",
                   "totalCalories": "10 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Pineapple Juice",
@@ -231,7 +252,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "227g",
                   "totalCalories": "920 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Pineapple Pieces",
@@ -241,7 +263,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "4g",
                   "totalCalories": "15 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Spinach",
@@ -251,7 +274,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "1g",
                   "totalCalories": "5 calories"
-                }
+                },
+                "allergens": []
               }
             ]
           }
@@ -271,7 +295,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "34g",
                   "totalCalories": "130 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Cocoa Powder",
@@ -281,7 +306,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "1g",
                   "totalCalories": "5 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Diced Avocado",
@@ -291,7 +317,8 @@ const diningHallsData = [
                   "fat": "4.5g",
                   "carbs": "3g",
                   "totalCalories": "45 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Diced Strawberry",
@@ -301,7 +328,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "3g",
                   "totalCalories": "10 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Flax Seed",
@@ -311,7 +339,8 @@ const diningHallsData = [
                   "fat": "12g",
                   "carbs": "8g",
                   "totalCalories": "150 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Frozen Banana Slices",
@@ -321,7 +350,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "7g",
                   "totalCalories": "30 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Frozen Blueberries",
@@ -331,7 +361,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "3g",
                   "totalCalories": "15 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Frozen Mango Chunks",
@@ -341,7 +372,8 @@ const diningHallsData = [
                   "fat": "0.5g",
                   "carbs": "5g",
                   "totalCalories": "20 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Frozen Raspberries",
@@ -351,7 +383,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "3g",
                   "totalCalories": "15 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Oat Milk",
@@ -361,7 +394,8 @@ const diningHallsData = [
                   "fat": "3g",
                   "carbs": "6g",
                   "totalCalories": "60 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Pea Protein Powder",
@@ -371,7 +405,8 @@ const diningHallsData = [
                   "fat": "2g",
                   "carbs": "16g",
                   "totalCalories": "110 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Peach Pieces",
@@ -381,7 +416,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "3g",
                   "totalCalories": "10 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Pineapple Juice",
@@ -391,7 +427,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "227g",
                   "totalCalories": "920 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Pineapple Pieces",
@@ -401,7 +438,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "4g",
                   "totalCalories": "15 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Spinach",
@@ -411,7 +449,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "1g",
                   "totalCalories": "5 calories"
-                }
+                },
+                "allergens": []
               }
             ]
           }
@@ -431,7 +470,8 @@ const diningHallsData = [
                   "fat": "27g",
                   "carbs": "0g",
                   "totalCalories": "230 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Bean Sprout",
@@ -441,7 +481,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "2g",
                   "totalCalories": "10 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Beyond Meat Crumbles",
@@ -451,7 +492,8 @@ const diningHallsData = [
                   "fat": "8g",
                   "carbs": "2g",
                   "totalCalories": "210 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Black Beans",
@@ -461,7 +503,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "4g",
                   "totalCalories": "25 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Broccoli Florettes",
@@ -471,7 +514,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "2g",
                   "totalCalories": "10 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Brown Rice",
@@ -481,7 +525,8 @@ const diningHallsData = [
                   "fat": "1g",
                   "carbs": "33g",
                   "totalCalories": "160 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Cajun Oil",
@@ -491,7 +536,19 @@ const diningHallsData = [
                   "fat": "60g",
                   "carbs": "1g",
                   "totalCalories": "520 calories"
-                }
+                },
+                "allergens": []
+              },
+              {
+                "name": "Chestnut Mushroom",
+                "photo_url": "http://example.com/chestnut-mushroom.jpg",
+                "macros": {
+                  "protein": "< 1g",
+                  "fat": "0g",
+                  "carbs": "1g",
+                  "totalCalories": "5 calories"
+                },
+                "allergens": []
               },
               {
                 "name": "Chimichurri Sauce",
@@ -501,7 +558,8 @@ const diningHallsData = [
                   "fat": "38g",
                   "carbs": "1g",
                   "totalCalories": "340 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Chopped CIlantro",
@@ -511,7 +569,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "0g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Corn",
@@ -521,7 +580,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "6g",
                   "totalCalories": "25 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Diced Chicken",
@@ -531,17 +591,8 @@ const diningHallsData = [
                   "fat": "1.5g",
                   "carbs": "0g",
                   "totalCalories": "45 calories"
-                }
-              },
-              {
-                "name": "Diced Steak",
-                "photo_url": "http://example.com/diced-steak.jpg",
-                "macros": {
-                  "protein": "8g",
-                  "fat": "3g",
-                  "carbs": "0g",
-                  "totalCalories": "60 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Fresh Parsley",
@@ -551,7 +602,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "3g",
                   "totalCalories": "20 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Garbanzo Beans",
@@ -561,7 +613,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "5g",
                   "totalCalories": "30 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Grape Tomatoes",
@@ -571,7 +624,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "1g",
                   "totalCalories": "5 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Japanese Ginger Dressing",
@@ -581,7 +635,8 @@ const diningHallsData = [
                   "fat": "12g",
                   "carbs": "32g",
                   "totalCalories": "260 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Minced Garlic",
@@ -591,7 +646,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "130g",
                   "totalCalories": "640 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Oyster Mushrooms",
@@ -601,7 +657,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "2g",
                   "totalCalories": "10 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Pineapple Tidbit Chunks",
@@ -611,7 +668,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "3g",
                   "totalCalories": "15 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sambal Chili Sauce",
@@ -621,7 +679,8 @@ const diningHallsData = [
                   "fat": "6g",
                   "carbs": "38g",
                   "totalCalories": "230 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sauce Green Pepper",
@@ -631,7 +690,8 @@ const diningHallsData = [
                   "fat": "1g",
                   "carbs": "3g",
                   "totalCalories": "20 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Shredded Carrot",
@@ -641,7 +701,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "3g",
                   "totalCalories": "10 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Shredded Green Cabbage",
@@ -651,7 +712,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "2g",
                   "totalCalories": "5 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Shredded Red Cabbage",
@@ -661,7 +723,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "2g",
                   "totalCalories": "10 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sliced Peppers",
@@ -671,7 +734,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "1g",
                   "totalCalories": "5 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sliced Red Onion",
@@ -681,7 +745,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "3g",
                   "totalCalories": "10 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Spinach",
@@ -691,7 +756,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "1g",
                   "totalCalories": "5 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Squash & Zucchini",
@@ -701,7 +767,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "1g",
                   "totalCalories": "5 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sweet Thai Chili Vinaigrette",
@@ -711,7 +778,8 @@ const diningHallsData = [
                   "fat": "1039g",
                   "carbs": "2671g",
                   "totalCalories": "21460 calories"
-                }
+                },
+                "allergens": []
               }
             ]
           },
@@ -719,14 +787,26 @@ const diningHallsData = [
             "name": "Side",
             "items": [
               {
-                "name": "Brown Sugar Roasted Sweet Potatoes",
-                "photo_url": "http://example.com/brown-sugar-roasted-sweet-potatoes.jpg",
+                "name": "Montreal Seasoned Roasted Red Potatoes",
+                "photo_url": "http://example.com/montreal-seasoned-roasted-red-potatoes.jpg",
                 "macros": {
-                  "protein": "2g",
-                  "fat": "7g",
-                  "carbs": "30g",
-                  "totalCalories": "190 calories"
-                }
+                  "protein": "3g",
+                  "fat": "2g",
+                  "carbs": "22g",
+                  "totalCalories": "110 calories"
+                },
+                "allergens": []
+              },
+              {
+                "name": "Roasted Butternut Squash",
+                "photo_url": "http://example.com/roasted-butternut-squash.jpg",
+                "macros": {
+                  "protein": "< 1g",
+                  "fat": "1.5g",
+                  "carbs": "11g",
+                  "totalCalories": "50 calories"
+                },
+                "allergens": []
               },
               {
                 "name": "Sweet Loren's Chocolate Chip Cookie",
@@ -736,27 +816,19 @@ const diningHallsData = [
                   "fat": "9g",
                   "carbs": "20g",
                   "totalCalories": "180 calories"
-                }
+                },
+                "allergens": []
               },
               {
-                "name": "Sweet Loren's Fudgy Brownie Cookie",
-                "photo_url": "http://example.com/sweet-loren's-fudgy-brownie-cookie.jpg",
+                "name": "Sweet Loren's Oatmeal Cranberry Cookie",
+                "photo_url": "http://example.com/sweet-loren's-oatmeal-cranberry-cookie.jpg",
                 "macros": {
                   "protein": "2g",
-                  "fat": "8g",
-                  "carbs": "27g",
+                  "fat": "5g",
+                  "carbs": "29g",
                   "totalCalories": "170 calories"
-                }
-              },
-              {
-                "name": "Tex-Mex Seasoned Squash & Zucchini",
-                "photo_url": "http://example.com/tex-mex-seasoned-squash-&-zucchini.jpg",
-                "macros": {
-                  "protein": "< 1g",
-                  "fat": "2g",
-                  "carbs": "4g",
-                  "totalCalories": "30 calories"
-                }
+                },
+                "allergens": []
               }
             ]
           },
@@ -771,7 +843,8 @@ const diningHallsData = [
                   "fat": "25g",
                   "carbs": "14g",
                   "totalCalories": "270 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Banana",
@@ -781,7 +854,8 @@ const diningHallsData = [
                   "fat": "0.5g",
                   "carbs": "41g",
                   "totalCalories": "160 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Blood Orange",
@@ -791,7 +865,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "18g",
                   "totalCalories": "70 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Dragon Fruit",
@@ -801,7 +876,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "39g",
                   "totalCalories": "180 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Grapefruit",
@@ -811,7 +887,8 @@ const diningHallsData = [
                   "fat": "0.5g",
                   "carbs": "48g",
                   "totalCalories": "190 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Guava",
@@ -821,7 +898,8 @@ const diningHallsData = [
                   "fat": "0.5g",
                   "carbs": "8g",
                   "totalCalories": "35 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Kiwi",
@@ -831,7 +909,8 @@ const diningHallsData = [
                   "fat": "0.5g",
                   "carbs": "15g",
                   "totalCalories": "60 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Starfruit",
@@ -841,7 +920,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "9g",
                   "totalCalories": "45 calories"
-                }
+                },
+                "allergens": []
               }
             ]
           },
@@ -856,7 +936,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "0g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Organic Lemonade",
@@ -866,7 +947,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "37g",
                   "totalCalories": "150 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Organic Mango",
@@ -876,7 +958,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "25g",
                   "totalCalories": "100 calories"
-                }
+                },
+                "allergens": []
               }
             ]
           }
@@ -894,6 +977,19 @@ const diningHallsData = [
             "name": "The Pancakery",
             "items": [
               {
+                "name": "Bacon",
+                "photo_url": "http://example.com/bacon.jpg",
+                "macros": {
+                  "protein": "5g",
+                  "fat": "6g",
+                  "carbs": "0g",
+                  "totalCalories": "80 calories"
+                },
+                "allergens": [
+                  "Pork"
+                ]
+              },
+              {
                 "name": "BEYOND Meat Sausage Patty",
                 "photo_url": "http://example.com/beyond-meat-sausage-patty.jpg",
                 "macros": {
@@ -901,17 +997,10 @@ const diningHallsData = [
                   "fat": "10g",
                   "carbs": "< 1g",
                   "totalCalories": "130 calories"
-                }
-              },
-              {
-                "name": "Biscuit",
-                "photo_url": "http://example.com/biscuit.jpg",
-                "macros": {
-                  "protein": "5g",
-                  "fat": "11g",
-                  "carbs": "31g",
-                  "totalCalories": "240 calories"
-                }
+                },
+                "allergens": [
+                  "Coconut"
+                ]
               },
               {
                 "name": "Breakfast Gravy",
@@ -921,7 +1010,11 @@ const diningHallsData = [
                   "fat": "1g",
                   "carbs": "4g",
                   "totalCalories": "30 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy",
+                  "Gluten"
+                ]
               },
               {
                 "name": "Chocolate Chip Pancake",
@@ -931,7 +1024,26 @@ const diningHallsData = [
                   "fat": "2.5g",
                   "carbs": "22g",
                   "totalCalories": "110 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy",
+                  "Egg",
+                  "Gluten",
+                  "Soy"
+                ]
+              },
+              {
+                "name": "Crispy Cube Breakfast Potatoes",
+                "photo_url": "http://example.com/crispy-cube-breakfast-potatoes.jpg",
+                "macros": {
+                  "protein": "3g",
+                  "fat": "6g",
+                  "carbs": "30g",
+                  "totalCalories": "170 calories"
+                },
+                "allergens": [
+                  "Gluten"
+                ]
               },
               {
                 "name": "Maple Syrup",
@@ -941,27 +1053,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "26g",
                   "totalCalories": "100 calories"
-                }
-              },
-              {
-                "name": "Pork Sausage Patty",
-                "photo_url": "http://example.com/pork-sausage-patty.jpg",
-                "macros": {
-                  "protein": "8g",
-                  "fat": "20g",
-                  "carbs": "2g",
-                  "totalCalories": "220 calories"
-                }
-              },
-              {
-                "name": "Roasted Breakfast Potatoes",
-                "photo_url": "http://example.com/roasted-breakfast-potatoes.jpg",
-                "macros": {
-                  "protein": "1g",
-                  "fat": "2.5g",
-                  "carbs": "11g",
-                  "totalCalories": "70 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Scrambled Eggs",
@@ -971,7 +1064,10 @@ const diningHallsData = [
                   "fat": "1g",
                   "carbs": "< 1g",
                   "totalCalories": "70 calories"
-                }
+                },
+                "allergens": [
+                  "Egg"
+                ]
               },
               {
                 "name": "Turkey Sausage Patty",
@@ -981,7 +1077,8 @@ const diningHallsData = [
                   "fat": "4g",
                   "carbs": "< 1g",
                   "totalCalories": "70 calories"
-                }
+                },
+                "allergens": []
               }
             ]
           },
@@ -996,27 +1093,42 @@ const diningHallsData = [
                   "fat": "1.5g",
                   "carbs": "60g",
                   "totalCalories": "290 calories"
-                }
+                },
+                "allergens": [
+                  "Gluten",
+                  "Soy"
+                ]
               },
               {
-                "name": "Lemon Quick Bread",
-                "photo_url": "http://example.com/lemon-quick-bread.jpg",
+                "name": "Chocolate Muffin",
+                "photo_url": "http://example.com/chocolate-muffin.jpg",
                 "macros": {
-                  "protein": "3g",
+                  "protein": "4g",
                   "fat": "14g",
-                  "carbs": "72g",
-                  "totalCalories": "420 calories"
-                }
+                  "carbs": "42g",
+                  "totalCalories": "310 calories"
+                },
+                "allergens": [
+                  "Dairy",
+                  "Egg",
+                  "Gluten",
+                  "Soy"
+                ]
               },
               {
-                "name": "Mocha Muffin",
-                "photo_url": "http://example.com/mocha-muffin.jpg",
+                "name": "Cinnamon Roll",
+                "photo_url": "http://example.com/cinnamon-roll.jpg",
                 "macros": {
-                  "protein": "3g",
-                  "fat": "15g",
-                  "carbs": "41g",
-                  "totalCalories": "310 calories"
-                }
+                  "protein": "4g",
+                  "fat": "8g",
+                  "carbs": "31g",
+                  "totalCalories": "210 calories"
+                },
+                "allergens": [
+                  "Dairy",
+                  "Egg",
+                  "Gluten"
+                ]
               },
               {
                 "name": "Plain Bagel",
@@ -1026,7 +1138,10 @@ const diningHallsData = [
                   "fat": "1g",
                   "carbs": "61g",
                   "totalCalories": "290 calories"
-                }
+                },
+                "allergens": [
+                  "Gluten"
+                ]
               },
               {
                 "name": "Wheat Bagel",
@@ -1036,7 +1151,11 @@ const diningHallsData = [
                   "fat": "1g",
                   "carbs": "64g",
                   "totalCalories": "300 calories"
-                }
+                },
+                "allergens": [
+                  "Gluten",
+                  "Soy"
+                ]
               }
             ]
           },
@@ -1051,7 +1170,10 @@ const diningHallsData = [
                   "fat": "6g",
                   "carbs": "< 1g",
                   "totalCalories": "80 calories"
-                }
+                },
+                "allergens": [
+                  "Coconut"
+                ]
               },
               {
                 "name": "Cracked Eggs",
@@ -1061,7 +1183,10 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "< 1g",
                   "totalCalories": "45 calories"
-                }
+                },
+                "allergens": [
+                  "Egg"
+                ]
               },
               {
                 "name": "Crumbled Bacon",
@@ -1071,7 +1196,10 @@ const diningHallsData = [
                   "fat": "12g",
                   "carbs": "0g",
                   "totalCalories": "140 calories"
-                }
+                },
+                "allergens": [
+                  "Pork"
+                ]
               },
               {
                 "name": "Deli Ham",
@@ -1081,7 +1209,10 @@ const diningHallsData = [
                   "fat": "1g",
                   "carbs": "1g",
                   "totalCalories": "35 calories"
-                }
+                },
+                "allergens": [
+                  "Pork"
+                ]
               },
               {
                 "name": "Diced Onion",
@@ -1091,7 +1222,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "2g",
                   "totalCalories": "10 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Diced Peppers",
@@ -1101,7 +1233,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "2g",
                   "totalCalories": "5 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Diced Tomatoes",
@@ -1111,7 +1244,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "1g",
                   "totalCalories": "5 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Ground Turkey Sausage",
@@ -1121,7 +1255,8 @@ const diningHallsData = [
                   "fat": "3g",
                   "carbs": "< 1g",
                   "totalCalories": "50 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Mild Salsa",
@@ -1131,7 +1266,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "2g",
                   "totalCalories": "10 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Pico de Gallo",
@@ -1141,7 +1277,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "1g",
                   "totalCalories": "5 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Salsa Verde",
@@ -1151,7 +1288,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "2g",
                   "totalCalories": "10 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Shredded Cheddar Cheese",
@@ -1161,7 +1299,10 @@ const diningHallsData = [
                   "fat": "9g",
                   "carbs": "0g",
                   "totalCalories": "110 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               },
               {
                 "name": "Shredded Vegan Cheddar Cheese",
@@ -1171,7 +1312,8 @@ const diningHallsData = [
                   "fat": "5g",
                   "carbs": "6g",
                   "totalCalories": "70 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sliced Mushroom",
@@ -1181,7 +1323,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "< 1g",
                   "totalCalories": "5 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sliced Scallions",
@@ -1191,7 +1334,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "0g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Spinach",
@@ -1201,7 +1345,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "1g",
                   "totalCalories": "5 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Vegan Egg",
@@ -1211,7 +1356,10 @@ const diningHallsData = [
                   "fat": "10g",
                   "carbs": "0g",
                   "totalCalories": "160 calories"
-                }
+                },
+                "allergens": [
+                  "Soy"
+                ]
               }
             ]
           },
@@ -1226,7 +1374,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "28g",
                   "totalCalories": "110 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Dairy Free Vanilla Yogurt",
@@ -1236,7 +1385,10 @@ const diningHallsData = [
                   "fat": "1.5g",
                   "carbs": "3g",
                   "totalCalories": "25 calories"
-                }
+                },
+                "allergens": [
+                  "Coconut"
+                ]
               },
               {
                 "name": "Diced Cantaloupe",
@@ -1246,7 +1398,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "2g",
                   "totalCalories": "10 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Diced Honeydew",
@@ -1256,7 +1409,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "3g",
                   "totalCalories": "10 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Diced Pineapple",
@@ -1266,7 +1420,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "7g",
                   "totalCalories": "25 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Diced Strawberry",
@@ -1276,7 +1431,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "3g",
                   "totalCalories": "10 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Golden Raisins",
@@ -1286,7 +1442,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "7g",
                   "totalCalories": "25 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Hard Boiled Egg",
@@ -1296,7 +1453,10 @@ const diningHallsData = [
                   "fat": "5g",
                   "carbs": "1g",
                   "totalCalories": "80 calories"
-                }
+                },
+                "allergens": [
+                  "Egg"
+                ]
               },
               {
                 "name": "Light Brown Sugar",
@@ -1306,7 +1466,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "28g",
                   "totalCalories": "110 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Mini Chocolate Chips",
@@ -1316,7 +1477,11 @@ const diningHallsData = [
                   "fat": "8g",
                   "carbs": "19g",
                   "totalCalories": "130 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy",
+                  "Soy"
+                ]
               },
               {
                 "name": "Overnight Chia Oats",
@@ -1326,7 +1491,10 @@ const diningHallsData = [
                   "fat": "2g",
                   "carbs": "11g",
                   "totalCalories": "80 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               },
               {
                 "name": "Plain Greek Yogurt",
@@ -1336,7 +1504,10 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "1g",
                   "totalCalories": "15 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               },
               {
                 "name": "Red Seedless Grapes",
@@ -1346,7 +1517,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "< 1g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Toasted Coconut",
@@ -1356,7 +1528,10 @@ const diningHallsData = [
                   "fat": "7g",
                   "carbs": "9g",
                   "totalCalories": "130 calories"
-                }
+                },
+                "allergens": [
+                  "Coconut"
+                ]
               },
               {
                 "name": "Vanilla Greek Yogurt",
@@ -1366,7 +1541,10 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "3g",
                   "totalCalories": "20 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               },
               {
                 "name": "Whipped Topping",
@@ -1376,7 +1554,10 @@ const diningHallsData = [
                   "fat": "1.5g",
                   "carbs": "1g",
                   "totalCalories": "15 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               }
             ]
           },
@@ -1391,7 +1572,11 @@ const diningHallsData = [
                   "fat": "7g",
                   "carbs": "52g",
                   "totalCalories": "310 calories"
-                }
+                },
+                "allergens": [
+                  "Gluten",
+                  "Soy"
+                ]
               },
               {
                 "name": "Chopped CIlantro",
@@ -1401,7 +1586,21 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "0g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
+              },
+              {
+                "name": "Crispy Cube Breakfast Potatoes",
+                "photo_url": "http://example.com/crispy-cube-breakfast-potatoes.jpg",
+                "macros": {
+                  "protein": "3g",
+                  "fat": "6g",
+                  "carbs": "30g",
+                  "totalCalories": "170 calories"
+                },
+                "allergens": [
+                  "Gluten"
+                ]
               },
               {
                 "name": "Ground Pork Sausage",
@@ -1411,7 +1610,10 @@ const diningHallsData = [
                   "fat": "9g",
                   "carbs": "< 1g",
                   "totalCalories": "100 calories"
-                }
+                },
+                "allergens": [
+                  "Pork"
+                ]
               },
               {
                 "name": "JUST Egg Scramble",
@@ -1421,7 +1623,10 @@ const diningHallsData = [
                   "fat": "11g",
                   "carbs": "0g",
                   "totalCalories": "160 calories"
-                }
+                },
+                "allergens": [
+                  "Soy"
+                ]
               },
               {
                 "name": "Lime Wedges",
@@ -1431,7 +1636,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "0g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Mild Salsa",
@@ -1441,7 +1647,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "2g",
                   "totalCalories": "10 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Pico de Gallo",
@@ -1451,7 +1658,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "1g",
                   "totalCalories": "5 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Plant-Based Chipotle Chorizo",
@@ -1461,7 +1669,10 @@ const diningHallsData = [
                   "fat": "4g",
                   "carbs": "3g",
                   "totalCalories": "80 calories"
-                }
+                },
+                "allergens": [
+                  "Gluten"
+                ]
               },
               {
                 "name": "Queso Fresco",
@@ -1471,17 +1682,10 @@ const diningHallsData = [
                   "fat": "8g",
                   "carbs": "1g",
                   "totalCalories": "100 calories"
-                }
-              },
-              {
-                "name": "Roasted Breakfast Potatoes",
-                "photo_url": "http://example.com/roasted-breakfast-potatoes.jpg",
-                "macros": {
-                  "protein": "1g",
-                  "fat": "2.5g",
-                  "carbs": "11g",
-                  "totalCalories": "70 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               },
               {
                 "name": "Salsa Verde",
@@ -1491,7 +1695,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "2g",
                   "totalCalories": "10 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sauteed Chorizo",
@@ -1501,7 +1706,10 @@ const diningHallsData = [
                   "fat": "8g",
                   "carbs": "1g",
                   "totalCalories": "90 calories"
-                }
+                },
+                "allergens": [
+                  "Pork"
+                ]
               },
               {
                 "name": "Scrambled Eggs",
@@ -1511,7 +1719,10 @@ const diningHallsData = [
                   "fat": "1g",
                   "carbs": "< 1g",
                   "totalCalories": "70 calories"
-                }
+                },
+                "allergens": [
+                  "Egg"
+                ]
               },
               {
                 "name": "Shredded Cheddar Jack Cheese",
@@ -1521,7 +1732,10 @@ const diningHallsData = [
                   "fat": "9g",
                   "carbs": "1g",
                   "totalCalories": "110 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               },
               {
                 "name": "Shredded Vegan Cheddar Cheese",
@@ -1531,7 +1745,8 @@ const diningHallsData = [
                   "fat": "5g",
                   "carbs": "6g",
                   "totalCalories": "70 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sour Cream Drizzle",
@@ -1541,7 +1756,10 @@ const diningHallsData = [
                   "fat": "3.5g",
                   "carbs": "3g",
                   "totalCalories": "50 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               },
               {
                 "name": "Southwest Black Beans",
@@ -1551,7 +1769,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "10g",
                   "totalCalories": "50 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Yellow Rice",
@@ -1561,7 +1780,8 @@ const diningHallsData = [
                   "fat": "3g",
                   "carbs": "32g",
                   "totalCalories": "170 calories"
-                }
+                },
+                "allergens": []
               }
             ]
           },
@@ -1576,7 +1796,23 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "26g",
                   "totalCalories": "100 calories"
-                }
+                },
+                "allergens": []
+              },
+              {
+                "name": "Shrimp & Grits",
+                "photo_url": "http://example.com/shrimp-&-grits.jpg",
+                "macros": {
+                  "protein": "27g",
+                  "fat": "13g",
+                  "carbs": "87g",
+                  "totalCalories": "600 calories"
+                },
+                "allergens": [
+                  "Dairy",
+                  "Pork",
+                  "Shellfish"
+                ]
               },
               {
                 "name": "Waffles",
@@ -1586,7 +1822,11 @@ const diningHallsData = [
                   "fat": "3.5g",
                   "carbs": "65g",
                   "totalCalories": "330 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy",
+                  "Gluten"
+                ]
               }
             ]
           }
@@ -1599,14 +1839,35 @@ const diningHallsData = [
             "name": "Bakery",
             "items": [
               {
-                "name": "Brookie",
-                "photo_url": "http://example.com/brookie.jpg",
+                "name": "Blondie Bar",
+                "photo_url": "http://example.com/blondie-bar.jpg",
                 "macros": {
-                  "protein": "3g",
-                  "fat": "13g",
-                  "carbs": "31g",
+                  "protein": "2g",
+                  "fat": "10g",
+                  "carbs": "40g",
                   "totalCalories": "250 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy",
+                  "Egg",
+                  "Gluten"
+                ]
+              },
+              {
+                "name": "Chess Bar",
+                "photo_url": "http://example.com/chess-bar.jpg",
+                "macros": {
+                  "protein": "4g",
+                  "fat": "16g",
+                  "carbs": "64g",
+                  "totalCalories": "420 calories"
+                },
+                "allergens": [
+                  "Dairy",
+                  "Egg",
+                  "Gluten",
+                  "Soy"
+                ]
               },
               {
                 "name": "Chocolate Chunk Cookie",
@@ -1616,27 +1877,28 @@ const diningHallsData = [
                   "fat": "16g",
                   "carbs": "44g",
                   "totalCalories": "330 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy",
+                  "Egg",
+                  "Gluten",
+                  "Soy"
+                ]
               },
               {
-                "name": "Chocolate Oreo Pudding",
-                "photo_url": "http://example.com/chocolate-oreo-pudding.jpg",
+                "name": "Red Velvet Cupcake",
+                "photo_url": "http://example.com/red-velvet-cupcake.jpg",
                 "macros": {
-                  "protein": "2g",
-                  "fat": "10g",
-                  "carbs": "33g",
-                  "totalCalories": "230 calories"
-                }
-              },
-              {
-                "name": "Vegan Snickerdoodle Cookie",
-                "photo_url": "http://example.com/vegan-snickerdoodle-cookie.jpg",
-                "macros": {
-                  "protein": "3g",
-                  "fat": "10g",
-                  "carbs": "48g",
-                  "totalCalories": "290 calories"
-                }
+                  "protein": "6g",
+                  "fat": "11g",
+                  "carbs": "57g",
+                  "totalCalories": "350 calories"
+                },
+                "allergens": [
+                  "Dairy",
+                  "Egg",
+                  "Gluten"
+                ]
               }
             ]
           },
@@ -1651,7 +1913,8 @@ const diningHallsData = [
                   "fat": "9g",
                   "carbs": "9g",
                   "totalCalories": "110 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Balsamic Vinegar",
@@ -1661,7 +1924,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "7g",
                   "totalCalories": "40 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Banana Pepper",
@@ -1671,7 +1935,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "1g",
                   "totalCalories": "5 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Black Beans",
@@ -1681,7 +1946,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "6g",
                   "totalCalories": "35 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Black Olive",
@@ -1691,7 +1957,8 @@ const diningHallsData = [
                   "fat": "3.5g",
                   "carbs": "2g",
                   "totalCalories": "50 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Blue Cheese Dressing",
@@ -1701,7 +1968,11 @@ const diningHallsData = [
                   "fat": "29g",
                   "carbs": "2g",
                   "totalCalories": "290 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy",
+                  "Egg"
+                ]
               },
               {
                 "name": "Broccoli Floret",
@@ -1711,7 +1982,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "2g",
                   "totalCalories": "10 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Caesar Dressing",
@@ -1721,7 +1993,13 @@ const diningHallsData = [
                   "fat": "27g",
                   "carbs": "2g",
                   "totalCalories": "250 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy",
+                  "Egg",
+                  "Fish",
+                  "Soy"
+                ]
               },
               {
                 "name": "Caesar Salad",
@@ -1731,7 +2009,11 @@ const diningHallsData = [
                   "fat": "3.5g",
                   "carbs": "9g",
                   "totalCalories": "70 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy",
+                  "Gluten"
+                ]
               },
               {
                 "name": "Cherry Tomatoes",
@@ -1741,7 +2023,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "1g",
                   "totalCalories": "5 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Chopped Egg",
@@ -1751,7 +2034,10 @@ const diningHallsData = [
                   "fat": "3g",
                   "carbs": "< 1g",
                   "totalCalories": "45 calories"
-                }
+                },
+                "allergens": [
+                  "Egg"
+                ]
               },
               {
                 "name": "Chopped Romaine Lettuce",
@@ -1761,7 +2047,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "< 1g",
                   "totalCalories": "5 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Craisins",
@@ -1771,7 +2058,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "28g",
                   "totalCalories": "110 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Croutons",
@@ -1781,7 +2069,11 @@ const diningHallsData = [
                   "fat": "4g",
                   "carbs": "20g",
                   "totalCalories": "120 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy",
+                  "Gluten"
+                ]
               },
               {
                 "name": "Crumbled Bacon",
@@ -1791,7 +2083,10 @@ const diningHallsData = [
                   "fat": "12g",
                   "carbs": "0g",
                   "totalCalories": "140 calories"
-                }
+                },
+                "allergens": [
+                  "Pork"
+                ]
               },
               {
                 "name": "Crumbled Blue Cheese",
@@ -1801,7 +2096,10 @@ const diningHallsData = [
                   "fat": "8g",
                   "carbs": "1g",
                   "totalCalories": "100 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               },
               {
                 "name": "Dairy Free Vanilla Yogurt",
@@ -1811,7 +2109,10 @@ const diningHallsData = [
                   "fat": "1.5g",
                   "carbs": "3g",
                   "totalCalories": "25 calories"
-                }
+                },
+                "allergens": [
+                  "Coconut"
+                ]
               },
               {
                 "name": "Diced Chicken",
@@ -1821,7 +2122,8 @@ const diningHallsData = [
                   "fat": "1.5g",
                   "carbs": "0g",
                   "totalCalories": "45 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Diced Tofu",
@@ -1831,7 +2133,10 @@ const diningHallsData = [
                   "fat": "1.5g",
                   "carbs": "< 1g",
                   "totalCalories": "30 calories"
-                }
+                },
+                "allergens": [
+                  "Soy"
+                ]
               },
               {
                 "name": "Feta Cheese",
@@ -1841,7 +2146,10 @@ const diningHallsData = [
                   "fat": "6g",
                   "carbs": "1g",
                   "totalCalories": "70 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               },
               {
                 "name": "Fruit Salad",
@@ -1851,7 +2159,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "18g",
                   "totalCalories": "70 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Garbanzo Beans",
@@ -1861,7 +2170,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "5g",
                   "totalCalories": "30 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Italian Dressing",
@@ -1871,7 +2181,8 @@ const diningHallsData = [
                   "fat": "23g",
                   "carbs": "4g",
                   "totalCalories": "220 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Kidney Beans",
@@ -1881,7 +2192,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "5g",
                   "totalCalories": "30 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Oil Olive Canola EVO",
@@ -1891,7 +2203,8 @@ const diningHallsData = [
                   "fat": "28g",
                   "carbs": "0g",
                   "totalCalories": "240 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Plain Greek Yogurt",
@@ -1901,7 +2214,10 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "1g",
                   "totalCalories": "15 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               },
               {
                 "name": "Ranch Dressing",
@@ -1911,7 +2227,11 @@ const diningHallsData = [
                   "fat": "25g",
                   "carbs": "6g",
                   "totalCalories": "250 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy",
+                  "Egg"
+                ]
               },
               {
                 "name": "Red Wine Vinegar",
@@ -1921,7 +2241,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "0g",
                   "totalCalories": "15 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Shredded Carrot",
@@ -1931,7 +2252,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "3g",
                   "totalCalories": "10 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Shredded Cheddar Cheese",
@@ -1941,7 +2263,10 @@ const diningHallsData = [
                   "fat": "9g",
                   "carbs": "0g",
                   "totalCalories": "110 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               },
               {
                 "name": "Shredded Vegan Mozzarella Cheese",
@@ -1951,7 +2276,8 @@ const diningHallsData = [
                   "fat": "5g",
                   "carbs": "6g",
                   "totalCalories": "70 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sliced Beets",
@@ -1961,7 +2287,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "1g",
                   "totalCalories": "10 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sliced Cucumber",
@@ -1971,7 +2298,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "1g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sliced Mushroom",
@@ -1981,7 +2309,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "< 1g",
                   "totalCalories": "5 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sliced Peppers",
@@ -1991,7 +2320,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "1g",
                   "totalCalories": "5 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sliced Red Onion",
@@ -2001,7 +2331,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "3g",
                   "totalCalories": "10 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Spinach",
@@ -2011,7 +2342,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "1g",
                   "totalCalories": "5 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Spring Salad Mix",
@@ -2021,7 +2353,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "< 1g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sunflower Seeds",
@@ -2031,7 +2364,8 @@ const diningHallsData = [
                   "fat": "15g",
                   "carbs": "5g",
                   "totalCalories": "180 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Tri-Colored Quinoa",
@@ -2041,7 +2375,8 @@ const diningHallsData = [
                   "fat": "2.5g",
                   "carbs": "30g",
                   "totalCalories": "170 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Tuna",
@@ -2051,7 +2386,10 @@ const diningHallsData = [
                   "fat": "1g",
                   "carbs": "0g",
                   "totalCalories": "35 calories"
-                }
+                },
+                "allergens": [
+                  "Fish"
+                ]
               }
             ]
           },
@@ -2066,7 +2404,11 @@ const diningHallsData = [
                   "fat": "7g",
                   "carbs": "52g",
                   "totalCalories": "310 calories"
-                }
+                },
+                "allergens": [
+                  "Gluten",
+                  "Soy"
+                ]
               },
               {
                 "name": "Avocado Pulp",
@@ -2076,7 +2418,8 @@ const diningHallsData = [
                   "fat": "6g",
                   "carbs": "2g",
                   "totalCalories": "60 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Chopped CIlantro",
@@ -2086,7 +2429,19 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "0g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
+              },
+              {
+                "name": "Cilantro Lime Shredded Chicken",
+                "photo_url": "http://example.com/cilantro-lime-shredded-chicken.jpg",
+                "macros": {
+                  "protein": "30g",
+                  "fat": "21g",
+                  "carbs": "0g",
+                  "totalCalories": "300 calories"
+                },
+                "allergens": []
               },
               {
                 "name": "Cilantro-Lime Rice",
@@ -2096,7 +2451,8 @@ const diningHallsData = [
                   "fat": "1g",
                   "carbs": "33g",
                   "totalCalories": "160 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Corn & Jalapeno Salsa",
@@ -2106,7 +2462,8 @@ const diningHallsData = [
                   "fat": "1g",
                   "carbs": "5g",
                   "totalCalories": "30 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Corn Tortilla Chips",
@@ -2116,17 +2473,8 @@ const diningHallsData = [
                   "fat": "12g",
                   "carbs": "40g",
                   "totalCalories": "280 calories"
-                }
-              },
-              {
-                "name": "Lentil Taco Filling",
-                "photo_url": "http://example.com/lentil-taco-filling.jpg",
-                "macros": {
-                  "protein": "6g",
-                  "fat": "0g",
-                  "carbs": "14g",
-                  "totalCalories": "80 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Mild Salsa",
@@ -2136,7 +2484,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "2g",
                   "totalCalories": "10 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Pico de Gallo",
@@ -2146,7 +2495,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "1g",
                   "totalCalories": "5 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Pork Carnitas",
@@ -2156,7 +2506,10 @@ const diningHallsData = [
                   "fat": "19g",
                   "carbs": "3g",
                   "totalCalories": "260 calories"
-                }
+                },
+                "allergens": [
+                  "Pork"
+                ]
               },
               {
                 "name": "Queso Fresco",
@@ -2166,7 +2519,10 @@ const diningHallsData = [
                   "fat": "8g",
                   "carbs": "1g",
                   "totalCalories": "100 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               },
               {
                 "name": "Sauteed Peppers & Onions",
@@ -2176,7 +2532,8 @@ const diningHallsData = [
                   "fat": "3g",
                   "carbs": "2g",
                   "totalCalories": "35 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Shredded Cheddar Jack Cheese",
@@ -2186,7 +2543,10 @@ const diningHallsData = [
                   "fat": "9g",
                   "carbs": "1g",
                   "totalCalories": "110 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               },
               {
                 "name": "Shredded Lettuce",
@@ -2196,7 +2556,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "0g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sliced Pickled Jalapenos",
@@ -2206,7 +2567,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "1g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sour Cream Drizzle",
@@ -2216,7 +2578,10 @@ const diningHallsData = [
                   "fat": "3.5g",
                   "carbs": "3g",
                   "totalCalories": "50 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               },
               {
                 "name": "Southwest Black Beans",
@@ -2226,17 +2591,21 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "10g",
                   "totalCalories": "50 calories"
-                }
+                },
+                "allergens": []
               },
               {
-                "name": "Spiced Pulled Chicken",
-                "photo_url": "http://example.com/spiced-pulled-chicken.jpg",
+                "name": "Sweet Potato Sofrito",
+                "photo_url": "http://example.com/sweet-potato-sofrito.jpg",
                 "macros": {
-                  "protein": "23g",
-                  "fat": "6g",
-                  "carbs": "2g",
-                  "totalCalories": "170 calories"
-                }
+                  "protein": "4g",
+                  "fat": "1g",
+                  "carbs": "23g",
+                  "totalCalories": "140 calories"
+                },
+                "allergens": [
+                  "Soy"
+                ]
               },
               {
                 "name": "White Queso",
@@ -2246,7 +2615,10 @@ const diningHallsData = [
                   "fat": "4.5g",
                   "carbs": "1g",
                   "totalCalories": "60 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               }
             ]
           },
@@ -2261,7 +2633,14 @@ const diningHallsData = [
                   "fat": "14g",
                   "carbs": "37g",
                   "totalCalories": "290 calories"
-                }
+                },
+                "allergens": [
+                  "Coconut",
+                  "Dairy",
+                  "Egg",
+                  "Gluten",
+                  "Soy"
+                ]
               },
               {
                 "name": "Chicken Tenders",
@@ -2271,7 +2650,10 @@ const diningHallsData = [
                   "fat": "19g",
                   "carbs": "34g",
                   "totalCalories": "400 calories"
-                }
+                },
+                "allergens": [
+                  "Gluten"
+                ]
               },
               {
                 "name": "Macaroni & Cheese",
@@ -2281,7 +2663,11 @@ const diningHallsData = [
                   "fat": "14g",
                   "carbs": "22g",
                   "totalCalories": "270 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy",
+                  "Gluten"
+                ]
               },
               {
                 "name": "Maple Syrup",
@@ -2291,7 +2677,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "26g",
                   "totalCalories": "100 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Southern Green Beans",
@@ -2301,7 +2688,11 @@ const diningHallsData = [
                   "fat": "4g",
                   "carbs": "5g",
                   "totalCalories": "60 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy",
+                  "Pork"
+                ]
               }
             ]
           },
@@ -2316,7 +2707,10 @@ const diningHallsData = [
                   "fat": "8g",
                   "carbs": "47g",
                   "totalCalories": "300 calories"
-                }
+                },
+                "allergens": [
+                  "Gluten"
+                ]
               },
               {
                 "name": "Bacon",
@@ -2326,7 +2720,10 @@ const diningHallsData = [
                   "fat": "6g",
                   "carbs": "0g",
                   "totalCalories": "80 calories"
-                }
+                },
+                "allergens": [
+                  "Pork"
+                ]
               },
               {
                 "name": "Banana Pepper",
@@ -2336,7 +2733,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "1g",
                   "totalCalories": "5 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Basil Aioli",
@@ -2346,7 +2744,11 @@ const diningHallsData = [
                   "fat": "18g",
                   "carbs": "0g",
                   "totalCalories": "170 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy",
+                  "Soy"
+                ]
               },
               {
                 "name": "Black Olive",
@@ -2356,7 +2758,8 @@ const diningHallsData = [
                   "fat": "3.5g",
                   "carbs": "2g",
                   "totalCalories": "50 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Bread Wheatberry",
@@ -2366,7 +2769,12 @@ const diningHallsData = [
                   "fat": "1.5g",
                   "carbs": "18g",
                   "totalCalories": "100 calories"
-                }
+                },
+                "allergens": [
+                  "Gluten",
+                  "Sesame",
+                  "Soy"
+                ]
               },
               {
                 "name": "Brown Spicy Mustard",
@@ -2376,17 +2784,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "0g",
                   "totalCalories": "30 calories"
-                }
-              },
-              {
-                "name": "Chicken Salad",
-                "photo_url": "http://example.com/chicken-salad.jpg",
-                "macros": {
-                  "protein": "13g",
-                  "fat": "18g",
-                  "carbs": "1g",
-                  "totalCalories": "220 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Deli Ham",
@@ -2396,7 +2795,10 @@ const diningHallsData = [
                   "fat": "1.5g",
                   "carbs": "0g",
                   "totalCalories": "35 calories"
-                }
+                },
+                "allergens": [
+                  "Pork"
+                ]
               },
               {
                 "name": "Deli Roast Beef",
@@ -2406,7 +2808,8 @@ const diningHallsData = [
                   "fat": "1g",
                   "carbs": "0g",
                   "totalCalories": "30 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Deli Salami",
@@ -2416,7 +2819,10 @@ const diningHallsData = [
                   "fat": "11g",
                   "carbs": "< 1g",
                   "totalCalories": "120 calories"
-                }
+                },
+                "allergens": [
+                  "Pork"
+                ]
               },
               {
                 "name": "Deli Turkey Breast",
@@ -2426,7 +2832,8 @@ const diningHallsData = [
                   "fat": "1g",
                   "carbs": "1g",
                   "totalCalories": "30 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Dill Pickle Chips",
@@ -2436,7 +2843,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "0g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Dill Pickle Spear",
@@ -2446,7 +2854,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "0g",
                   "totalCalories": "5 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Dressing Oil and Vinegar Blend",
@@ -2456,7 +2865,8 @@ const diningHallsData = [
                   "fat": "15g",
                   "carbs": "0g",
                   "totalCalories": "130 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "GF White Bread",
@@ -2466,7 +2876,8 @@ const diningHallsData = [
                   "fat": "2g",
                   "carbs": "17g",
                   "totalCalories": "80 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Hoagie",
@@ -2476,7 +2887,11 @@ const diningHallsData = [
                   "fat": "1.5g",
                   "carbs": "26g",
                   "totalCalories": "140 calories"
-                }
+                },
+                "allergens": [
+                  "Gluten",
+                  "Sesame"
+                ]
               },
               {
                 "name": "Honey Mustard Dressing",
@@ -2486,7 +2901,10 @@ const diningHallsData = [
                   "fat": "28g",
                   "carbs": "14g",
                   "totalCalories": "300 calories"
-                }
+                },
+                "allergens": [
+                  "Egg"
+                ]
               },
               {
                 "name": "Hummus",
@@ -2496,7 +2914,11 @@ const diningHallsData = [
                   "fat": "6g",
                   "carbs": "4g",
                   "totalCalories": "60 calories"
-                }
+                },
+                "allergens": [
+                  "Sesame",
+                  "Soy"
+                ]
               },
               {
                 "name": "Mayonnaise Substitute",
@@ -2506,7 +2928,10 @@ const diningHallsData = [
                   "fat": "20g",
                   "carbs": "0g",
                   "totalCalories": "180 calories"
-                }
+                },
+                "allergens": [
+                  "Soy"
+                ]
               },
               {
                 "name": "Potato Chips",
@@ -2516,7 +2941,8 @@ const diningHallsData = [
                   "fat": "3g",
                   "carbs": "7g",
                   "totalCalories": "60 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Pretzel Roll",
@@ -2526,7 +2952,11 @@ const diningHallsData = [
                   "fat": "4.5g",
                   "carbs": "54g",
                   "totalCalories": "300 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy",
+                  "Gluten"
+                ]
               },
               {
                 "name": "Romaine Lettuce",
@@ -2536,7 +2966,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "2g",
                   "totalCalories": "10 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Shredded Carrot",
@@ -2546,7 +2977,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "3g",
                   "totalCalories": "10 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sliced American Cheese",
@@ -2556,7 +2988,11 @@ const diningHallsData = [
                   "fat": "6g",
                   "carbs": "< 1g",
                   "totalCalories": "70 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy",
+                  "Soy"
+                ]
               },
               {
                 "name": "Sliced Cheddar Cheese",
@@ -2566,7 +3002,11 @@ const diningHallsData = [
                   "fat": "7g",
                   "carbs": "1g",
                   "totalCalories": "90 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy",
+                  "Sesame"
+                ]
               },
               {
                 "name": "Sliced Jalapeno Peppers",
@@ -2576,7 +3016,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "1g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sliced Peppers",
@@ -2586,7 +3027,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "1g",
                   "totalCalories": "5 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sliced Provolone Cheese",
@@ -2596,7 +3038,10 @@ const diningHallsData = [
                   "fat": "4.5g",
                   "carbs": "0g",
                   "totalCalories": "60 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               },
               {
                 "name": "Sliced Red Onion",
@@ -2606,7 +3051,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "3g",
                   "totalCalories": "10 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sliced Swiss Cheese",
@@ -2616,7 +3062,10 @@ const diningHallsData = [
                   "fat": "8g",
                   "carbs": "0g",
                   "totalCalories": "100 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               },
               {
                 "name": "Sliced Tomatoes",
@@ -2626,7 +3075,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "< 1g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sourdough Bread",
@@ -2636,7 +3086,11 @@ const diningHallsData = [
                   "fat": "1g",
                   "carbs": "18g",
                   "totalCalories": "100 calories"
-                }
+                },
+                "allergens": [
+                  "Gluten",
+                  "Soy"
+                ]
               },
               {
                 "name": "Spinach",
@@ -2646,7 +3100,22 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "1g",
                   "totalCalories": "5 calories"
-                }
+                },
+                "allergens": []
+              },
+              {
+                "name": "Tuna Salad",
+                "photo_url": "http://example.com/tuna-salad.jpg",
+                "macros": {
+                  "protein": "8g",
+                  "fat": "12g",
+                  "carbs": "0g",
+                  "totalCalories": "150 calories"
+                },
+                "allergens": [
+                  "Fish",
+                  "Soy"
+                ]
               },
               {
                 "name": "Yellow Mustard",
@@ -2656,7 +3125,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "0g",
                   "totalCalories": "15 calories"
-                }
+                },
+                "allergens": []
               }
             ]
           },
@@ -2671,7 +3141,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "2g",
                   "totalCalories": "10 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Broccoli Floret",
@@ -2681,7 +3152,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "2g",
                   "totalCalories": "10 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Chopped Bok Choy",
@@ -2691,7 +3163,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "0g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Garbanzo Beans",
@@ -2701,7 +3174,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "5g",
                   "totalCalories": "30 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "GF Orange Sauce",
@@ -2711,7 +3185,23 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "14g",
                   "totalCalories": "60 calories"
-                }
+                },
+                "allergens": [
+                  "Soy"
+                ]
+              },
+              {
+                "name": "Ginger Garlic Shrimp",
+                "photo_url": "http://example.com/ginger-garlic-shrimp.jpg",
+                "macros": {
+                  "protein": "13g",
+                  "fat": "3.5g",
+                  "carbs": "< 1g",
+                  "totalCalories": "100 calories"
+                },
+                "allergens": [
+                  "Shellfish"
+                ]
               },
               {
                 "name": "Gluten Free Soy Sauce",
@@ -2721,7 +3211,10 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "2g",
                   "totalCalories": "20 calories"
-                }
+                },
+                "allergens": [
+                  "Soy"
+                ]
               },
               {
                 "name": "Rice Noodles",
@@ -2731,7 +3224,21 @@ const diningHallsData = [
                   "fat": "1.5g",
                   "carbs": "20g",
                   "totalCalories": "100 calories"
-                }
+                },
+                "allergens": []
+              },
+              {
+                "name": "Sauteed Tempeh w/ Broccoli",
+                "photo_url": "http://example.com/sauteed-tempeh-w/-broccoli.jpg",
+                "macros": {
+                  "protein": "16g",
+                  "fat": "9g",
+                  "carbs": "21g",
+                  "totalCalories": "230 calories"
+                },
+                "allergens": [
+                  "Soy"
+                ]
               },
               {
                 "name": "Shredded Carrot",
@@ -2741,7 +3248,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "3g",
                   "totalCalories": "10 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sliced Mushroom",
@@ -2751,7 +3259,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "< 1g",
                   "totalCalories": "5 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sliced Peppers",
@@ -2761,7 +3270,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "1g",
                   "totalCalories": "5 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sliced Red Onion",
@@ -2771,7 +3281,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "3g",
                   "totalCalories": "10 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sliced Scallions",
@@ -2781,27 +3292,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "0g",
                   "totalCalories": "0 calories"
-                }
-              },
-              {
-                "name": "Soy Marinated Grilled Chicken",
-                "photo_url": "http://example.com/soy-marinated-grilled-chicken.jpg",
-                "macros": {
-                  "protein": "28g",
-                  "fat": "6g",
-                  "carbs": "9g",
-                  "totalCalories": "220 calories"
-                }
-              },
-              {
-                "name": "Spicy Glazed Eggplant & Tofu",
-                "photo_url": "http://example.com/spicy-glazed-eggplant-&-tofu.jpg",
-                "macros": {
-                  "protein": "5g",
-                  "fat": "3.5g",
-                  "carbs": "18g",
-                  "totalCalories": "120 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Squash & Zucchini",
@@ -2811,7 +3303,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "1g",
                   "totalCalories": "5 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sweet Thai Chili Sauce",
@@ -2821,7 +3314,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "12g",
                   "totalCalories": "50 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Teriyaki Sauce",
@@ -2831,7 +3325,12 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "5g",
                   "totalCalories": "35 calories"
-                }
+                },
+                "allergens": [
+                  "Alcohol",
+                  "Gluten",
+                  "Soy"
+                ]
               },
               {
                 "name": "Vegetable Spring Roll",
@@ -2841,7 +3340,12 @@ const diningHallsData = [
                   "fat": "3g",
                   "carbs": "7g",
                   "totalCalories": "50 calories"
-                }
+                },
+                "allergens": [
+                  "Gluten",
+                  "Sesame",
+                  "Soy"
+                ]
               },
               {
                 "name": "White Rice",
@@ -2851,13 +3355,40 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "22g",
                   "totalCalories": "100 calories"
-                }
+                },
+                "allergens": []
               }
             ]
           },
           {
             "name": "Mediterranean",
             "items": [
+              {
+                "name": "Basil Pesto",
+                "photo_url": "http://example.com/basil-pesto.jpg",
+                "macros": {
+                  "protein": "< 1g",
+                  "fat": "30g",
+                  "carbs": "0g",
+                  "totalCalories": "260 calories"
+                },
+                "allergens": [
+                  "Dairy"
+                ]
+              },
+              {
+                "name": "Beef Tips",
+                "photo_url": "http://example.com/beef-tips.jpg",
+                "macros": {
+                  "protein": "26g",
+                  "fat": "20g",
+                  "carbs": "3g",
+                  "totalCalories": "300 calories"
+                },
+                "allergens": [
+                  "Dairy"
+                ]
+              },
               {
                 "name": "BruschettaTopping",
                 "photo_url": "http://example.com/bruschettatopping.jpg",
@@ -2866,7 +3397,21 @@ const diningHallsData = [
                   "fat": "2.5g",
                   "carbs": "1g",
                   "totalCalories": "30 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
+              },
+              {
+                "name": "Chickpeas, Artichokes, Spinach & Peppers",
+                "photo_url": "http://example.com/chickpeas,-artichokes,-spinach-&-peppers.jpg",
+                "macros": {
+                  "protein": "4g",
+                  "fat": "3g",
+                  "carbs": "14g",
+                  "totalCalories": "90 calories"
+                },
+                "allergens": []
               },
               {
                 "name": "Creamy Feta Dill Dressing",
@@ -2876,7 +3421,10 @@ const diningHallsData = [
                   "fat": "1.5g",
                   "carbs": "3g",
                   "totalCalories": "50 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               },
               {
                 "name": "Extra Virgin Olive Oil",
@@ -2886,17 +3434,8 @@ const diningHallsData = [
                   "fat": "26g",
                   "carbs": "0g",
                   "totalCalories": "220 calories"
-                }
-              },
-              {
-                "name": "Falafel",
-                "photo_url": "http://example.com/falafel.jpg",
-                "macros": {
-                  "protein": "7g",
-                  "fat": "2g",
-                  "carbs": "26g",
-                  "totalCalories": "130 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Feta Cheese",
@@ -2906,27 +3445,10 @@ const diningHallsData = [
                   "fat": "6g",
                   "carbs": "1g",
                   "totalCalories": "70 calories"
-                }
-              },
-              {
-                "name": "Grilled Chicken w/ Provencal Sauce",
-                "photo_url": "http://example.com/grilled-chicken-w/-provencal-sauce.jpg",
-                "macros": {
-                  "protein": "23g",
-                  "fat": "11g",
-                  "carbs": "3g",
-                  "totalCalories": "210 calories"
-                }
-              },
-              {
-                "name": "Harissa Vinaigrette",
-                "photo_url": "http://example.com/harissa-vinaigrette.jpg",
-                "macros": {
-                  "protein": "0g",
-                  "fat": "4g",
-                  "carbs": "1g",
-                  "totalCalories": "40 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               },
               {
                 "name": "Marinated Mushrooms",
@@ -2936,17 +3458,23 @@ const diningHallsData = [
                   "fat": "0.5g",
                   "carbs": "2g",
                   "totalCalories": "15 calories"
-                }
+                },
+                "allergens": [
+                  "Sesame"
+                ]
               },
               {
-                "name": "Mediterranean Vegetables",
-                "photo_url": "http://example.com/mediterranean-vegetables.jpg",
+                "name": "Mediterranean Baked Tilapia",
+                "photo_url": "http://example.com/mediterranean-baked-tilapia.jpg",
                 "macros": {
-                  "protein": "< 1g",
-                  "fat": "8g",
-                  "carbs": "5g",
+                  "protein": "15g",
+                  "fat": "3.5g",
+                  "carbs": "2g",
                   "totalCalories": "90 calories"
-                }
+                },
+                "allergens": [
+                  "Fish"
+                ]
               },
               {
                 "name": "Naan Flatbread",
@@ -2956,17 +3484,14 @@ const diningHallsData = [
                   "fat": "7g",
                   "carbs": "35g",
                   "totalCalories": "230 calories"
-                }
-              },
-              {
-                "name": "Orzo",
-                "photo_url": "http://example.com/orzo.jpg",
-                "macros": {
-                  "protein": "4g",
-                  "fat": "1.5g",
-                  "carbs": "21g",
-                  "totalCalories": "120 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy",
+                  "Egg",
+                  "Gluten",
+                  "Sesame",
+                  "Soy"
+                ]
               },
               {
                 "name": "Pickled Red Onion",
@@ -2976,7 +3501,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "3g",
                   "totalCalories": "15 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Quinoa Tabbouleh",
@@ -2986,7 +3512,8 @@ const diningHallsData = [
                   "fat": "5g",
                   "carbs": "11g",
                   "totalCalories": "100 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Ras El Hanout Spice Mix",
@@ -2996,7 +3523,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "< 1g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Red Pepper Hummus",
@@ -3006,7 +3534,21 @@ const diningHallsData = [
                   "fat": "1.5g",
                   "carbs": "4g",
                   "totalCalories": "35 calories"
-                }
+                },
+                "allergens": [
+                  "Sesame"
+                ]
+              },
+              {
+                "name": "Roasted Eggplant",
+                "photo_url": "http://example.com/roasted-eggplant.jpg",
+                "macros": {
+                  "protein": "< 1g",
+                  "fat": "8g",
+                  "carbs": "6g",
+                  "totalCalories": "100 calories"
+                },
+                "allergens": []
               },
               {
                 "name": "Roasted Red Peppers",
@@ -3016,17 +3558,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "2g",
                   "totalCalories": "10 calories"
-                }
-              },
-              {
-                "name": "Seared Cod w/ Lemon & Dill",
-                "photo_url": "http://example.com/seared-cod-w/-lemon-&-dill.jpg",
-                "macros": {
-                  "protein": "15g",
-                  "fat": "2g",
-                  "carbs": "0g",
-                  "totalCalories": "80 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Spring Salad Mix",
@@ -3036,7 +3569,19 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "< 1g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
+              },
+              {
+                "name": "White Rice",
+                "photo_url": "http://example.com/white-rice.jpg",
+                "macros": {
+                  "protein": "2g",
+                  "fat": "0g",
+                  "carbs": "22g",
+                  "totalCalories": "100 calories"
+                },
+                "allergens": []
               },
               {
                 "name": "Za'Atar Spice Mix",
@@ -3046,7 +3591,10 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "0g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": [
+                  "Sesame"
+                ]
               }
             ]
           },
@@ -3061,7 +3609,8 @@ const diningHallsData = [
                   "fat": "4g",
                   "carbs": "40g",
                   "totalCalories": "200 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Cinnamon Toast Crunch",
@@ -3071,7 +3620,11 @@ const diningHallsData = [
                   "fat": "5g",
                   "carbs": "42g",
                   "totalCalories": "220 calories"
-                }
+                },
+                "allergens": [
+                  "Gluten",
+                  "Soy"
+                ]
               },
               {
                 "name": "Cocoa Puffs",
@@ -3081,7 +3634,10 @@ const diningHallsData = [
                   "fat": "3g",
                   "carbs": "48g",
                   "totalCalories": "210 calories"
-                }
+                },
+                "allergens": [
+                  "Gluten"
+                ]
               },
               {
                 "name": "Frosted Flakes",
@@ -3091,7 +3647,11 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "51g",
                   "totalCalories": "220 calories"
-                }
+                },
+                "allergens": [
+                  "Gluten",
+                  "Soy"
+                ]
               },
               {
                 "name": "Raisin Bran",
@@ -3101,7 +3661,10 @@ const diningHallsData = [
                   "fat": "1.5g",
                   "carbs": "54g",
                   "totalCalories": "240 calories"
-                }
+                },
+                "allergens": [
+                  "Gluten"
+                ]
               }
             ]
           },
@@ -3109,14 +3672,15 @@ const diningHallsData = [
             "name": "Soup",
             "items": [
               {
-                "name": "Spiced Carrot Soup",
-                "photo_url": "http://example.com/spiced-carrot-soup.jpg",
+                "name": "Tomato Basil Soup",
+                "photo_url": "http://example.com/tomato-basil-soup.jpg",
                 "macros": {
-                  "protein": "1g",
-                  "fat": "2g",
-                  "carbs": "11g",
-                  "totalCalories": "70 calories"
-                }
+                  "protein": "2g",
+                  "fat": "7g",
+                  "carbs": "7g",
+                  "totalCalories": "90 calories"
+                },
+                "allergens": []
               }
             ]
           },
@@ -3131,7 +3695,8 @@ const diningHallsData = [
                   "fat": "0.5g",
                   "carbs": "41g",
                   "totalCalories": "160 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Granny Smith Apple",
@@ -3141,7 +3706,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "21g",
                   "totalCalories": "90 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Honeycrisp Apple",
@@ -3151,7 +3717,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "25g",
                   "totalCalories": "100 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Orange",
@@ -3161,7 +3728,8 @@ const diningHallsData = [
                   "fat": "0.5g",
                   "carbs": "32g",
                   "totalCalories": "130 calories"
-                }
+                },
+                "allergens": []
               }
             ]
           },
@@ -3176,7 +3744,10 @@ const diningHallsData = [
                   "fat": "2.5g",
                   "carbs": "24g",
                   "totalCalories": "150 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               },
               {
                 "name": "2% Milk",
@@ -3186,7 +3757,10 @@ const diningHallsData = [
                   "fat": "4.5g",
                   "carbs": "12g",
                   "totalCalories": "120 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               },
               {
                 "name": "Anchor Down Decaf Coffee",
@@ -3196,7 +3770,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "0g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Caramel Syrup",
@@ -3206,7 +3781,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "24g",
                   "totalCalories": "100 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Creamer Coffee Liquid Original Bulk",
@@ -3216,7 +3792,10 @@ const diningHallsData = [
                   "fat": "6g",
                   "carbs": "0g",
                   "totalCalories": "60 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               },
               {
                 "name": "Dispenser Dole Orange Juice",
@@ -3226,7 +3805,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "7g",
                   "totalCalories": "30 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Dispenser Stubborn Cola",
@@ -3236,7 +3816,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "4g",
                   "totalCalories": "15 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Dole Apple Juice",
@@ -3246,7 +3827,8 @@ const diningHallsData = [
                   "fat": "NA",
                   "carbs": "7g",
                   "totalCalories": "30 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Dole Cranberry Juice",
@@ -3256,7 +3838,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "8g",
                   "totalCalories": "30 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Earl Grey Tea",
@@ -3266,7 +3849,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "0g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "French Vanilla Creamer",
@@ -3276,7 +3860,10 @@ const diningHallsData = [
                   "fat": "8g",
                   "carbs": "20g",
                   "totalCalories": "140 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               },
               {
                 "name": "Fruit Punch Gatorade",
@@ -3286,7 +3873,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "4g",
                   "totalCalories": "15 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Lemon Lime Gatorade",
@@ -3296,7 +3884,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "4g",
                   "totalCalories": "15 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Monin Vanilla Syrup",
@@ -3306,7 +3895,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "24g",
                   "totalCalories": "100 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Mr. Commodore Medium Roast Coffee",
@@ -3316,7 +3906,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "0g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Orange Gatorade",
@@ -3326,7 +3917,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "4g",
                   "totalCalories": "15 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Organic Berry Patch",
@@ -3336,7 +3928,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "37g",
                   "totalCalories": "150 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Organic Lemonade",
@@ -3346,7 +3939,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "37g",
                   "totalCalories": "150 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sobe Yumberry Pomegranate",
@@ -3356,7 +3950,8 @@ const diningHallsData = [
                   "fat": "NA",
                   "carbs": "0g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Stubborn Agave Vanilla Cream Soda",
@@ -3366,7 +3961,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "6g",
                   "totalCalories": "25 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Stubborn Soda Black Cherry Soda",
@@ -3376,7 +3972,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "6g",
                   "totalCalories": "25 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Stubborn Zero Sugar Cola",
@@ -3386,7 +3983,8 @@ const diningHallsData = [
                   "fat": "NA",
                   "carbs": "NA",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sweet Tea",
@@ -3396,7 +3994,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "30g",
                   "totalCalories": "110 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Tropicana Lemonade",
@@ -3406,7 +4005,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "7g",
                   "totalCalories": "25 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Unsweet Tea",
@@ -3416,7 +4016,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "0g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Vandy House Light Roast Coffee",
@@ -3426,7 +4027,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "0g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               }
             ]
           },
@@ -3441,7 +4043,10 @@ const diningHallsData = [
                   "fat": "10g",
                   "carbs": "35g",
                   "totalCalories": "260 calories"
-                }
+                },
+                "allergens": [
+                  "Egg"
+                ]
               },
               {
                 "name": "GF Plain Bagel",
@@ -3451,7 +4056,10 @@ const diningHallsData = [
                   "fat": "6g",
                   "carbs": "29g",
                   "totalCalories": "190 calories"
-                }
+                },
+                "allergens": [
+                  "Egg"
+                ]
               },
               {
                 "name": "GF Tortilla Wrap",
@@ -3461,7 +4069,11 @@ const diningHallsData = [
                   "fat": "5g",
                   "carbs": "34g",
                   "totalCalories": "200 calories"
-                }
+                },
+                "allergens": [
+                  "Coconut",
+                  "Soy"
+                ]
               },
               {
                 "name": "GF White Bread",
@@ -3471,7 +4083,8 @@ const diningHallsData = [
                   "fat": "2g",
                   "carbs": "17g",
                   "totalCalories": "80 calories"
-                }
+                },
+                "allergens": []
               }
             ]
           },
@@ -3486,7 +4099,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "10g",
                   "totalCalories": "40 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "BBQ Sauce",
@@ -3496,7 +4110,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "12g",
                   "totalCalories": "45 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Butter",
@@ -3506,7 +4121,10 @@ const diningHallsData = [
                   "fat": "8g",
                   "carbs": "0g",
                   "totalCalories": "80 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               },
               {
                 "name": "Cream Cheese",
@@ -3516,7 +4134,10 @@ const diningHallsData = [
                   "fat": "7g",
                   "carbs": "1g",
                   "totalCalories": "70 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               },
               {
                 "name": "Equal",
@@ -3526,7 +4147,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "0g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Honey Cup",
@@ -3536,7 +4158,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "12g",
                   "totalCalories": "50 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Honey Mustard",
@@ -3546,7 +4169,10 @@ const diningHallsData = [
                   "fat": "11g",
                   "carbs": "7g",
                   "totalCalories": "120 calories"
-                }
+                },
+                "allergens": [
+                  "Egg"
+                ]
               },
               {
                 "name": "Hot Cholula Sauce",
@@ -3556,7 +4182,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "0g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Ketchup",
@@ -3566,7 +4193,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "8g",
                   "totalCalories": "35 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Louisiana Hot Sauce",
@@ -3576,7 +4204,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "0g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Mayonnaise",
@@ -3586,7 +4215,10 @@ const diningHallsData = [
                   "fat": "21g",
                   "carbs": "2g",
                   "totalCalories": "190 calories"
-                }
+                },
+                "allergens": [
+                  "Egg"
+                ]
               },
               {
                 "name": "Saltine Crackers",
@@ -3596,7 +4228,11 @@ const diningHallsData = [
                   "fat": "1g",
                   "carbs": "8g",
                   "totalCalories": "40 calories"
-                }
+                },
+                "allergens": [
+                  "Gluten",
+                  "Soy"
+                ]
               },
               {
                 "name": "Soy Sauce",
@@ -3606,7 +4242,11 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "8g",
                   "totalCalories": "40 calories"
-                }
+                },
+                "allergens": [
+                  "Gluten",
+                  "Soy"
+                ]
               },
               {
                 "name": "Splenda",
@@ -3616,7 +4256,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "0g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sriracha Sauce",
@@ -3626,7 +4267,10 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "6g",
                   "totalCalories": "30 calories"
-                }
+                },
+                "allergens": [
+                  "Soy"
+                ]
               },
               {
                 "name": "Strawberry Cream Cheese",
@@ -3636,7 +4280,10 @@ const diningHallsData = [
                   "fat": "6g",
                   "carbs": "4g",
                   "totalCalories": "70 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               },
               {
                 "name": "Sugar",
@@ -3646,7 +4293,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "3g",
                   "totalCalories": "10 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sugar in the Raw",
@@ -3656,7 +4304,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "4g",
                   "totalCalories": "20 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sugar-Free Syrup",
@@ -3666,7 +4315,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "4g",
                   "totalCalories": "10 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sweet-N-Low",
@@ -3676,7 +4326,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "0g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Syrup Cup",
@@ -3686,7 +4337,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "30g",
                   "totalCalories": "120 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Yellow Mustard",
@@ -3696,7 +4348,150 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "0g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "Dinner",
+        "categories": [
+          {
+            "name": "Special Event",
+            "items": [
+              {
+                "name": "Acqua Pazza",
+                "photo_url": "http://example.com/acqua-pazza.jpg",
+                "macros": {
+                  "protein": "< 1g",
+                  "fat": "NA",
+                  "carbs": "4g",
+                  "totalCalories": "0 calories"
+                },
+                "allergens": []
+              },
+              {
+                "name": "Big Plate Chicken",
+                "photo_url": "http://example.com/big-plate-chicken.jpg",
+                "macros": {
+                  "protein": "4g",
+                  "fat": "1.5g",
+                  "carbs": "4g",
+                  "totalCalories": "50 calories"
+                },
+                "allergens": [
+                  "Gluten",
+                  "Soy"
+                ]
+              },
+              {
+                "name": "Cake, Strawberry Matcha",
+                "photo_url": "http://example.com/cake,-strawberry-matcha.jpg",
+                "macros": {
+                  "protein": "1g",
+                  "fat": "2g",
+                  "carbs": "10g",
+                  "totalCalories": "60 calories"
+                },
+                "allergens": [
+                  "Dairy",
+                  "Egg",
+                  "Gluten"
+                ]
+              },
+              {
+                "name": "Egg Fried Rice",
+                "photo_url": "http://example.com/egg-fried-rice.jpg",
+                "macros": {
+                  "protein": "2g",
+                  "fat": "1g",
+                  "carbs": "12g",
+                  "totalCalories": "70 calories"
+                },
+                "allergens": [
+                  "Egg"
+                ]
+              },
+              {
+                "name": "Kung Pao Chicken",
+                "photo_url": "http://example.com/kung-pao-chicken.jpg",
+                "macros": {
+                  "protein": "8g",
+                  "fat": "2.5g",
+                  "carbs": "16g",
+                  "totalCalories": "0 calories"
+                },
+                "allergens": [
+                  "Soy"
+                ]
+              },
+              {
+                "name": "Mango Pomelo Sago",
+                "photo_url": "http://example.com/mango-pomelo-sago.jpg",
+                "macros": {
+                  "protein": "1g",
+                  "fat": "2g",
+                  "carbs": "7g",
+                  "totalCalories": "0 calories"
+                },
+                "allergens": [
+                  "Coconut",
+                  "Dairy"
+                ]
+              },
+              {
+                "name": "Noodle, Hand Pulled",
+                "photo_url": "http://example.com/noodle,-hand-pulled.jpg",
+                "macros": {
+                  "protein": "3g",
+                  "fat": "2g",
+                  "carbs": "22g",
+                  "totalCalories": "110 calories"
+                },
+                "allergens": [
+                  "Gluten"
+                ]
+              },
+              {
+                "name": "Peruvian Chicken",
+                "photo_url": "http://example.com/peruvian-chicken.jpg",
+                "macros": {
+                  "protein": "14g",
+                  "fat": "4.5g",
+                  "carbs": "< 1g",
+                  "totalCalories": "110 calories"
+                },
+                "allergens": [
+                  "Soy"
+                ]
+              },
+              {
+                "name": "Saffron Risotto",
+                "photo_url": "http://example.com/saffron-risotto.jpg",
+                "macros": {
+                  "protein": "3g",
+                  "fat": "5g",
+                  "carbs": "38g",
+                  "totalCalories": "0 calories"
+                },
+                "allergens": [
+                  "Dairy"
+                ]
+              },
+              {
+                "name": "Sauce, Green",
+                "photo_url": "http://example.com/sauce,-green.jpg",
+                "macros": {
+                  "protein": "0g",
+                  "fat": "5g",
+                  "carbs": "0g",
+                  "totalCalories": "45 calories"
+                },
+                "allergens": [
+                  "Soy"
+                ]
               }
             ]
           }
@@ -3714,64 +4509,55 @@ const diningHallsData = [
             "name": "Breakfast",
             "items": [
               {
-                "name": "Bacon",
-                "photo_url": "http://example.com/bacon.jpg",
+                "name": "BEYOND Sausage Breakfast Skillet",
+                "photo_url": "http://example.com/beyond-sausage-breakfast-skillet.jpg",
                 "macros": {
                   "protein": "5g",
-                  "fat": "6g",
-                  "carbs": "0g",
+                  "fat": "4g",
+                  "carbs": "6g",
                   "totalCalories": "80 calories"
-                }
+                },
+                "allergens": [
+                  "Coconut"
+                ]
               },
               {
-                "name": "Biscuit",
-                "photo_url": "http://example.com/biscuit.jpg",
+                "name": "French Toast Sticks",
+                "photo_url": "http://example.com/french-toast-sticks.jpg",
                 "macros": {
-                  "protein": "5g",
-                  "fat": "11g",
-                  "carbs": "31g",
-                  "totalCalories": "240 calories"
-                }
+                  "protein": "11g",
+                  "fat": "12g",
+                  "carbs": "35g",
+                  "totalCalories": "280 calories"
+                },
+                "allergens": [
+                  "Dairy",
+                  "Egg",
+                  "Gluten",
+                  "Soy"
+                ]
               },
               {
-                "name": "Chicken Sausage Link",
-                "photo_url": "http://example.com/chicken-sausage-link.jpg",
-                "macros": {
-                  "protein": "4g",
-                  "fat": "3.5g",
-                  "carbs": "1g",
-                  "totalCalories": "60 calories"
-                }
-              },
-              {
-                "name": "Crispy Cube Breakfast Potatoes",
-                "photo_url": "http://example.com/crispy-cube-breakfast-potatoes.jpg",
-                "macros": {
-                  "protein": "3g",
-                  "fat": "6g",
-                  "carbs": "30g",
-                  "totalCalories": "170 calories"
-                }
-              },
-              {
-                "name": "JUST Egg Breakfast Scramble w/ Mushrooms",
-                "photo_url": "http://example.com/just-egg-breakfast-scramble-w/-mushrooms.jpg",
+                "name": "Grits",
+                "photo_url": "http://example.com/grits.jpg",
                 "macros": {
                   "protein": "10g",
-                  "fat": "9g",
-                  "carbs": "3g",
-                  "totalCalories": "140 calories"
-                }
+                  "fat": "2g",
+                  "carbs": "101g",
+                  "totalCalories": "470 calories"
+                },
+                "allergens": []
               },
               {
-                "name": "Oatmeal",
-                "photo_url": "http://example.com/oatmeal.jpg",
+                "name": "Roasted Red Potatoes",
+                "photo_url": "http://example.com/roasted-red-potatoes.jpg",
                 "macros": {
                   "protein": "4g",
-                  "fat": "2g",
-                  "carbs": "18g",
-                  "totalCalories": "100 calories"
-                }
+                  "fat": "2.5g",
+                  "carbs": "31g",
+                  "totalCalories": "150 calories"
+                },
+                "allergens": []
               },
               {
                 "name": "Scrambled Eggs",
@@ -3781,7 +4567,35 @@ const diningHallsData = [
                   "fat": "12g",
                   "carbs": "0g",
                   "totalCalories": "190 calories"
-                }
+                },
+                "allergens": [
+                  "Egg"
+                ]
+              },
+              {
+                "name": "Smoked Sausage",
+                "photo_url": "http://example.com/smoked-sausage.jpg",
+                "macros": {
+                  "protein": "14g",
+                  "fat": "32g",
+                  "carbs": "4g",
+                  "totalCalories": "360 calories"
+                },
+                "allergens": [
+                  "Pork",
+                  "Soy"
+                ]
+              },
+              {
+                "name": "Turkey Sausage Patty",
+                "photo_url": "http://example.com/turkey-sausage-patty.jpg",
+                "macros": {
+                  "protein": "7g",
+                  "fat": "4g",
+                  "carbs": "< 1g",
+                  "totalCalories": "70 calories"
+                },
+                "allergens": []
               }
             ]
           },
@@ -3796,7 +4610,10 @@ const diningHallsData = [
                   "fat": "12g",
                   "carbs": "0g",
                   "totalCalories": "140 calories"
-                }
+                },
+                "allergens": [
+                  "Pork"
+                ]
               },
               {
                 "name": "BEYOND Meat Sausage Crumbles",
@@ -3806,7 +4623,10 @@ const diningHallsData = [
                   "fat": "6g",
                   "carbs": "< 1g",
                   "totalCalories": "80 calories"
-                }
+                },
+                "allergens": [
+                  "Coconut"
+                ]
               },
               {
                 "name": "Broccoli Florettes",
@@ -3816,7 +4636,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "2g",
                   "totalCalories": "10 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Cracked Eggs",
@@ -3826,7 +4647,10 @@ const diningHallsData = [
                   "fat": "8g",
                   "carbs": "0g",
                   "totalCalories": "140 calories"
-                }
+                },
+                "allergens": [
+                  "Egg"
+                ]
               },
               {
                 "name": "Diced Ham",
@@ -3836,7 +4660,10 @@ const diningHallsData = [
                   "fat": "1.5g",
                   "carbs": "0g",
                   "totalCalories": "35 calories"
-                }
+                },
+                "allergens": [
+                  "Pork"
+                ]
               },
               {
                 "name": "Diced Onion",
@@ -3846,7 +4673,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "2g",
                   "totalCalories": "10 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Diced Peppers",
@@ -3856,7 +4684,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "2g",
                   "totalCalories": "5 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Diced Pork Sausage",
@@ -3866,7 +4695,21 @@ const diningHallsData = [
                   "fat": "13g",
                   "carbs": "1g",
                   "totalCalories": "140 calories"
-                }
+                },
+                "allergens": [
+                  "Pork"
+                ]
+              },
+              {
+                "name": "Diced Red Onion",
+                "photo_url": "http://example.com/diced-red-onion.jpg",
+                "macros": {
+                  "protein": "0g",
+                  "fat": "0g",
+                  "carbs": "3g",
+                  "totalCalories": "10 calories"
+                },
+                "allergens": []
               },
               {
                 "name": "Diced Tomatoes",
@@ -3876,7 +4719,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "1g",
                   "totalCalories": "5 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Fire Roasted Jalapeno Salsa",
@@ -3886,7 +4730,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "1g",
                   "totalCalories": "5 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Ground Turkey Sausage",
@@ -3896,7 +4741,21 @@ const diningHallsData = [
                   "fat": "3g",
                   "carbs": "< 1g",
                   "totalCalories": "50 calories"
-                }
+                },
+                "allergens": []
+              },
+              {
+                "name": "Maggi Seasoning Sauce",
+                "photo_url": "http://example.com/maggi-seasoning-sauce.jpg",
+                "macros": {
+                  "protein": "0g",
+                  "fat": "0g",
+                  "carbs": "0g",
+                  "totalCalories": "0 calories"
+                },
+                "allergens": [
+                  "Gluten"
+                ]
               },
               {
                 "name": "Shredded Cheddar Jack Cheese",
@@ -3906,7 +4765,10 @@ const diningHallsData = [
                   "fat": "9g",
                   "carbs": "1g",
                   "totalCalories": "110 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               },
               {
                 "name": "Shredded Vegan Mozzarella Cheese",
@@ -3916,17 +4778,8 @@ const diningHallsData = [
                   "fat": "5g",
                   "carbs": "6g",
                   "totalCalories": "70 calories"
-                }
-              },
-              {
-                "name": "Sliced Mushroom",
-                "photo_url": "http://example.com/sliced-mushroom.jpg",
-                "macros": {
-                  "protein": "< 1g",
-                  "fat": "0g",
-                  "carbs": "< 1g",
-                  "totalCalories": "5 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Spinach",
@@ -3936,7 +4789,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "1g",
                   "totalCalories": "5 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Vegan Egg",
@@ -3946,7 +4800,10 @@ const diningHallsData = [
                   "fat": "10g",
                   "carbs": "0g",
                   "totalCalories": "160 calories"
-                }
+                },
+                "allergens": [
+                  "Soy"
+                ]
               }
             ]
           },
@@ -3961,7 +4818,10 @@ const diningHallsData = [
                   "fat": "1.5g",
                   "carbs": "1g",
                   "totalCalories": "30 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               },
               {
                 "name": "Craisins",
@@ -3971,7 +4831,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "28g",
                   "totalCalories": "110 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Dairy Free Vanilla Yogurt",
@@ -3981,7 +4842,10 @@ const diningHallsData = [
                   "fat": "1.5g",
                   "carbs": "3g",
                   "totalCalories": "25 calories"
-                }
+                },
+                "allergens": [
+                  "Coconut"
+                ]
               },
               {
                 "name": "Diced Cantaloupe",
@@ -3991,7 +4855,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "2g",
                   "totalCalories": "10 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Diced Pineapple",
@@ -4001,7 +4866,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "7g",
                   "totalCalories": "25 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Golden Raisins",
@@ -4011,7 +4877,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "7g",
                   "totalCalories": "25 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Hard Boiled Egg",
@@ -4021,7 +4888,10 @@ const diningHallsData = [
                   "fat": "5g",
                   "carbs": "0g",
                   "totalCalories": "70 calories"
-                }
+                },
+                "allergens": [
+                  "Egg"
+                ]
               },
               {
                 "name": "Low Fat Strawberry Yogurt",
@@ -4031,7 +4901,10 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "10g",
                   "totalCalories": "50 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               },
               {
                 "name": "Mini Chocolate Chips",
@@ -4041,7 +4914,11 @@ const diningHallsData = [
                   "fat": "8g",
                   "carbs": "19g",
                   "totalCalories": "130 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy",
+                  "Soy"
+                ]
               },
               {
                 "name": "Plain Greek Yogurt",
@@ -4051,7 +4928,10 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "1g",
                   "totalCalories": "15 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               },
               {
                 "name": "Raisins",
@@ -4061,7 +4941,8 @@ const diningHallsData = [
                   "fat": "NA",
                   "carbs": "23g",
                   "totalCalories": "90 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Red Grapes",
@@ -4071,7 +4952,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "5g",
                   "totalCalories": "20 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Strawberry Halves",
@@ -4081,7 +4963,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "2g",
                   "totalCalories": "10 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Toasted Coconut",
@@ -4091,7 +4974,10 @@ const diningHallsData = [
                   "fat": "7g",
                   "carbs": "9g",
                   "totalCalories": "130 calories"
-                }
+                },
+                "allergens": [
+                  "Coconut"
+                ]
               },
               {
                 "name": "Toasted Oat Granola",
@@ -4101,7 +4987,11 @@ const diningHallsData = [
                   "fat": "1g",
                   "carbs": "23g",
                   "totalCalories": "100 calories"
-                }
+                },
+                "allergens": [
+                  "Gluten",
+                  "Soy"
+                ]
               },
               {
                 "name": "Vanilla Greek Yogurt",
@@ -4111,7 +5001,10 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "3g",
                   "totalCalories": "25 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               },
               {
                 "name": "Whipped Cream Cheese",
@@ -4121,7 +5014,10 @@ const diningHallsData = [
                   "fat": "9g",
                   "carbs": "1g",
                   "totalCalories": "100 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               }
             ]
           },
@@ -4129,14 +5025,46 @@ const diningHallsData = [
             "name": "Bakery",
             "items": [
               {
-                "name": "Cappuccino Chocolate Chunk Muffin",
-                "photo_url": "http://example.com/cappuccino-chocolate-chunk-muffin.jpg",
+                "name": "Apple Turnover",
+                "photo_url": "http://example.com/apple-turnover.jpg",
+                "macros": {
+                  "protein": "4g",
+                  "fat": "19g",
+                  "carbs": "29g",
+                  "totalCalories": "300 calories"
+                },
+                "allergens": [
+                  "Egg",
+                  "Gluten"
+                ]
+              },
+              {
+                "name": "Cranberry Orange Muffin",
+                "photo_url": "http://example.com/cranberry-orange-muffin.jpg",
                 "macros": {
                   "protein": "2g",
-                  "fat": "13g",
-                  "carbs": "39g",
-                  "totalCalories": "280 calories"
-                }
+                  "fat": "8g",
+                  "carbs": "27g",
+                  "totalCalories": "190 calories"
+                },
+                "allergens": [
+                  "Egg",
+                  "Gluten"
+                ]
+              },
+              {
+                "name": "Everything Bagel",
+                "photo_url": "http://example.com/everything-bagel.jpg",
+                "macros": {
+                  "protein": "10g",
+                  "fat": "0g",
+                  "carbs": "59g",
+                  "totalCalories": "290 calories"
+                },
+                "allergens": [
+                  "Gluten",
+                  "Sesame"
+                ]
               },
               {
                 "name": "Plain Bagel",
@@ -4146,27 +5074,10 @@ const diningHallsData = [
                   "fat": "1g",
                   "carbs": "61g",
                   "totalCalories": "290 calories"
-                }
-              },
-              {
-                "name": "Scone",
-                "photo_url": "http://example.com/scone.jpg",
-                "macros": {
-                  "protein": "4g",
-                  "fat": "18g",
-                  "carbs": "45g",
-                  "totalCalories": "360 calories"
-                }
-              },
-              {
-                "name": "Wheat Bagel",
-                "photo_url": "http://example.com/wheat-bagel.jpg",
-                "macros": {
-                  "protein": "10g",
-                  "fat": "1g",
-                  "carbs": "64g",
-                  "totalCalories": "300 calories"
-                }
+                },
+                "allergens": [
+                  "Gluten"
+                ]
               }
             ]
           },
@@ -4174,24 +5085,41 @@ const diningHallsData = [
             "name": "Smoothies",
             "items": [
               {
-                "name": "Mango Peach Smoothie w/ Orange Juice",
-                "photo_url": "http://example.com/mango-peach-smoothie-w/-orange-juice.jpg",
+                "name": "Blueberry Banana Smoothie w/ Milk",
+                "photo_url": "http://example.com/blueberry-banana-smoothie-w/-milk.jpg",
                 "macros": {
-                  "protein": "2g",
-                  "fat": "1.5g",
+                  "protein": "5g",
+                  "fat": "3g",
                   "carbs": "27g",
-                  "totalCalories": "110 calories"
-                }
+                  "totalCalories": "150 calories"
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               },
               {
-                "name": "Strawberry Banana w/ Oat Milk Smoothie",
-                "photo_url": "http://example.com/strawberry-banana-w/-oat-milk-smoothie.jpg",
+                "name": "Mango Lassi",
+                "photo_url": "http://example.com/mango-lassi.jpg",
                 "macros": {
-                  "protein": "2g",
-                  "fat": "3.5g",
-                  "carbs": "25g",
-                  "totalCalories": "140 calories"
-                }
+                  "protein": "16g",
+                  "fat": "4.5g",
+                  "carbs": "45g",
+                  "totalCalories": "260 calories"
+                },
+                "allergens": [
+                  "Dairy"
+                ]
+              },
+              {
+                "name": "Strawberry Kale Cranberry Smoothie",
+                "photo_url": "http://example.com/strawberry-kale-cranberry-smoothie.jpg",
+                "macros": {
+                  "protein": "1g",
+                  "fat": "0g",
+                  "carbs": "20g",
+                  "totalCalories": "80 calories"
+                },
+                "allergens": []
               }
             ]
           }
@@ -4204,14 +5132,15 @@ const diningHallsData = [
             "name": "Bowls",
             "items": [
               {
-                "name": "Cauliflower Vindaloo",
-                "photo_url": "http://example.com/cauliflower-vindaloo.jpg",
+                "name": "Brown Rice",
+                "photo_url": "http://example.com/brown-rice.jpg",
                 "macros": {
-                  "protein": "1g",
-                  "fat": "2.5g",
-                  "carbs": "5g",
-                  "totalCalories": "50 calories"
-                }
+                  "protein": "3g",
+                  "fat": "1g",
+                  "carbs": "33g",
+                  "totalCalories": "160 calories"
+                },
+                "allergens": []
               },
               {
                 "name": "Crispy Curry Roasted Chickpeas",
@@ -4221,7 +5150,8 @@ const diningHallsData = [
                   "fat": "2.5g",
                   "carbs": "7g",
                   "totalCalories": "60 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Harissa Vinaigrette",
@@ -4231,17 +5161,33 @@ const diningHallsData = [
                   "fat": "4g",
                   "carbs": "1g",
                   "totalCalories": "40 calories"
-                }
+                },
+                "allergens": []
               },
               {
-                "name": "Herbed Basmati Rice",
-                "photo_url": "http://example.com/herbed-basmati-rice.jpg",
+                "name": "Jamaican Jerk Chicken",
+                "photo_url": "http://example.com/jamaican-jerk-chicken.jpg",
                 "macros": {
-                  "protein": "5g",
-                  "fat": "0.5g",
-                  "carbs": "49g",
-                  "totalCalories": "210 calories"
-                }
+                  "protein": "21g",
+                  "fat": "6g",
+                  "carbs": "< 1g",
+                  "totalCalories": "150 calories"
+                },
+                "allergens": [
+                  "Alcohol",
+                  "Soy"
+                ]
+              },
+              {
+                "name": "Lobia Daal",
+                "photo_url": "http://example.com/lobia-daal.jpg",
+                "macros": {
+                  "protein": "< 1g",
+                  "fat": "1.5g",
+                  "carbs": "4g",
+                  "totalCalories": "30 calories"
+                },
+                "allergens": []
               },
               {
                 "name": "Mango Chipotle Salsa",
@@ -4251,7 +5197,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "5g",
                   "totalCalories": "20 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Pickled Red Onion",
@@ -4261,17 +5208,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "3g",
                   "totalCalories": "15 calories"
-                }
-              },
-              {
-                "name": "Red Curry Chicken",
-                "photo_url": "http://example.com/red-curry-chicken.jpg",
-                "macros": {
-                  "protein": "16g",
-                  "fat": "6g",
-                  "carbs": "4g",
-                  "totalCalories": "140 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Roasted Broccoli",
@@ -4281,7 +5219,8 @@ const diningHallsData = [
                   "fat": "1.5g",
                   "carbs": "7g",
                   "totalCalories": "45 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Roasted Corn",
@@ -4291,7 +5230,8 @@ const diningHallsData = [
                   "fat": "2g",
                   "carbs": "17g",
                   "totalCalories": "80 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Roasted Sweet Potato Chunks Maple Season",
@@ -4301,7 +5241,8 @@ const diningHallsData = [
                   "fat": "2g",
                   "carbs": "13g",
                   "totalCalories": "70 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Shredded Carrot",
@@ -4311,7 +5252,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "3g",
                   "totalCalories": "10 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Tandoori Spread",
@@ -4321,7 +5263,10 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "2g",
                   "totalCalories": "20 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               },
               {
                 "name": "Tzatziki Sauce",
@@ -4331,7 +5276,10 @@ const diningHallsData = [
                   "fat": "5g",
                   "carbs": "3g",
                   "totalCalories": "60 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               }
             ]
           },
@@ -4346,7 +5294,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "7g",
                   "totalCalories": "30 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Balsamic Vinaigrette",
@@ -4356,7 +5305,8 @@ const diningHallsData = [
                   "fat": "9g",
                   "carbs": "9g",
                   "totalCalories": "110 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Balsamic Vinegar",
@@ -4366,7 +5316,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "7g",
                   "totalCalories": "40 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Banana Pepper",
@@ -4376,7 +5327,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "1g",
                   "totalCalories": "5 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Black Beans",
@@ -4386,7 +5338,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "6g",
                   "totalCalories": "35 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Black Olive",
@@ -4396,7 +5349,8 @@ const diningHallsData = [
                   "fat": "3.5g",
                   "carbs": "2g",
                   "totalCalories": "50 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Broccoli Florettes",
@@ -4406,7 +5360,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "2g",
                   "totalCalories": "10 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Caesar Dressing",
@@ -4416,7 +5371,13 @@ const diningHallsData = [
                   "fat": "27g",
                   "carbs": "2g",
                   "totalCalories": "250 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy",
+                  "Egg",
+                  "Fish",
+                  "Soy"
+                ]
               },
               {
                 "name": "Celery Stick",
@@ -4426,7 +5387,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "< 1g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Cherry Tomatoes",
@@ -4436,7 +5398,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "1g",
                   "totalCalories": "5 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Chopped Egg",
@@ -4446,7 +5409,10 @@ const diningHallsData = [
                   "fat": "2.5g",
                   "carbs": "0g",
                   "totalCalories": "40 calories"
-                }
+                },
+                "allergens": [
+                  "Egg"
+                ]
               },
               {
                 "name": "Chopped Romaine Lettuce",
@@ -4456,7 +5422,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "< 1g",
                   "totalCalories": "5 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Corn",
@@ -4466,7 +5433,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "6g",
                   "totalCalories": "25 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Cottage Cheese",
@@ -4476,7 +5444,10 @@ const diningHallsData = [
                   "fat": "1.5g",
                   "carbs": "1g",
                   "totalCalories": "30 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               },
               {
                 "name": "Craisins",
@@ -4486,7 +5457,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "28g",
                   "totalCalories": "110 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Croutons",
@@ -4496,7 +5468,11 @@ const diningHallsData = [
                   "fat": "4g",
                   "carbs": "20g",
                   "totalCalories": "120 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy",
+                  "Gluten"
+                ]
               },
               {
                 "name": "Crumbled Bacon",
@@ -4506,7 +5482,10 @@ const diningHallsData = [
                   "fat": "12g",
                   "carbs": "0g",
                   "totalCalories": "140 calories"
-                }
+                },
+                "allergens": [
+                  "Pork"
+                ]
               },
               {
                 "name": "Diced Chicken",
@@ -4516,7 +5495,8 @@ const diningHallsData = [
                   "fat": "1.5g",
                   "carbs": "0g",
                   "totalCalories": "45 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Diced Tofu",
@@ -4526,7 +5506,10 @@ const diningHallsData = [
                   "fat": "1.5g",
                   "carbs": "< 1g",
                   "totalCalories": "30 calories"
-                }
+                },
+                "allergens": [
+                  "Soy"
+                ]
               },
               {
                 "name": "Feta Cheese",
@@ -4536,7 +5519,10 @@ const diningHallsData = [
                   "fat": "6g",
                   "carbs": "1g",
                   "totalCalories": "70 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               },
               {
                 "name": "Fruit Salad",
@@ -4546,7 +5532,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "18g",
                   "totalCalories": "70 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Garbanzo Beans",
@@ -4556,7 +5543,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "5g",
                   "totalCalories": "30 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Honey Mustard Dressing",
@@ -4566,7 +5554,10 @@ const diningHallsData = [
                   "fat": "28g",
                   "carbs": "14g",
                   "totalCalories": "300 calories"
-                }
+                },
+                "allergens": [
+                  "Egg"
+                ]
               },
               {
                 "name": "Hummus",
@@ -4576,7 +5567,11 @@ const diningHallsData = [
                   "fat": "6g",
                   "carbs": "4g",
                   "totalCalories": "60 calories"
-                }
+                },
+                "allergens": [
+                  "Sesame",
+                  "Soy"
+                ]
               },
               {
                 "name": "Italian Dressing",
@@ -4586,7 +5581,8 @@ const diningHallsData = [
                   "fat": "23g",
                   "carbs": "4g",
                   "totalCalories": "220 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Oil Olive Canola EVO",
@@ -4596,7 +5592,8 @@ const diningHallsData = [
                   "fat": "28g",
                   "carbs": "0g",
                   "totalCalories": "240 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Ranch Dressing",
@@ -4606,7 +5603,11 @@ const diningHallsData = [
                   "fat": "25g",
                   "carbs": "6g",
                   "totalCalories": "250 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy",
+                  "Egg"
+                ]
               },
               {
                 "name": "Red Wine Vinegar",
@@ -4616,7 +5617,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "0g",
                   "totalCalories": "15 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Shredded Carrot",
@@ -4626,7 +5628,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "3g",
                   "totalCalories": "10 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Shredded Cheddar Cheese",
@@ -4636,7 +5639,10 @@ const diningHallsData = [
                   "fat": "9g",
                   "carbs": "0g",
                   "totalCalories": "110 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               },
               {
                 "name": "Shredded Vegan Mozzarella Cheese",
@@ -4646,7 +5652,8 @@ const diningHallsData = [
                   "fat": "5g",
                   "carbs": "6g",
                   "totalCalories": "70 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sliced Beets",
@@ -4656,7 +5663,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "1g",
                   "totalCalories": "10 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sliced Cucumber",
@@ -4666,17 +5674,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "1g",
                   "totalCalories": "0 calories"
-                }
-              },
-              {
-                "name": "Sliced Mushroom",
-                "photo_url": "http://example.com/sliced-mushroom.jpg",
-                "macros": {
-                  "protein": "< 1g",
-                  "fat": "0g",
-                  "carbs": "< 1g",
-                  "totalCalories": "5 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sliced Peppers",
@@ -4686,7 +5685,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "1g",
                   "totalCalories": "5 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sliced Red Onion",
@@ -4696,7 +5696,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "3g",
                   "totalCalories": "10 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Spinach",
@@ -4706,7 +5707,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "1g",
                   "totalCalories": "5 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Spring Salad Mix",
@@ -4716,7 +5718,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "< 1g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Tuna",
@@ -4726,7 +5729,10 @@ const diningHallsData = [
                   "fat": "1g",
                   "carbs": "0g",
                   "totalCalories": "35 calories"
-                }
+                },
+                "allergens": [
+                  "Fish"
+                ]
               }
             ]
           },
@@ -4734,14 +5740,17 @@ const diningHallsData = [
             "name": "Grill",
             "items": [
               {
-                "name": "Beyond Burger Patty",
-                "photo_url": "http://example.com/beyond-burger-patty.jpg",
+                "name": "Black Bean Quinoa Patty",
+                "photo_url": "http://example.com/black-bean-quinoa-patty.jpg",
                 "macros": {
-                  "protein": "20g",
-                  "fat": "25g",
-                  "carbs": "6g",
-                  "totalCalories": "320 calories"
-                }
+                  "protein": "8g",
+                  "fat": "9g",
+                  "carbs": "25g",
+                  "totalCalories": "210 calories"
+                },
+                "allergens": [
+                  "Soy"
+                ]
               },
               {
                 "name": "Blended Beef Burger Patty",
@@ -4751,7 +5760,8 @@ const diningHallsData = [
                   "fat": "22g",
                   "carbs": "1g",
                   "totalCalories": "290 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Brioche Bun",
@@ -4761,7 +5771,13 @@ const diningHallsData = [
                   "fat": "3g",
                   "carbs": "42g",
                   "totalCalories": "220 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy",
+                  "Gluten",
+                  "Sesame",
+                  "Soy"
+                ]
               },
               {
                 "name": "GF Hamburger Bun",
@@ -4771,17 +5787,10 @@ const diningHallsData = [
                   "fat": "5g",
                   "carbs": "33g",
                   "totalCalories": "180 calories"
-                }
-              },
-              {
-                "name": "Grilled Montreal Chicken Breast",
-                "photo_url": "http://example.com/grilled-montreal-chicken-breast.jpg",
-                "macros": {
-                  "protein": "23g",
-                  "fat": "4g",
-                  "carbs": "0g",
-                  "totalCalories": "130 calories"
-                }
+                },
+                "allergens": [
+                  "Egg"
+                ]
               },
               {
                 "name": "Leaf Lettuce",
@@ -4791,17 +5800,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "< 1g",
                   "totalCalories": "0 calories"
-                }
-              },
-              {
-                "name": "Masala Cauliflower Soup",
-                "photo_url": "http://example.com/masala-cauliflower-soup.jpg",
-                "macros": {
-                  "protein": "2g",
-                  "fat": "3.5g",
-                  "carbs": "14g",
-                  "totalCalories": "90 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Pickle Chip",
@@ -4811,7 +5811,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "0g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sliced American Cheese",
@@ -4821,7 +5822,11 @@ const diningHallsData = [
                   "fat": "6g",
                   "carbs": "< 1g",
                   "totalCalories": "70 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy",
+                  "Soy"
+                ]
               },
               {
                 "name": "Sliced Pickled Jalapenos",
@@ -4831,7 +5836,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "1g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sliced Red Onion",
@@ -4841,7 +5847,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "3g",
                   "totalCalories": "10 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sliced Tomatoes",
@@ -4851,7 +5858,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "< 1g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Straight Cut Fries",
@@ -4861,7 +5869,19 @@ const diningHallsData = [
                   "fat": "6g",
                   "carbs": "35g",
                   "totalCalories": "200 calories"
-                }
+                },
+                "allergens": []
+              },
+              {
+                "name": "Vegetable Chili",
+                "photo_url": "http://example.com/vegetable-chili.jpg",
+                "macros": {
+                  "protein": "3g",
+                  "fat": "2g",
+                  "carbs": "14g",
+                  "totalCalories": "80 calories"
+                },
+                "allergens": []
               }
             ]
           },
@@ -4876,7 +5896,10 @@ const diningHallsData = [
                   "fat": "8g",
                   "carbs": "47g",
                   "totalCalories": "300 calories"
-                }
+                },
+                "allergens": [
+                  "Gluten"
+                ]
               },
               {
                 "name": "Banana Pepper",
@@ -4886,7 +5909,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "1g",
                   "totalCalories": "5 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Black Olive",
@@ -4896,7 +5920,8 @@ const diningHallsData = [
                   "fat": "3.5g",
                   "carbs": "2g",
                   "totalCalories": "50 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Brown Spicy Mustard",
@@ -4906,7 +5931,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "0g",
                   "totalCalories": "30 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Deli Ham",
@@ -4916,7 +5942,10 @@ const diningHallsData = [
                   "fat": "1.5g",
                   "carbs": "0g",
                   "totalCalories": "35 calories"
-                }
+                },
+                "allergens": [
+                  "Pork"
+                ]
               },
               {
                 "name": "Deli Roast Beef",
@@ -4926,7 +5955,8 @@ const diningHallsData = [
                   "fat": "1g",
                   "carbs": "0g",
                   "totalCalories": "30 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Deli Salami",
@@ -4936,7 +5966,10 @@ const diningHallsData = [
                   "fat": "11g",
                   "carbs": "< 1g",
                   "totalCalories": "120 calories"
-                }
+                },
+                "allergens": [
+                  "Pork"
+                ]
               },
               {
                 "name": "Deli Turkey Breast",
@@ -4946,7 +5979,8 @@ const diningHallsData = [
                   "fat": "1g",
                   "carbs": "1g",
                   "totalCalories": "30 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Dill Pickle Chips",
@@ -4956,7 +5990,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "0g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Dressing Oil and Vinegar Blend",
@@ -4966,7 +6001,8 @@ const diningHallsData = [
                   "fat": "15g",
                   "carbs": "0g",
                   "totalCalories": "130 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "GF White Bread",
@@ -4976,7 +6012,8 @@ const diningHallsData = [
                   "fat": "2g",
                   "carbs": "17g",
                   "totalCalories": "80 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Honey Mustard Dressing",
@@ -4986,7 +6023,10 @@ const diningHallsData = [
                   "fat": "28g",
                   "carbs": "14g",
                   "totalCalories": "300 calories"
-                }
+                },
+                "allergens": [
+                  "Egg"
+                ]
               },
               {
                 "name": "Hummus",
@@ -4996,7 +6036,11 @@ const diningHallsData = [
                   "fat": "6g",
                   "carbs": "4g",
                   "totalCalories": "60 calories"
-                }
+                },
+                "allergens": [
+                  "Sesame",
+                  "Soy"
+                ]
               },
               {
                 "name": "Italian Dressing",
@@ -5006,7 +6050,8 @@ const diningHallsData = [
                   "fat": "23g",
                   "carbs": "4g",
                   "totalCalories": "220 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Mayonnaise Substitute",
@@ -5016,7 +6061,10 @@ const diningHallsData = [
                   "fat": "20g",
                   "carbs": "0g",
                   "totalCalories": "180 calories"
-                }
+                },
+                "allergens": [
+                  "Soy"
+                ]
               },
               {
                 "name": "Pretzel Roll",
@@ -5026,7 +6074,11 @@ const diningHallsData = [
                   "fat": "4.5g",
                   "carbs": "54g",
                   "totalCalories": "300 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy",
+                  "Gluten"
+                ]
               },
               {
                 "name": "Ranch Dressing",
@@ -5036,7 +6088,11 @@ const diningHallsData = [
                   "fat": "25g",
                   "carbs": "6g",
                   "totalCalories": "250 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy",
+                  "Egg"
+                ]
               },
               {
                 "name": "Romaine Lettuce",
@@ -5046,7 +6102,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "2g",
                   "totalCalories": "10 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Ruffles Potato Chips",
@@ -5056,7 +6113,8 @@ const diningHallsData = [
                   "fat": "5g",
                   "carbs": "7g",
                   "totalCalories": "80 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sliced American Cheese",
@@ -5066,7 +6124,11 @@ const diningHallsData = [
                   "fat": "6g",
                   "carbs": "< 1g",
                   "totalCalories": "70 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy",
+                  "Soy"
+                ]
               },
               {
                 "name": "Sliced Cheddar Cheese",
@@ -5076,7 +6138,11 @@ const diningHallsData = [
                   "fat": "7g",
                   "carbs": "1g",
                   "totalCalories": "90 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy",
+                  "Sesame"
+                ]
               },
               {
                 "name": "Sliced Cucumber",
@@ -5086,7 +6152,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "1g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sliced Pepperjack Cheese",
@@ -5096,7 +6163,10 @@ const diningHallsData = [
                   "fat": "2.5g",
                   "carbs": "0g",
                   "totalCalories": "30 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               },
               {
                 "name": "Sliced Peppers",
@@ -5106,7 +6176,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "1g",
                   "totalCalories": "5 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sliced Pickled Jalapenos",
@@ -5116,7 +6187,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "1g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sliced Provolone Cheese",
@@ -5126,7 +6198,10 @@ const diningHallsData = [
                   "fat": "4.5g",
                   "carbs": "0g",
                   "totalCalories": "60 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               },
               {
                 "name": "Sliced Red Onion",
@@ -5136,7 +6211,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "3g",
                   "totalCalories": "10 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sliced Swiss Cheese",
@@ -5146,7 +6222,10 @@ const diningHallsData = [
                   "fat": "8g",
                   "carbs": "0g",
                   "totalCalories": "100 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               },
               {
                 "name": "Sliced Tomatoes",
@@ -5156,7 +6235,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "< 1g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sliced Vegan Cheddar Cheese",
@@ -5166,7 +6246,10 @@ const diningHallsData = [
                   "fat": "4g",
                   "carbs": "4g",
                   "totalCalories": "50 calories"
-                }
+                },
+                "allergens": [
+                  "Coconut"
+                ]
               },
               {
                 "name": "Sourdough Bread",
@@ -5176,7 +6259,11 @@ const diningHallsData = [
                   "fat": "1g",
                   "carbs": "18g",
                   "totalCalories": "100 calories"
-                }
+                },
+                "allergens": [
+                  "Gluten",
+                  "Soy"
+                ]
               },
               {
                 "name": "Spicy Aioli",
@@ -5186,7 +6273,10 @@ const diningHallsData = [
                   "fat": "22g",
                   "carbs": "1g",
                   "totalCalories": "210 calories"
-                }
+                },
+                "allergens": [
+                  "Soy"
+                ]
               },
               {
                 "name": "Tuna Salad",
@@ -5196,7 +6286,11 @@ const diningHallsData = [
                   "fat": "12g",
                   "carbs": "0g",
                   "totalCalories": "150 calories"
-                }
+                },
+                "allergens": [
+                  "Fish",
+                  "Soy"
+                ]
               },
               {
                 "name": "Wheatberry Bread",
@@ -5206,7 +6300,12 @@ const diningHallsData = [
                   "fat": "1.5g",
                   "carbs": "18g",
                   "totalCalories": "100 calories"
-                }
+                },
+                "allergens": [
+                  "Gluten",
+                  "Sesame",
+                  "Soy"
+                ]
               },
               {
                 "name": "Yellow Mustard",
@@ -5216,23 +6315,14 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "0g",
                   "totalCalories": "15 calories"
-                }
+                },
+                "allergens": []
               }
             ]
           },
           {
             "name": "Crafted Flatbreads",
             "items": [
-              {
-                "name": "Blanco Pizza",
-                "photo_url": "http://example.com/blanco-pizza.jpg",
-                "macros": {
-                  "protein": "31g",
-                  "fat": "45g",
-                  "carbs": "40g",
-                  "totalCalories": "690 calories"
-                }
-              },
               {
                 "name": "Cheese Pizza",
                 "photo_url": "http://example.com/cheese-pizza.jpg",
@@ -5241,7 +6331,27 @@ const diningHallsData = [
                   "fat": "25g",
                   "carbs": "40g",
                   "totalCalories": "480 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy",
+                  "Gluten"
+                ]
+              },
+              {
+                "name": "Chicken Bacon Ranch Pizza",
+                "photo_url": "http://example.com/chicken-bacon-ranch-pizza.jpg",
+                "macros": {
+                  "protein": "46g",
+                  "fat": "56g",
+                  "carbs": "41g",
+                  "totalCalories": "850 calories"
+                },
+                "allergens": [
+                  "Dairy",
+                  "Egg",
+                  "Gluten",
+                  "Pork"
+                ]
               },
               {
                 "name": "Pepperoni Pizza",
@@ -5251,7 +6361,11 @@ const diningHallsData = [
                   "fat": "29g",
                   "carbs": "40g",
                   "totalCalories": "530 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy",
+                  "Gluten"
+                ]
               }
             ]
           },
@@ -5259,44 +6373,49 @@ const diningHallsData = [
             "name": "Stir Fry",
             "items": [
               {
-                "name": "Black Pepper Shrimp Udon",
-                "photo_url": "http://example.com/black-pepper-shrimp-udon.jpg",
+                "name": "Commodore Tso Chicken",
+                "photo_url": "http://example.com/commodore-tso-chicken.jpg",
                 "macros": {
-                  "protein": "11g",
-                  "fat": "2.5g",
-                  "carbs": "5g",
-                  "totalCalories": "0 calories"
-                }
+                  "protein": "12g",
+                  "fat": "9g",
+                  "carbs": "24g",
+                  "totalCalories": "230 calories"
+                },
+                "allergens": [
+                  "Dairy",
+                  "Egg",
+                  "Gluten",
+                  "Soy"
+                ]
               },
               {
-                "name": "Black Pepper Tofu Udon",
-                "photo_url": "http://example.com/black-pepper-tofu-udon.jpg",
+                "name": "Commodore Tso Tofu",
+                "photo_url": "http://example.com/commodore-tso-tofu.jpg",
                 "macros": {
-                  "protein": "6g",
-                  "fat": "6g",
-                  "carbs": "7g",
-                  "totalCalories": "0 calories"
-                }
+                  "protein": "7g",
+                  "fat": "7g",
+                  "carbs": "12g",
+                  "totalCalories": "130 calories"
+                },
+                "allergens": [
+                  "Gluten",
+                  "Soy"
+                ]
               },
               {
-                "name": "Cabbage Napa Stir Fry",
-                "photo_url": "http://example.com/cabbage-napa-stir-fry.jpg",
+                "name": "Hoisin Carrots",
+                "photo_url": "http://example.com/hoisin-carrots.jpg",
                 "macros": {
-                  "protein": "1g",
-                  "fat": "0.5g",
-                  "carbs": "4g",
-                  "totalCalories": "25 calories"
-                }
-              },
-              {
-                "name": "Di San Xian - Potato, Eggplant & Peppers",
-                "photo_url": "http://example.com/di-san-xian---potato,-eggplant-&-peppers.jpg",
-                "macros": {
-                  "protein": "1g",
-                  "fat": "5g",
-                  "carbs": "17g",
-                  "totalCalories": "120 calories"
-                }
+                  "protein": "< 1g",
+                  "fat": "0g",
+                  "carbs": "9g",
+                  "totalCalories": "40 calories"
+                },
+                "allergens": [
+                  "Gluten",
+                  "Sesame",
+                  "Soy"
+                ]
               },
               {
                 "name": "Pork & Vegetable Eggroll",
@@ -5306,7 +6425,28 @@ const diningHallsData = [
                   "fat": "8g",
                   "carbs": "17g",
                   "totalCalories": "150 calories"
-                }
+                },
+                "allergens": [
+                  "Egg",
+                  "Fish",
+                  "Gluten",
+                  "Pork",
+                  "Soy"
+                ]
+              },
+              {
+                "name": "Vegetable Fried Rice",
+                "photo_url": "http://example.com/vegetable-fried-rice.jpg",
+                "macros": {
+                  "protein": "3g",
+                  "fat": "6g",
+                  "carbs": "27g",
+                  "totalCalories": "180 calories"
+                },
+                "allergens": [
+                  "Alcohol",
+                  "Soy"
+                ]
               }
             ]
           }
@@ -5319,6 +6459,17 @@ const diningHallsData = [
             "name": "Salad Bar",
             "items": [
               {
+                "name": "Baby Carrots Quartered",
+                "photo_url": "http://example.com/baby-carrots-quartered.jpg",
+                "macros": {
+                  "protein": "0g",
+                  "fat": "0g",
+                  "carbs": "7g",
+                  "totalCalories": "30 calories"
+                },
+                "allergens": []
+              },
+              {
                 "name": "Balsamic Vinaigrette",
                 "photo_url": "http://example.com/balsamic-vinaigrette.jpg",
                 "macros": {
@@ -5326,7 +6477,8 @@ const diningHallsData = [
                   "fat": "9g",
                   "carbs": "9g",
                   "totalCalories": "110 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Balsamic Vinegar",
@@ -5336,7 +6488,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "7g",
                   "totalCalories": "40 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Banana Pepper",
@@ -5346,7 +6499,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "1g",
                   "totalCalories": "5 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Black Beans",
@@ -5356,7 +6510,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "6g",
                   "totalCalories": "35 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Black Olive",
@@ -5366,7 +6521,8 @@ const diningHallsData = [
                   "fat": "3.5g",
                   "carbs": "2g",
                   "totalCalories": "50 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Broccoli Florettes",
@@ -5376,7 +6532,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "2g",
                   "totalCalories": "10 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Caesar Dressing",
@@ -5386,7 +6543,24 @@ const diningHallsData = [
                   "fat": "27g",
                   "carbs": "2g",
                   "totalCalories": "250 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy",
+                  "Egg",
+                  "Fish",
+                  "Soy"
+                ]
+              },
+              {
+                "name": "Celery Stick",
+                "photo_url": "http://example.com/celery-stick.jpg",
+                "macros": {
+                  "protein": "0g",
+                  "fat": "0g",
+                  "carbs": "< 1g",
+                  "totalCalories": "0 calories"
+                },
+                "allergens": []
               },
               {
                 "name": "Cherry Tomatoes",
@@ -5396,7 +6570,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "1g",
                   "totalCalories": "5 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Chopped Egg",
@@ -5406,7 +6581,10 @@ const diningHallsData = [
                   "fat": "2.5g",
                   "carbs": "0g",
                   "totalCalories": "40 calories"
-                }
+                },
+                "allergens": [
+                  "Egg"
+                ]
               },
               {
                 "name": "Chopped Romaine Lettuce",
@@ -5416,7 +6594,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "< 1g",
                   "totalCalories": "5 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Corn",
@@ -5426,7 +6605,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "6g",
                   "totalCalories": "25 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Cottage Cheese",
@@ -5436,7 +6616,10 @@ const diningHallsData = [
                   "fat": "1.5g",
                   "carbs": "1g",
                   "totalCalories": "30 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               },
               {
                 "name": "Craisins",
@@ -5446,7 +6629,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "28g",
                   "totalCalories": "110 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Croutons",
@@ -5456,7 +6640,11 @@ const diningHallsData = [
                   "fat": "4g",
                   "carbs": "20g",
                   "totalCalories": "120 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy",
+                  "Gluten"
+                ]
               },
               {
                 "name": "Crumbled Bacon",
@@ -5466,7 +6654,10 @@ const diningHallsData = [
                   "fat": "12g",
                   "carbs": "0g",
                   "totalCalories": "140 calories"
-                }
+                },
+                "allergens": [
+                  "Pork"
+                ]
               },
               {
                 "name": "Diced Chicken",
@@ -5476,7 +6667,8 @@ const diningHallsData = [
                   "fat": "1.5g",
                   "carbs": "0g",
                   "totalCalories": "45 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Diced Tofu",
@@ -5486,7 +6678,10 @@ const diningHallsData = [
                   "fat": "1.5g",
                   "carbs": "< 1g",
                   "totalCalories": "30 calories"
-                }
+                },
+                "allergens": [
+                  "Soy"
+                ]
               },
               {
                 "name": "Feta Cheese",
@@ -5496,7 +6691,10 @@ const diningHallsData = [
                   "fat": "6g",
                   "carbs": "1g",
                   "totalCalories": "70 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               },
               {
                 "name": "Fruit Salad",
@@ -5506,7 +6704,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "18g",
                   "totalCalories": "70 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Garbanzo Beans",
@@ -5516,7 +6715,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "5g",
                   "totalCalories": "30 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Honey Mustard Dressing",
@@ -5526,7 +6726,10 @@ const diningHallsData = [
                   "fat": "28g",
                   "carbs": "14g",
                   "totalCalories": "300 calories"
-                }
+                },
+                "allergens": [
+                  "Egg"
+                ]
               },
               {
                 "name": "Hummus",
@@ -5536,7 +6739,11 @@ const diningHallsData = [
                   "fat": "6g",
                   "carbs": "4g",
                   "totalCalories": "60 calories"
-                }
+                },
+                "allergens": [
+                  "Sesame",
+                  "Soy"
+                ]
               },
               {
                 "name": "Italian Dressing",
@@ -5546,7 +6753,8 @@ const diningHallsData = [
                   "fat": "23g",
                   "carbs": "4g",
                   "totalCalories": "220 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Oil Olive Canola EVO",
@@ -5556,7 +6764,8 @@ const diningHallsData = [
                   "fat": "28g",
                   "carbs": "0g",
                   "totalCalories": "240 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Ranch Dressing",
@@ -5566,7 +6775,11 @@ const diningHallsData = [
                   "fat": "25g",
                   "carbs": "6g",
                   "totalCalories": "250 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy",
+                  "Egg"
+                ]
               },
               {
                 "name": "Red Wine Vinegar",
@@ -5576,7 +6789,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "0g",
                   "totalCalories": "15 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Shredded Carrot",
@@ -5586,7 +6800,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "3g",
                   "totalCalories": "10 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Shredded Cheddar Cheese",
@@ -5596,7 +6811,10 @@ const diningHallsData = [
                   "fat": "9g",
                   "carbs": "0g",
                   "totalCalories": "110 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               },
               {
                 "name": "Shredded Vegan Mozzarella Cheese",
@@ -5606,7 +6824,8 @@ const diningHallsData = [
                   "fat": "5g",
                   "carbs": "6g",
                   "totalCalories": "70 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sliced Beets",
@@ -5616,7 +6835,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "1g",
                   "totalCalories": "10 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sliced Cucumber",
@@ -5626,17 +6846,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "1g",
                   "totalCalories": "0 calories"
-                }
-              },
-              {
-                "name": "Sliced Mushroom",
-                "photo_url": "http://example.com/sliced-mushroom.jpg",
-                "macros": {
-                  "protein": "< 1g",
-                  "fat": "0g",
-                  "carbs": "< 1g",
-                  "totalCalories": "5 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sliced Peppers",
@@ -5646,7 +6857,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "1g",
                   "totalCalories": "5 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sliced Red Onion",
@@ -5656,7 +6868,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "3g",
                   "totalCalories": "10 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Spinach",
@@ -5666,7 +6879,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "1g",
                   "totalCalories": "5 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Spring Salad Mix",
@@ -5676,7 +6890,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "< 1g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Tuna",
@@ -5686,13 +6901,29 @@ const diningHallsData = [
                   "fat": "1g",
                   "carbs": "0g",
                   "totalCalories": "35 calories"
-                }
+                },
+                "allergens": [
+                  "Fish"
+                ]
               }
             ]
           },
           {
             "name": "Taqueria",
             "items": [
+              {
+                "name": "Al Pastor",
+                "photo_url": "http://example.com/al-pastor.jpg",
+                "macros": {
+                  "protein": "14g",
+                  "fat": "10g",
+                  "carbs": "7g",
+                  "totalCalories": "170 calories"
+                },
+                "allergens": [
+                  "Pork"
+                ]
+              },
               {
                 "name": "Avocado Pulp",
                 "photo_url": "http://example.com/avocado-pulp.jpg",
@@ -5701,17 +6932,8 @@ const diningHallsData = [
                   "fat": "6g",
                   "carbs": "2g",
                   "totalCalories": "70 calories"
-                }
-              },
-              {
-                "name": "Cilantro-Lime Rice",
-                "photo_url": "http://example.com/cilantro-lime-rice.jpg",
-                "macros": {
-                  "protein": "3g",
-                  "fat": "1g",
-                  "carbs": "33g",
-                  "totalCalories": "160 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Corn Tortilla Chips",
@@ -5721,7 +6943,8 @@ const diningHallsData = [
                   "fat": "12g",
                   "carbs": "40g",
                   "totalCalories": "280 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Diced Yellow Onion",
@@ -5731,7 +6954,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "3g",
                   "totalCalories": "10 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Fire Roasted Jalapeno Salsa",
@@ -5741,17 +6965,32 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "1g",
                   "totalCalories": "5 calories"
-                }
+                },
+                "allergens": []
               },
               {
-                "name": "Flour Tortilla 6\"",
-                "photo_url": "http://example.com/flour-tortilla-6\".jpg",
+                "name": "Homestyle Refried Beans",
+                "photo_url": "http://example.com/homestyle-refried-beans.jpg",
                 "macros": {
-                  "protein": "2g",
-                  "fat": "2.5g",
-                  "carbs": "16g",
-                  "totalCalories": "100 calories"
-                }
+                  "protein": "19g",
+                  "fat": "7g",
+                  "carbs": "66g",
+                  "totalCalories": "380 calories"
+                },
+                "allergens": []
+              },
+              {
+                "name": "Mexican Brown Rice",
+                "photo_url": "http://example.com/mexican-brown-rice.jpg",
+                "macros": {
+                  "protein": "3g",
+                  "fat": "1g",
+                  "carbs": "33g",
+                  "totalCalories": "150 calories"
+                },
+                "allergens": [
+                  "Gluten"
+                ]
               },
               {
                 "name": "Pico De Gallo",
@@ -5761,17 +7000,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "2g",
                   "totalCalories": "10 calories"
-                }
-              },
-              {
-                "name": "Pollo Asada",
-                "photo_url": "http://example.com/pollo-asada.jpg",
-                "macros": {
-                  "protein": "22g",
-                  "fat": "4.5g",
-                  "carbs": "4g",
-                  "totalCalories": "160 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Queso Fresco",
@@ -5781,7 +7011,10 @@ const diningHallsData = [
                   "fat": "8g",
                   "carbs": "1g",
                   "totalCalories": "100 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               },
               {
                 "name": "Shredded Lettuce",
@@ -5791,7 +7024,21 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "0g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
+              },
+              {
+                "name": "SIMPLY Pulled Oats Taco Crumbles",
+                "photo_url": "http://example.com/simply-pulled-oats-taco-crumbles.jpg",
+                "macros": {
+                  "protein": "16g",
+                  "fat": "3g",
+                  "carbs": "6g",
+                  "totalCalories": "120 calories"
+                },
+                "allergens": [
+                  "Gluten"
+                ]
               },
               {
                 "name": "Sliced Pickled Jalapenos",
@@ -5801,7 +7048,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "1g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sour Cream Drizzle",
@@ -5811,27 +7059,10 @@ const diningHallsData = [
                   "fat": "3.5g",
                   "carbs": "3g",
                   "totalCalories": "50 calories"
-                }
-              },
-              {
-                "name": "Southwest Black Beans",
-                "photo_url": "http://example.com/southwest-black-beans.jpg",
-                "macros": {
-                  "protein": "3g",
-                  "fat": "0g",
-                  "carbs": "10g",
-                  "totalCalories": "50 calories"
-                }
-              },
-              {
-                "name": "Vegetable Taco Mix",
-                "photo_url": "http://example.com/vegetable-taco-mix.jpg",
-                "macros": {
-                  "protein": "< 1g",
-                  "fat": "2g",
-                  "carbs": "4g",
-                  "totalCalories": "35 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               }
             ]
           },
@@ -5839,14 +7070,17 @@ const diningHallsData = [
             "name": "Grill",
             "items": [
               {
-                "name": "Beyond Burger Patty",
-                "photo_url": "http://example.com/beyond-burger-patty.jpg",
+                "name": "Black Bean Quinoa Patty",
+                "photo_url": "http://example.com/black-bean-quinoa-patty.jpg",
                 "macros": {
-                  "protein": "20g",
-                  "fat": "25g",
-                  "carbs": "6g",
-                  "totalCalories": "320 calories"
-                }
+                  "protein": "8g",
+                  "fat": "9g",
+                  "carbs": "25g",
+                  "totalCalories": "210 calories"
+                },
+                "allergens": [
+                  "Soy"
+                ]
               },
               {
                 "name": "Blended Beef Burger Patty",
@@ -5856,7 +7090,8 @@ const diningHallsData = [
                   "fat": "22g",
                   "carbs": "1g",
                   "totalCalories": "290 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Brioche Bun",
@@ -5866,7 +7101,13 @@ const diningHallsData = [
                   "fat": "3g",
                   "carbs": "42g",
                   "totalCalories": "220 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy",
+                  "Gluten",
+                  "Sesame",
+                  "Soy"
+                ]
               },
               {
                 "name": "GF Hamburger Bun",
@@ -5876,17 +7117,10 @@ const diningHallsData = [
                   "fat": "5g",
                   "carbs": "33g",
                   "totalCalories": "180 calories"
-                }
-              },
-              {
-                "name": "Grilled Montreal Chicken Breast",
-                "photo_url": "http://example.com/grilled-montreal-chicken-breast.jpg",
-                "macros": {
-                  "protein": "23g",
-                  "fat": "4g",
-                  "carbs": "0g",
-                  "totalCalories": "130 calories"
-                }
+                },
+                "allergens": [
+                  "Egg"
+                ]
               },
               {
                 "name": "Leaf Lettuce",
@@ -5896,17 +7130,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "< 1g",
                   "totalCalories": "0 calories"
-                }
-              },
-              {
-                "name": "Masala Cauliflower Soup",
-                "photo_url": "http://example.com/masala-cauliflower-soup.jpg",
-                "macros": {
-                  "protein": "2g",
-                  "fat": "3.5g",
-                  "carbs": "14g",
-                  "totalCalories": "90 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Pickle Chip",
@@ -5916,7 +7141,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "0g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sliced American Cheese",
@@ -5926,7 +7152,11 @@ const diningHallsData = [
                   "fat": "6g",
                   "carbs": "< 1g",
                   "totalCalories": "70 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy",
+                  "Soy"
+                ]
               },
               {
                 "name": "Sliced Pickled Jalapenos",
@@ -5936,7 +7166,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "1g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sliced Red Onion",
@@ -5946,7 +7177,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "3g",
                   "totalCalories": "10 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sliced Tomatoes",
@@ -5956,7 +7188,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "< 1g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Straight Cut Fries",
@@ -5966,7 +7199,19 @@ const diningHallsData = [
                   "fat": "6g",
                   "carbs": "35g",
                   "totalCalories": "200 calories"
-                }
+                },
+                "allergens": []
+              },
+              {
+                "name": "Vegetable Chili",
+                "photo_url": "http://example.com/vegetable-chili.jpg",
+                "macros": {
+                  "protein": "3g",
+                  "fat": "2g",
+                  "carbs": "14g",
+                  "totalCalories": "80 calories"
+                },
+                "allergens": []
               }
             ]
           },
@@ -5974,54 +7219,85 @@ const diningHallsData = [
             "name": "Chef James Bistro",
             "items": [
               {
-                "name": "Country Style Meatloaf",
-                "photo_url": "http://example.com/country-style-meatloaf.jpg",
-                "macros": {
-                  "protein": "18g",
-                  "fat": "18g",
-                  "carbs": "22g",
-                  "totalCalories": "330 calories"
-                }
-              },
-              {
-                "name": "Roasted Tempeh w/ Caramelized Onions",
-                "photo_url": "http://example.com/roasted-tempeh-w/-caramelized-onions.jpg",
-                "macros": {
-                  "protein": "30g",
-                  "fat": "14g",
-                  "carbs": "19g",
-                  "totalCalories": "310 calories"
-                }
-              },
-              {
-                "name": "Smashed Red Potatoes",
-                "photo_url": "http://example.com/smashed-red-potatoes.jpg",
+                "name": "Basmati Rice",
+                "photo_url": "http://example.com/basmati-rice.jpg",
                 "macros": {
                   "protein": "2g",
-                  "fat": "8g",
-                  "carbs": "14g",
-                  "totalCalories": "140 calories"
-                }
-              },
-              {
-                "name": "Steamed Peas & Carrots",
-                "photo_url": "http://example.com/steamed-peas-&-carrots.jpg",
-                "macros": {
-                  "protein": "3g",
                   "fat": "0g",
-                  "carbs": "8g",
-                  "totalCalories": "40 calories"
-                }
+                  "carbs": "24g",
+                  "totalCalories": "100 calories"
+                },
+                "allergens": []
               },
               {
-                "name": "White Dinner Roll",
-                "photo_url": "http://example.com/white-dinner-roll.jpg",
+                "name": "Bhindi Masala",
+                "photo_url": "http://example.com/bhindi-masala.jpg",
                 "macros": {
-                  "protein": "3g",
-                  "fat": "3.5g",
-                  "carbs": "20g",
-                  "totalCalories": "120 calories"
-                }
+                  "protein": "2g",
+                  "fat": "6g",
+                  "carbs": "7g",
+                  "totalCalories": "80 calories"
+                },
+                "allergens": []
+              },
+              {
+                "name": "Chicken Tikka Masala",
+                "photo_url": "http://example.com/chicken-tikka-masala.jpg",
+                "macros": {
+                  "protein": "25g",
+                  "fat": "15g",
+                  "carbs": "11g",
+                  "totalCalories": "290 calories"
+                },
+                "allergens": [
+                  "Dairy"
+                ]
+              },
+              {
+                "name": "Grilled Naan",
+                "photo_url": "http://example.com/grilled-naan.jpg",
+                "macros": {
+                  "protein": "9g",
+                  "fat": "7g",
+                  "carbs": "35g",
+                  "totalCalories": "230 calories"
+                },
+                "allergens": [
+                  "Dairy",
+                  "Egg",
+                  "Gluten",
+                  "Sesame",
+                  "Soy"
+                ]
+              },
+              {
+                "name": "Pav Bhaji",
+                "photo_url": "http://example.com/pav-bhaji.jpg",
+                "macros": {
+                  "protein": "8g",
+                  "fat": "7g",
+                  "carbs": "41g",
+                  "totalCalories": "250 calories"
+                },
+                "allergens": [
+                  "Dairy",
+                  "Egg",
+                  "Gluten",
+                  "Soy"
+                ]
+              },
+              {
+                "name": "Za'Atar Roasted Cauliflower",
+                "photo_url": "http://example.com/za'atar-roasted-cauliflower.jpg",
+                "macros": {
+                  "protein": "1g",
+                  "fat": "4.5g",
+                  "carbs": "3g",
+                  "totalCalories": "50 calories"
+                },
+                "allergens": [
+                  "Sesame"
+                ]
               }
             ]
           },
@@ -6036,7 +7312,10 @@ const diningHallsData = [
                   "fat": "8g",
                   "carbs": "47g",
                   "totalCalories": "300 calories"
-                }
+                },
+                "allergens": [
+                  "Gluten"
+                ]
               },
               {
                 "name": "Banana Pepper",
@@ -6046,7 +7325,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "1g",
                   "totalCalories": "5 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Black Olive",
@@ -6056,7 +7336,8 @@ const diningHallsData = [
                   "fat": "3.5g",
                   "carbs": "2g",
                   "totalCalories": "50 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Brown Spicy Mustard",
@@ -6066,7 +7347,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "0g",
                   "totalCalories": "30 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Deli Ham",
@@ -6076,7 +7358,10 @@ const diningHallsData = [
                   "fat": "1.5g",
                   "carbs": "0g",
                   "totalCalories": "35 calories"
-                }
+                },
+                "allergens": [
+                  "Pork"
+                ]
               },
               {
                 "name": "Deli Roast Beef",
@@ -6086,7 +7371,8 @@ const diningHallsData = [
                   "fat": "1g",
                   "carbs": "0g",
                   "totalCalories": "30 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Deli Salami",
@@ -6096,7 +7382,10 @@ const diningHallsData = [
                   "fat": "11g",
                   "carbs": "< 1g",
                   "totalCalories": "120 calories"
-                }
+                },
+                "allergens": [
+                  "Pork"
+                ]
               },
               {
                 "name": "Deli Turkey Breast",
@@ -6106,7 +7395,8 @@ const diningHallsData = [
                   "fat": "1g",
                   "carbs": "1g",
                   "totalCalories": "30 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Dill Pickle Chips",
@@ -6116,7 +7406,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "0g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Dressing Oil and Vinegar Blend",
@@ -6126,7 +7417,8 @@ const diningHallsData = [
                   "fat": "15g",
                   "carbs": "0g",
                   "totalCalories": "130 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "GF White Bread",
@@ -6136,7 +7428,8 @@ const diningHallsData = [
                   "fat": "2g",
                   "carbs": "17g",
                   "totalCalories": "80 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Honey Mustard Dressing",
@@ -6146,7 +7439,10 @@ const diningHallsData = [
                   "fat": "28g",
                   "carbs": "14g",
                   "totalCalories": "300 calories"
-                }
+                },
+                "allergens": [
+                  "Egg"
+                ]
               },
               {
                 "name": "Hummus",
@@ -6156,7 +7452,11 @@ const diningHallsData = [
                   "fat": "6g",
                   "carbs": "4g",
                   "totalCalories": "60 calories"
-                }
+                },
+                "allergens": [
+                  "Sesame",
+                  "Soy"
+                ]
               },
               {
                 "name": "Italian Dressing",
@@ -6166,7 +7466,8 @@ const diningHallsData = [
                   "fat": "23g",
                   "carbs": "4g",
                   "totalCalories": "220 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Mayonnaise Substitute",
@@ -6176,7 +7477,10 @@ const diningHallsData = [
                   "fat": "20g",
                   "carbs": "0g",
                   "totalCalories": "180 calories"
-                }
+                },
+                "allergens": [
+                  "Soy"
+                ]
               },
               {
                 "name": "Pretzel Roll",
@@ -6186,7 +7490,11 @@ const diningHallsData = [
                   "fat": "4.5g",
                   "carbs": "54g",
                   "totalCalories": "300 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy",
+                  "Gluten"
+                ]
               },
               {
                 "name": "Ranch Dressing",
@@ -6196,7 +7504,11 @@ const diningHallsData = [
                   "fat": "25g",
                   "carbs": "6g",
                   "totalCalories": "250 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy",
+                  "Egg"
+                ]
               },
               {
                 "name": "Romaine Lettuce",
@@ -6206,7 +7518,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "2g",
                   "totalCalories": "10 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sliced American Cheese",
@@ -6216,7 +7529,11 @@ const diningHallsData = [
                   "fat": "6g",
                   "carbs": "< 1g",
                   "totalCalories": "70 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy",
+                  "Soy"
+                ]
               },
               {
                 "name": "Sliced Cheddar Cheese",
@@ -6226,7 +7543,11 @@ const diningHallsData = [
                   "fat": "7g",
                   "carbs": "1g",
                   "totalCalories": "90 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy",
+                  "Sesame"
+                ]
               },
               {
                 "name": "Sliced Pepperjack Cheese",
@@ -6236,7 +7557,10 @@ const diningHallsData = [
                   "fat": "2.5g",
                   "carbs": "0g",
                   "totalCalories": "30 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               },
               {
                 "name": "Sliced Peppers",
@@ -6246,7 +7570,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "1g",
                   "totalCalories": "5 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sliced Pickled Jalapenos",
@@ -6256,7 +7581,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "1g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sliced Provolone Cheese",
@@ -6266,7 +7592,10 @@ const diningHallsData = [
                   "fat": "4.5g",
                   "carbs": "0g",
                   "totalCalories": "60 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               },
               {
                 "name": "Sliced Red Onion",
@@ -6276,7 +7605,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "3g",
                   "totalCalories": "10 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sliced Swiss Cheese",
@@ -6286,7 +7616,10 @@ const diningHallsData = [
                   "fat": "8g",
                   "carbs": "0g",
                   "totalCalories": "100 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               },
               {
                 "name": "Sliced Tomatoes",
@@ -6296,7 +7629,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "< 1g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sliced Vegan Cheddar Cheese",
@@ -6306,7 +7640,10 @@ const diningHallsData = [
                   "fat": "4g",
                   "carbs": "4g",
                   "totalCalories": "50 calories"
-                }
+                },
+                "allergens": [
+                  "Coconut"
+                ]
               },
               {
                 "name": "Sourdough Bread",
@@ -6316,7 +7653,11 @@ const diningHallsData = [
                   "fat": "1g",
                   "carbs": "18g",
                   "totalCalories": "100 calories"
-                }
+                },
+                "allergens": [
+                  "Gluten",
+                  "Soy"
+                ]
               },
               {
                 "name": "Spicy Aioli",
@@ -6326,7 +7667,10 @@ const diningHallsData = [
                   "fat": "22g",
                   "carbs": "1g",
                   "totalCalories": "210 calories"
-                }
+                },
+                "allergens": [
+                  "Soy"
+                ]
               },
               {
                 "name": "Tuna Salad",
@@ -6336,7 +7680,11 @@ const diningHallsData = [
                   "fat": "12g",
                   "carbs": "0g",
                   "totalCalories": "150 calories"
-                }
+                },
+                "allergens": [
+                  "Fish",
+                  "Soy"
+                ]
               },
               {
                 "name": "Wheatberry Bread",
@@ -6346,7 +7694,12 @@ const diningHallsData = [
                   "fat": "1.5g",
                   "carbs": "18g",
                   "totalCalories": "100 calories"
-                }
+                },
+                "allergens": [
+                  "Gluten",
+                  "Sesame",
+                  "Soy"
+                ]
               },
               {
                 "name": "Yellow Mustard",
@@ -6356,23 +7709,14 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "0g",
                   "totalCalories": "15 calories"
-                }
+                },
+                "allergens": []
               }
             ]
           },
           {
             "name": "Crafted Flatbreads",
             "items": [
-              {
-                "name": "Blanco Pizza",
-                "photo_url": "http://example.com/blanco-pizza.jpg",
-                "macros": {
-                  "protein": "31g",
-                  "fat": "45g",
-                  "carbs": "40g",
-                  "totalCalories": "690 calories"
-                }
-              },
               {
                 "name": "Cheese Pizza",
                 "photo_url": "http://example.com/cheese-pizza.jpg",
@@ -6381,7 +7725,27 @@ const diningHallsData = [
                   "fat": "25g",
                   "carbs": "40g",
                   "totalCalories": "480 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy",
+                  "Gluten"
+                ]
+              },
+              {
+                "name": "Chicken Bacon Ranch Pizza",
+                "photo_url": "http://example.com/chicken-bacon-ranch-pizza.jpg",
+                "macros": {
+                  "protein": "46g",
+                  "fat": "56g",
+                  "carbs": "41g",
+                  "totalCalories": "850 calories"
+                },
+                "allergens": [
+                  "Dairy",
+                  "Egg",
+                  "Gluten",
+                  "Pork"
+                ]
               },
               {
                 "name": "Pepperoni Pizza",
@@ -6391,7 +7755,11 @@ const diningHallsData = [
                   "fat": "29g",
                   "carbs": "40g",
                   "totalCalories": "530 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy",
+                  "Gluten"
+                ]
               }
             ]
           }
@@ -6404,44 +7772,66 @@ const diningHallsData = [
             "name": "Bakery",
             "items": [
               {
-                "name": "Chocolate Chip Cookie",
-                "photo_url": "http://example.com/chocolate-chip-cookie.jpg",
+                "name": "Brownie",
+                "photo_url": "http://example.com/brownie.jpg",
+                "macros": {
+                  "protein": "1g",
+                  "fat": "11g",
+                  "carbs": "17g",
+                  "totalCalories": "170 calories"
+                },
+                "allergens": [
+                  "Dairy",
+                  "Egg",
+                  "Gluten",
+                  "Soy"
+                ]
+              },
+              {
+                "name": "Oatmeal Raisin Cookie",
+                "photo_url": "http://example.com/oatmeal-raisin-cookie.jpg",
                 "macros": {
                   "protein": "4g",
-                  "fat": "15g",
-                  "carbs": "44g",
-                  "totalCalories": "320 calories"
-                }
-              },
-              {
-                "name": "Chocolate Cupcake w/ Oreo Pieces",
-                "photo_url": "http://example.com/chocolate-cupcake-w/-oreo-pieces.jpg",
-                "macros": {
-                  "protein": "3g",
                   "fat": "12g",
-                  "carbs": "57g",
-                  "totalCalories": "340 calories"
-                }
+                  "carbs": "43g",
+                  "totalCalories": "290 calories"
+                },
+                "allergens": [
+                  "Dairy",
+                  "Egg",
+                  "Gluten",
+                  "Soy"
+                ]
               },
               {
-                "name": "Rice Krispie Bar",
-                "photo_url": "http://example.com/rice-krispie-bar.jpg",
-                "macros": {
-                  "protein": "< 1g",
-                  "fat": "4g",
-                  "carbs": "20g",
-                  "totalCalories": "120 calories"
-                }
-              },
-              {
-                "name": "Vegan Snickerdoodle Cookie",
-                "photo_url": "http://example.com/vegan-snickerdoodle-cookie.jpg",
+                "name": "Strawberry Cake",
+                "photo_url": "http://example.com/strawberry-cake.jpg",
                 "macros": {
                   "protein": "3g",
-                  "fat": "10g",
-                  "carbs": "48g",
-                  "totalCalories": "290 calories"
-                }
+                  "fat": "11g",
+                  "carbs": "21g",
+                  "totalCalories": "190 calories"
+                },
+                "allergens": [
+                  "Dairy",
+                  "Egg",
+                  "Gluten",
+                  "Pork",
+                  "Soy"
+                ]
+              },
+              {
+                "name": "Zucchini Bread",
+                "photo_url": "http://example.com/zucchini-bread.jpg",
+                "macros": {
+                  "protein": "2g",
+                  "fat": "7g",
+                  "carbs": "30g",
+                  "totalCalories": "190 calories"
+                },
+                "allergens": [
+                  "Gluten"
+                ]
               }
             ]
           },
@@ -6456,7 +7846,11 @@ const diningHallsData = [
                   "fat": "5g",
                   "carbs": "42g",
                   "totalCalories": "220 calories"
-                }
+                },
+                "allergens": [
+                  "Gluten",
+                  "Soy"
+                ]
               },
               {
                 "name": "Cocoa Puffs",
@@ -6466,7 +7860,10 @@ const diningHallsData = [
                   "fat": "3g",
                   "carbs": "48g",
                   "totalCalories": "210 calories"
-                }
+                },
+                "allergens": [
+                  "Gluten"
+                ]
               },
               {
                 "name": "Golden Grahams",
@@ -6476,7 +7873,10 @@ const diningHallsData = [
                   "fat": "2g",
                   "carbs": "47g",
                   "totalCalories": "210 calories"
-                }
+                },
+                "allergens": [
+                  "Gluten"
+                ]
               },
               {
                 "name": "Lucky Charms",
@@ -6486,7 +7886,10 @@ const diningHallsData = [
                   "fat": "2g",
                   "carbs": "46g",
                   "totalCalories": "230 calories"
-                }
+                },
+                "allergens": [
+                  "Pork"
+                ]
               },
               {
                 "name": "Rice Chex",
@@ -6496,7 +7899,8 @@ const diningHallsData = [
                   "fat": "0.5g",
                   "carbs": "14g",
                   "totalCalories": "60 calories"
-                }
+                },
+                "allergens": []
               }
             ]
           },
@@ -6511,7 +7915,8 @@ const diningHallsData = [
                   "fat": "7g",
                   "carbs": "28g",
                   "totalCalories": "180 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Oatly Vanilla Soft Serve",
@@ -6521,7 +7926,8 @@ const diningHallsData = [
                   "fat": "8g",
                   "carbs": "28g",
                   "totalCalories": "190 calories"
-                }
+                },
+                "allergens": []
               }
             ]
           },
@@ -6536,7 +7942,8 @@ const diningHallsData = [
                   "fat": "0.5g",
                   "carbs": "41g",
                   "totalCalories": "160 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Honeycrisp Apple",
@@ -6546,7 +7953,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "25g",
                   "totalCalories": "100 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Ketchup",
@@ -6556,7 +7964,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "8g",
                   "totalCalories": "35 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Orange",
@@ -6566,7 +7975,8 @@ const diningHallsData = [
                   "fat": "0.5g",
                   "carbs": "32g",
                   "totalCalories": "130 calories"
-                }
+                },
+                "allergens": []
               }
             ]
           },
@@ -6581,7 +7991,10 @@ const diningHallsData = [
                   "fat": "2.5g",
                   "carbs": "24g",
                   "totalCalories": "150 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               },
               {
                 "name": "2% Milk",
@@ -6591,7 +8004,10 @@ const diningHallsData = [
                   "fat": "4.5g",
                   "carbs": "12g",
                   "totalCalories": "120 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               },
               {
                 "name": "Anchor Down Decaf Coffee",
@@ -6601,7 +8017,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "0g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Bubly Lime",
@@ -6611,7 +8028,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "0g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Bubly Orange",
@@ -6621,7 +8039,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "0g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Bubly Raspberry",
@@ -6631,7 +8050,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "0g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Chai Tea",
@@ -6641,7 +8061,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "0g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Cheerios",
@@ -6651,7 +8072,8 @@ const diningHallsData = [
                   "fat": "4g",
                   "carbs": "40g",
                   "totalCalories": "200 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Creamer Coffee Liquid Original Bulk",
@@ -6661,7 +8083,10 @@ const diningHallsData = [
                   "fat": "6g",
                   "carbs": "0g",
                   "totalCalories": "60 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               },
               {
                 "name": "Dispenser Dole Orange Juice",
@@ -6671,7 +8096,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "7g",
                   "totalCalories": "30 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Dispenser Stubborn Cola",
@@ -6681,7 +8107,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "4g",
                   "totalCalories": "15 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Dole Apple Juice",
@@ -6691,7 +8118,8 @@ const diningHallsData = [
                   "fat": "NA",
                   "carbs": "7g",
                   "totalCalories": "30 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Dole Cranberry Juice",
@@ -6701,7 +8129,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "8g",
                   "totalCalories": "30 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Earl Grey Tea",
@@ -6711,7 +8140,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "0g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "English Breakfast Tea",
@@ -6721,7 +8151,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "0g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "French Vanilla Creamer",
@@ -6731,7 +8162,10 @@ const diningHallsData = [
                   "fat": "8g",
                   "carbs": "20g",
                   "totalCalories": "140 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               },
               {
                 "name": "Fruit Punch Gatorade",
@@ -6741,7 +8175,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "4g",
                   "totalCalories": "15 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Lemon Lime Gatorade",
@@ -6751,7 +8186,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "4g",
                   "totalCalories": "15 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Mr. Commodore Medium Roast Coffee",
@@ -6761,7 +8197,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "0g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Orange Gatorade",
@@ -6771,7 +8208,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "4g",
                   "totalCalories": "15 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Organic Berry Patch",
@@ -6781,7 +8219,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "37g",
                   "totalCalories": "150 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Organic Lemonade",
@@ -6791,7 +8230,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "37g",
                   "totalCalories": "150 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Skim Milk",
@@ -6801,7 +8241,10 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "12g",
                   "totalCalories": "80 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               },
               {
                 "name": "Sobe Yumberry Pomegranate",
@@ -6811,7 +8254,8 @@ const diningHallsData = [
                   "fat": "NA",
                   "carbs": "0g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Stubborn Agave Vanilla Cream Soda",
@@ -6821,7 +8265,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "6g",
                   "totalCalories": "25 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Stubborn Soda Black Cherry Soda",
@@ -6831,7 +8276,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "6g",
                   "totalCalories": "25 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Stubborn Zero Sugar Cola",
@@ -6841,7 +8287,8 @@ const diningHallsData = [
                   "fat": "NA",
                   "carbs": "NA",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sweet Tea",
@@ -6851,7 +8298,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "30g",
                   "totalCalories": "110 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Tractor Strawberry Dragon Fruit Juice",
@@ -6861,7 +8309,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "4g",
                   "totalCalories": "140 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Tropicana Lemonade",
@@ -6871,7 +8320,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "7g",
                   "totalCalories": "25 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Unsweet Tea",
@@ -6881,7 +8331,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "0g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Vandy House Light Roast Coffee",
@@ -6891,7 +8342,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "0g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Wild Sweet Orange Tea",
@@ -6901,7 +8353,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "NA",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               }
             ]
           },
@@ -6916,7 +8369,10 @@ const diningHallsData = [
                   "fat": "10g",
                   "carbs": "35g",
                   "totalCalories": "260 calories"
-                }
+                },
+                "allergens": [
+                  "Egg"
+                ]
               },
               {
                 "name": "GF Hamburger Bun",
@@ -6926,7 +8382,10 @@ const diningHallsData = [
                   "fat": "5g",
                   "carbs": "33g",
                   "totalCalories": "180 calories"
-                }
+                },
+                "allergens": [
+                  "Egg"
+                ]
               },
               {
                 "name": "GF Plain Bagel",
@@ -6936,7 +8395,10 @@ const diningHallsData = [
                   "fat": "6g",
                   "carbs": "29g",
                   "totalCalories": "190 calories"
-                }
+                },
+                "allergens": [
+                  "Egg"
+                ]
               },
               {
                 "name": "GF Tortilla Wrap",
@@ -6946,7 +8408,11 @@ const diningHallsData = [
                   "fat": "5g",
                   "carbs": "34g",
                   "totalCalories": "200 calories"
-                }
+                },
+                "allergens": [
+                  "Coconut",
+                  "Soy"
+                ]
               },
               {
                 "name": "GF White Bread",
@@ -6956,7 +8422,8 @@ const diningHallsData = [
                   "fat": "2g",
                   "carbs": "17g",
                   "totalCalories": "80 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "GF Whole Grain Bread",
@@ -6966,7 +8433,8 @@ const diningHallsData = [
                   "fat": "2.5g",
                   "carbs": "26g",
                   "totalCalories": "130 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Peanut Butter Cup",
@@ -6976,7 +8444,11 @@ const diningHallsData = [
                   "fat": "20g",
                   "carbs": "10g",
                   "totalCalories": "240 calories"
-                }
+                },
+                "allergens": [
+                  "Peanut",
+                  "Soy"
+                ]
               }
             ]
           },
@@ -6991,7 +8463,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "13g",
                   "totalCalories": "70 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "BBQ Sauce",
@@ -7001,7 +8474,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "12g",
                   "totalCalories": "45 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Cream Cheese",
@@ -7011,7 +8485,10 @@ const diningHallsData = [
                   "fat": "7g",
                   "carbs": "1g",
                   "totalCalories": "70 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               },
               {
                 "name": "Equal",
@@ -7021,7 +8498,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "0g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Honey Cup",
@@ -7031,7 +8509,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "12g",
                   "totalCalories": "50 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Hot Cholula Sauce",
@@ -7041,7 +8520,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "0g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Louisiana Hot Sauce",
@@ -7051,7 +8531,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "0g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Mayonnaise",
@@ -7061,7 +8542,10 @@ const diningHallsData = [
                   "fat": "21g",
                   "carbs": "2g",
                   "totalCalories": "190 calories"
-                }
+                },
+                "allergens": [
+                  "Egg"
+                ]
               },
               {
                 "name": "Soy Sauce",
@@ -7071,7 +8555,11 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "8g",
                   "totalCalories": "40 calories"
-                }
+                },
+                "allergens": [
+                  "Gluten",
+                  "Soy"
+                ]
               },
               {
                 "name": "Splenda",
@@ -7081,7 +8569,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "0g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sriracha Sauce",
@@ -7091,7 +8580,10 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "6g",
                   "totalCalories": "30 calories"
-                }
+                },
+                "allergens": [
+                  "Soy"
+                ]
               },
               {
                 "name": "Strawberry Cream Cheese",
@@ -7101,7 +8593,10 @@ const diningHallsData = [
                   "fat": "6g",
                   "carbs": "4g",
                   "totalCalories": "70 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               },
               {
                 "name": "Sugar",
@@ -7111,7 +8606,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "3g",
                   "totalCalories": "10 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sugar in the Raw",
@@ -7121,7 +8617,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "4g",
                   "totalCalories": "20 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sugar-Free Syrup",
@@ -7131,7 +8628,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "4g",
                   "totalCalories": "10 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sweet-N-Low",
@@ -7141,7 +8639,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "0g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Syrup Cup",
@@ -7151,7 +8650,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "30g",
                   "totalCalories": "120 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Yellow Mustard",
@@ -7161,7 +8661,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "0g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               }
             ]
           }
@@ -7179,14 +8680,15 @@ const diningHallsData = [
             "name": "None",
             "items": [
               {
-                "name": "Banana Berry Smoothie",
-                "photo_url": "http://example.com/banana-berry-smoothie.jpg",
+                "name": "Turkey Sausage Patty",
+                "photo_url": "http://example.com/turkey-sausage-patty.jpg",
                 "macros": {
-                  "protein": "6g",
-                  "fat": "0g",
-                  "carbs": "28g",
-                  "totalCalories": "130 calories"
-                }
+                  "protein": "7g",
+                  "fat": "4g",
+                  "carbs": "< 1g",
+                  "totalCalories": "70 calories"
+                },
+                "allergens": []
               }
             ]
           },
@@ -7201,7 +8703,10 @@ const diningHallsData = [
                   "fat": "12g",
                   "carbs": "0g",
                   "totalCalories": "140 calories"
-                }
+                },
+                "allergens": [
+                  "Pork"
+                ]
               },
               {
                 "name": "Bacon, Egg, & Cheese Sandwich",
@@ -7211,7 +8716,13 @@ const diningHallsData = [
                   "fat": "23g",
                   "carbs": "34g",
                   "totalCalories": "420 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy",
+                  "Egg",
+                  "Pork",
+                  "Sesame"
+                ]
               },
               {
                 "name": "BEYOND Meat Sausage Crumbles",
@@ -7221,7 +8732,10 @@ const diningHallsData = [
                   "fat": "6g",
                   "carbs": "< 1g",
                   "totalCalories": "80 calories"
-                }
+                },
+                "allergens": [
+                  "Coconut"
+                ]
               },
               {
                 "name": "Ground Pork Sausage",
@@ -7231,7 +8745,10 @@ const diningHallsData = [
                   "fat": "9g",
                   "carbs": "< 1g",
                   "totalCalories": "100 calories"
-                }
+                },
+                "allergens": [
+                  "Pork"
+                ]
               },
               {
                 "name": "Mild Salsa",
@@ -7241,7 +8758,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "2g",
                   "totalCalories": "10 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Pico de Gallo",
@@ -7251,7 +8769,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "1g",
                   "totalCalories": "5 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Salsa Verde",
@@ -7261,7 +8780,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "2g",
                   "totalCalories": "10 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sauteed Mushrooms",
@@ -7271,7 +8791,8 @@ const diningHallsData = [
                   "fat": "0.5g",
                   "carbs": "1g",
                   "totalCalories": "10 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sauteed Peppers & Onions",
@@ -7281,7 +8802,8 @@ const diningHallsData = [
                   "fat": "3g",
                   "carbs": "2g",
                   "totalCalories": "35 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sauteed Spinach",
@@ -7291,7 +8813,8 @@ const diningHallsData = [
                   "fat": "3g",
                   "carbs": "4g",
                   "totalCalories": "50 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Scrambled Eggs",
@@ -7301,7 +8824,10 @@ const diningHallsData = [
                   "fat": "21g",
                   "carbs": "3g",
                   "totalCalories": "280 calories"
-                }
+                },
+                "allergens": [
+                  "Egg"
+                ]
               },
               {
                 "name": "Shredded Cheddar Jack Cheese",
@@ -7311,7 +8837,10 @@ const diningHallsData = [
                   "fat": "9g",
                   "carbs": "1g",
                   "totalCalories": "110 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               },
               {
                 "name": "Shredded Mozzarella Cheese",
@@ -7321,7 +8850,10 @@ const diningHallsData = [
                   "fat": "3.5g",
                   "carbs": "0g",
                   "totalCalories": "45 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               },
               {
                 "name": "Shredded Vegan Cheddar Cheese",
@@ -7331,7 +8863,8 @@ const diningHallsData = [
                   "fat": "5g",
                   "carbs": "6g",
                   "totalCalories": "70 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sliced Jalapeno Peppers",
@@ -7341,7 +8874,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "1g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Steamed Broccoli",
@@ -7351,7 +8885,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "6g",
                   "totalCalories": "30 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Tater Tots",
@@ -7361,7 +8896,37 @@ const diningHallsData = [
                   "fat": "12g",
                   "carbs": "27g",
                   "totalCalories": "220 calories"
-                }
+                },
+                "allergens": []
+              },
+              {
+                "name": "Turkey Ham Diced",
+                "photo_url": "http://example.com/turkey-ham-diced.jpg",
+                "macros": {
+                  "protein": "5g",
+                  "fat": "1.5g",
+                  "carbs": "1g",
+                  "totalCalories": "20 calories"
+                },
+                "allergens": []
+              }
+            ]
+          },
+          {
+            "name": "Smoothies",
+            "items": [
+              {
+                "name": "Mango Lassi",
+                "photo_url": "http://example.com/mango-lassi.jpg",
+                "macros": {
+                  "protein": "16g",
+                  "fat": "4.5g",
+                  "carbs": "45g",
+                  "totalCalories": "260 calories"
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               }
             ]
           },
@@ -7376,7 +8941,10 @@ const diningHallsData = [
                   "fat": "5g",
                   "carbs": "41g",
                   "totalCalories": "210 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               },
               {
                 "name": "Craisins",
@@ -7386,7 +8954,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "28g",
                   "totalCalories": "110 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Dairy Free Vanilla Yogurt",
@@ -7396,7 +8965,10 @@ const diningHallsData = [
                   "fat": "1.5g",
                   "carbs": "3g",
                   "totalCalories": "25 calories"
-                }
+                },
+                "allergens": [
+                  "Coconut"
+                ]
               },
               {
                 "name": "Diced Cantaloupe",
@@ -7406,7 +8978,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "2g",
                   "totalCalories": "10 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Diced Pineapple",
@@ -7416,7 +8989,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "7g",
                   "totalCalories": "25 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Low Fat Strawberry Yogurt",
@@ -7426,7 +9000,10 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "10g",
                   "totalCalories": "50 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               },
               {
                 "name": "Mini Chocolate Chips",
@@ -7436,7 +9013,11 @@ const diningHallsData = [
                   "fat": "6g",
                   "carbs": "14g",
                   "totalCalories": "100 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy",
+                  "Soy"
+                ]
               },
               {
                 "name": "Plain Greek Yogurt",
@@ -7446,7 +9027,10 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "1g",
                   "totalCalories": "15 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               },
               {
                 "name": "Raisins",
@@ -7456,7 +9040,8 @@ const diningHallsData = [
                   "fat": "NA",
                   "carbs": "23g",
                   "totalCalories": "90 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Red Grapes",
@@ -7466,7 +9051,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "5g",
                   "totalCalories": "20 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Strawberry Halves",
@@ -7476,7 +9062,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "2g",
                   "totalCalories": "10 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Toasted Coconut",
@@ -7486,7 +9073,10 @@ const diningHallsData = [
                   "fat": "7g",
                   "carbs": "9g",
                   "totalCalories": "130 calories"
-                }
+                },
+                "allergens": [
+                  "Coconut"
+                ]
               },
               {
                 "name": "Vanilla Greek Yogurt",
@@ -7496,7 +9086,10 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "3g",
                   "totalCalories": "25 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               },
               {
                 "name": "White Chocolate Chips",
@@ -7506,7 +9099,11 @@ const diningHallsData = [
                   "fat": "8g",
                   "carbs": "17g",
                   "totalCalories": "150 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy",
+                  "Soy"
+                ]
               }
             ]
           },
@@ -7521,17 +9118,22 @@ const diningHallsData = [
                   "fat": "0.5g",
                   "carbs": "41g",
                   "totalCalories": "160 calories"
-                }
+                },
+                "allergens": []
               },
               {
-                "name": "Double Chocolate Chip Muffin",
-                "photo_url": "http://example.com/double-chocolate-chip-muffin.jpg",
+                "name": "Banana Bread",
+                "photo_url": "http://example.com/banana-bread.jpg",
                 "macros": {
-                  "protein": "5g",
-                  "fat": "15g",
-                  "carbs": "56g",
-                  "totalCalories": "360 calories"
-                }
+                  "protein": "33g",
+                  "fat": "117g",
+                  "carbs": "495g",
+                  "totalCalories": "3110 calories"
+                },
+                "allergens": [
+                  "Dairy",
+                  "Egg"
+                ]
               },
               {
                 "name": "Orange",
@@ -7541,7 +9143,8 @@ const diningHallsData = [
                   "fat": "0.5g",
                   "carbs": "32g",
                   "totalCalories": "130 calories"
-                }
+                },
+                "allergens": []
               }
             ]
           }
@@ -7561,7 +9164,12 @@ const diningHallsData = [
                   "fat": "44g",
                   "carbs": "4g",
                   "totalCalories": "420 calories"
-                }
+                },
+                "allergens": [
+                  "Alcohol",
+                  "Sesame",
+                  "Soy"
+                ]
               },
               {
                 "name": "Edamame",
@@ -7571,7 +9179,10 @@ const diningHallsData = [
                   "fat": "1.5g",
                   "carbs": "2g",
                   "totalCalories": "30 calories"
-                }
+                },
+                "allergens": [
+                  "Soy"
+                ]
               },
               {
                 "name": "Fresh Sliced Jalapenos",
@@ -7581,7 +9192,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "< 1g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Mandarin Orange",
@@ -7591,7 +9203,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "62g",
                   "totalCalories": "260 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Pickled Ginger",
@@ -7601,7 +9214,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "2g",
                   "totalCalories": "10 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Pickled Red Onion",
@@ -7611,7 +9225,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "3g",
                   "totalCalories": "15 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Pineapple Tidbit Chunks",
@@ -7621,7 +9236,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "3g",
                   "totalCalories": "15 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Ponzu Sauce",
@@ -7631,7 +9247,11 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "12g",
                   "totalCalories": "60 calories"
-                }
+                },
+                "allergens": [
+                  "Alcohol",
+                  "Soy"
+                ]
               },
               {
                 "name": "Roasted Corn",
@@ -7641,7 +9261,8 @@ const diningHallsData = [
                   "fat": "2g",
                   "carbs": "17g",
                   "totalCalories": "80 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Shredded Carrot",
@@ -7651,7 +9272,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "5g",
                   "totalCalories": "25 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Shredded Napa Cabbage",
@@ -7661,7 +9283,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "1g",
                   "totalCalories": "10 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sliced Cucumber",
@@ -7671,7 +9294,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "1g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sliced Peppers",
@@ -7681,7 +9305,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "1g",
                   "totalCalories": "5 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sliced Scallions",
@@ -7691,7 +9316,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "0g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Spicy Sesame Vinaigrette",
@@ -7701,13 +9327,34 @@ const diningHallsData = [
                   "fat": "4.5g",
                   "carbs": "8g",
                   "totalCalories": "80 calories"
-                }
+                },
+                "allergens": [
+                  "Alcohol",
+                  "Sesame",
+                  "Soy"
+                ]
               }
             ]
           },
           {
             "name": "Bowls",
             "items": [
+              {
+                "name": "Ahi Tuna Poke",
+                "photo_url": "http://example.com/ahi-tuna-poke.jpg",
+                "macros": {
+                  "protein": "27g",
+                  "fat": "4.5g",
+                  "carbs": "2g",
+                  "totalCalories": "150 calories"
+                },
+                "allergens": [
+                  "Alcohol",
+                  "Fish",
+                  "Sesame",
+                  "Soy"
+                ]
+              },
               {
                 "name": "Brown Rice",
                 "photo_url": "http://example.com/brown-rice.jpg",
@@ -7716,17 +9363,19 @@ const diningHallsData = [
                   "fat": "1g",
                   "carbs": "33g",
                   "totalCalories": "160 calories"
-                }
+                },
+                "allergens": []
               },
               {
-                "name": "Cabbage Napa Stir Fry",
-                "photo_url": "http://example.com/cabbage-napa-stir-fry.jpg",
+                "name": "Chicken Orange Ginger",
+                "photo_url": "http://example.com/chicken-orange-ginger.jpg",
                 "macros": {
-                  "protein": "1g",
-                  "fat": "0.5g",
-                  "carbs": "4g",
-                  "totalCalories": "25 calories"
-                }
+                  "protein": "26g",
+                  "fat": "8g",
+                  "carbs": "14g",
+                  "totalCalories": "240 calories"
+                },
+                "allergens": []
               },
               {
                 "name": "Diced Avocado",
@@ -7736,7 +9385,8 @@ const diningHallsData = [
                   "fat": "4.5g",
                   "carbs": "3g",
                   "totalCalories": "45 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Hawaiian Style Tofu Poke",
@@ -7746,27 +9396,23 @@ const diningHallsData = [
                   "fat": "10g",
                   "carbs": "4g",
                   "totalCalories": "140 calories"
-                }
+                },
+                "allergens": [
+                  "Alcohol",
+                  "Sesame",
+                  "Soy"
+                ]
               },
               {
-                "name": "Honey Ginger Garlic Shrimp",
-                "photo_url": "http://example.com/honey-ginger-garlic-shrimp.jpg",
+                "name": "Miso Orange Carrots",
+                "photo_url": "http://example.com/miso-orange-carrots.jpg",
                 "macros": {
-                  "protein": "9g",
-                  "fat": "1.5g",
-                  "carbs": "17g",
-                  "totalCalories": "140 calories"
-                }
-              },
-              {
-                "name": "Sesame Crusted Oyster Mushrooms",
-                "photo_url": "http://example.com/sesame-crusted-oyster-mushrooms.jpg",
-                "macros": {
-                  "protein": "3g",
-                  "fat": "3.5g",
-                  "carbs": "8g",
-                  "totalCalories": "60 calories"
-                }
+                  "protein": "< 1g",
+                  "fat": "6g",
+                  "carbs": "7g",
+                  "totalCalories": "0 calories"
+                },
+                "allergens": []
               },
               {
                 "name": "Spring Salad Mix",
@@ -7776,7 +9422,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "< 1g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sushi Rice",
@@ -7786,17 +9433,8 @@ const diningHallsData = [
                   "fat": "2g",
                   "carbs": "53g",
                   "totalCalories": "260 calories"
-                }
-              },
-              {
-                "name": "Teriyaki Chicken",
-                "photo_url": "http://example.com/teriyaki-chicken.jpg",
-                "macros": {
-                  "protein": "20g",
-                  "fat": "7g",
-                  "carbs": "5g",
-                  "totalCalories": "180 calories"
-                }
+                },
+                "allergens": []
               }
             ]
           },
@@ -7811,7 +9449,8 @@ const diningHallsData = [
                   "fat": "0.5g",
                   "carbs": "41g",
                   "totalCalories": "160 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Orange",
@@ -7821,7 +9460,8 @@ const diningHallsData = [
                   "fat": "0.5g",
                   "carbs": "32g",
                   "totalCalories": "130 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Potato Chips",
@@ -7831,7 +9471,8 @@ const diningHallsData = [
                   "fat": "3g",
                   "carbs": "7g",
                   "totalCalories": "60 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sweet Loren's Chocolate Chip Cookie",
@@ -7841,7 +9482,8 @@ const diningHallsData = [
                   "fat": "9g",
                   "carbs": "20g",
                   "totalCalories": "180 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sweet Loren's Fudgy Brownie Cookie",
@@ -7851,7 +9493,8 @@ const diningHallsData = [
                   "fat": "8g",
                   "carbs": "27g",
                   "totalCalories": "170 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sweet Loren's Oatmeal Cranberry Cookie",
@@ -7861,7 +9504,8 @@ const diningHallsData = [
                   "fat": "5g",
                   "carbs": "29g",
                   "totalCalories": "170 calories"
-                }
+                },
+                "allergens": []
               }
             ]
           }
@@ -7881,7 +9525,8 @@ const diningHallsData = [
                   "fat": "9g",
                   "carbs": "9g",
                   "totalCalories": "110 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Banana Pepper",
@@ -7891,7 +9536,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "1g",
                   "totalCalories": "5 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Caesar Dressing",
@@ -7901,7 +9547,13 @@ const diningHallsData = [
                   "fat": "27g",
                   "carbs": "2g",
                   "totalCalories": "250 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy",
+                  "Egg",
+                  "Fish",
+                  "Soy"
+                ]
               },
               {
                 "name": "Chopped Romaine Lettuce",
@@ -7911,7 +9563,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "< 1g",
                   "totalCalories": "5 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Crumbled Bacon",
@@ -7921,7 +9574,10 @@ const diningHallsData = [
                   "fat": "12g",
                   "carbs": "0g",
                   "totalCalories": "140 calories"
-                }
+                },
+                "allergens": [
+                  "Pork"
+                ]
               },
               {
                 "name": "Grape Tomatoes",
@@ -7931,7 +9587,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "1g",
                   "totalCalories": "5 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Hard Boiled Egg",
@@ -7941,7 +9598,10 @@ const diningHallsData = [
                   "fat": "5g",
                   "carbs": "0g",
                   "totalCalories": "70 calories"
-                }
+                },
+                "allergens": [
+                  "Egg"
+                ]
               },
               {
                 "name": "Honey Mustard Dressing",
@@ -7951,7 +9611,10 @@ const diningHallsData = [
                   "fat": "23g",
                   "carbs": "9g",
                   "totalCalories": "250 calories"
-                }
+                },
+                "allergens": [
+                  "Soy"
+                ]
               },
               {
                 "name": "House-Made Croutons",
@@ -7961,7 +9624,8 @@ const diningHallsData = [
                   "fat": "5g",
                   "carbs": "19g",
                   "totalCalories": "120 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Italian Dressing",
@@ -7971,7 +9635,8 @@ const diningHallsData = [
                   "fat": "23g",
                   "carbs": "4g",
                   "totalCalories": "220 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Pickled Red Onion",
@@ -7981,7 +9646,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "3g",
                   "totalCalories": "15 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Ranch Dressing",
@@ -7991,7 +9657,11 @@ const diningHallsData = [
                   "fat": "25g",
                   "carbs": "6g",
                   "totalCalories": "250 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy",
+                  "Egg"
+                ]
               },
               {
                 "name": "Shredded Carrot",
@@ -8001,7 +9671,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "5g",
                   "totalCalories": "25 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Shredded Cheddar Jack Cheese",
@@ -8011,7 +9682,10 @@ const diningHallsData = [
                   "fat": "9g",
                   "carbs": "1g",
                   "totalCalories": "110 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               },
               {
                 "name": "Shredded Parmesan Cheese",
@@ -8021,7 +9695,10 @@ const diningHallsData = [
                   "fat": "8g",
                   "carbs": "2g",
                   "totalCalories": "80 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               },
               {
                 "name": "Sliced Beets",
@@ -8031,7 +9708,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "1g",
                   "totalCalories": "10 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sliced Cucumber",
@@ -8041,7 +9719,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "1g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sliced Mushrooms",
@@ -8051,7 +9730,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "< 1g",
                   "totalCalories": "5 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sliced Peppers",
@@ -8061,7 +9741,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "1g",
                   "totalCalories": "5 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Spring Salad Mix",
@@ -8071,7 +9752,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "< 1g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               }
             ]
           },
@@ -8079,64 +9761,101 @@ const diningHallsData = [
             "name": "Bowls",
             "items": [
               {
-                "name": "Beef Birria",
-                "photo_url": "http://example.com/beef-birria.jpg",
+                "name": "Alfredo Sauce",
+                "photo_url": "http://example.com/alfredo-sauce.jpg",
                 "macros": {
-                  "protein": "20g",
-                  "fat": "10g",
-                  "carbs": "4g",
-                  "totalCalories": "200 calories"
-                }
+                  "protein": "1g",
+                  "fat": "6g",
+                  "carbs": "2g",
+                  "totalCalories": "70 calories"
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               },
               {
-                "name": "Black Bean Enchilada Casserole",
-                "photo_url": "http://example.com/black-bean-enchilada-casserole.jpg",
+                "name": "Beyond Beef Baked Penne",
+                "photo_url": "http://example.com/beyond-beef-baked-penne.jpg",
                 "macros": {
-                  "protein": "5g",
-                  "fat": "4.5g",
-                  "carbs": "28g",
-                  "totalCalories": "180 calories"
-                }
+                  "protein": "14g",
+                  "fat": "5g",
+                  "carbs": "14g",
+                  "totalCalories": "160 calories"
+                },
+                "allergens": [
+                  "Soy"
+                ]
               },
               {
-                "name": "Corn Tortilla Chips",
-                "photo_url": "http://example.com/corn-tortilla-chips.jpg",
-                "macros": {
-                  "protein": "4g",
-                  "fat": "12g",
-                  "carbs": "40g",
-                  "totalCalories": "280 calories"
-                }
-              },
-              {
-                "name": "Fiesta Rice",
-                "photo_url": "http://example.com/fiesta-rice.jpg",
-                "macros": {
-                  "protein": "2g",
-                  "fat": "0g",
-                  "carbs": "19g",
-                  "totalCalories": "90 calories"
-                }
-              },
-              {
-                "name": "Sauteed Peppers & Onions",
-                "photo_url": "http://example.com/sauteed-peppers-&-onions.jpg",
+                "name": "Garlic Bread",
+                "photo_url": "http://example.com/garlic-bread.jpg",
                 "macros": {
                   "protein": "0g",
-                  "fat": "3g",
-                  "carbs": "2g",
-                  "totalCalories": "35 calories"
-                }
+                  "fat": "10g",
+                  "carbs": "18g",
+                  "totalCalories": "150 calories"
+                },
+                "allergens": []
               },
               {
-                "name": "Seasoned Black Beans",
-                "photo_url": "http://example.com/seasoned-black-beans.jpg",
+                "name": "Marinara Sauce",
+                "photo_url": "http://example.com/marinara-sauce.jpg",
                 "macros": {
-                  "protein": "7g",
+                  "protein": "0g",
                   "fat": "0g",
-                  "carbs": "21g",
-                  "totalCalories": "110 calories"
-                }
+                  "carbs": "3g",
+                  "totalCalories": "20 calories"
+                },
+                "allergens": []
+              },
+              {
+                "name": "Penne Alfredo w/ Vegetables",
+                "photo_url": "http://example.com/penne-alfredo-w/-vegetables.jpg",
+                "macros": {
+                  "protein": "5g",
+                  "fat": "12g",
+                  "carbs": "18g",
+                  "totalCalories": "200 calories"
+                },
+                "allergens": [
+                  "Dairy"
+                ]
+              },
+              {
+                "name": "Penne Bake w/ Beef",
+                "photo_url": "http://example.com/penne-bake-w/-beef.jpg",
+                "macros": {
+                  "protein": "11g",
+                  "fat": "11g",
+                  "carbs": "17g",
+                  "totalCalories": "220 calories"
+                },
+                "allergens": [
+                  "Dairy",
+                  "Egg"
+                ]
+              },
+              {
+                "name": "Roasted Broccoli w/ Garlic",
+                "photo_url": "http://example.com/roasted-broccoli-w/-garlic.jpg",
+                "macros": {
+                  "protein": "2g",
+                  "fat": "1.5g",
+                  "carbs": "6g",
+                  "totalCalories": "40 calories"
+                },
+                "allergens": []
+              },
+              {
+                "name": "Roasted Mushrooms",
+                "photo_url": "http://example.com/roasted-mushrooms.jpg",
+                "macros": {
+                  "protein": "< 1g",
+                  "fat": "0.5g",
+                  "carbs": "1g",
+                  "totalCalories": "10 calories"
+                },
+                "allergens": []
               }
             ]
           },
@@ -8151,7 +9870,8 @@ const diningHallsData = [
                   "fat": "0.5g",
                   "carbs": "41g",
                   "totalCalories": "160 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Orange",
@@ -8161,7 +9881,8 @@ const diningHallsData = [
                   "fat": "0.5g",
                   "carbs": "32g",
                   "totalCalories": "130 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Potato Chips",
@@ -8171,7 +9892,8 @@ const diningHallsData = [
                   "fat": "3g",
                   "carbs": "7g",
                   "totalCalories": "60 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sweet Loren's Chocolate Chip Cookie",
@@ -8181,7 +9903,8 @@ const diningHallsData = [
                   "fat": "9g",
                   "carbs": "20g",
                   "totalCalories": "180 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sweet Loren's Fudgy Brownie Cookie",
@@ -8191,7 +9914,8 @@ const diningHallsData = [
                   "fat": "8g",
                   "carbs": "27g",
                   "totalCalories": "170 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sweet Loren's Oatmeal Cranberry Cookie",
@@ -8201,7 +9925,8 @@ const diningHallsData = [
                   "fat": "5g",
                   "carbs": "29g",
                   "totalCalories": "170 calories"
-                }
+                },
+                "allergens": []
               }
             ]
           },
@@ -8209,104 +9934,39 @@ const diningHallsData = [
             "name": "Toppings",
             "items": [
               {
-                "name": "Black Olive",
-                "photo_url": "http://example.com/black-olive.jpg",
-                "macros": {
-                  "protein": "0g",
-                  "fat": "3.5g",
-                  "carbs": "2g",
-                  "totalCalories": "50 calories"
-                }
-              },
-              {
-                "name": "Lime Wedges",
-                "photo_url": "http://example.com/lime-wedges.jpg",
+                "name": "Crushed Red Pepper",
+                "photo_url": "http://example.com/crushed-red-pepper.jpg",
                 "macros": {
                   "protein": "0g",
                   "fat": "0g",
                   "carbs": "0g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               },
               {
-                "name": "Mild Salsa",
-                "photo_url": "http://example.com/mild-salsa.jpg",
+                "name": "Fresh Basil",
+                "photo_url": "http://example.com/fresh-basil.jpg",
                 "macros": {
                   "protein": "0g",
                   "fat": "0g",
-                  "carbs": "2g",
-                  "totalCalories": "10 calories"
-                }
+                  "carbs": "0g",
+                  "totalCalories": "0 calories"
+                },
+                "allergens": []
               },
               {
-                "name": "Pico de Gallo",
-                "photo_url": "http://example.com/pico-de-gallo.jpg",
-                "macros": {
-                  "protein": "0g",
-                  "fat": "0g",
-                  "carbs": "1g",
-                  "totalCalories": "5 calories"
-                }
-              },
-              {
-                "name": "Salsa Verde",
-                "photo_url": "http://example.com/salsa-verde.jpg",
-                "macros": {
-                  "protein": "0g",
-                  "fat": "0g",
-                  "carbs": "2g",
-                  "totalCalories": "10 calories"
-                }
-              },
-              {
-                "name": "Shredded Cheddar Jack Cheese",
-                "photo_url": "http://example.com/shredded-cheddar-jack-cheese.jpg",
+                "name": "Grated Parmesan Cheese",
+                "photo_url": "http://example.com/grated-parmesan-cheese.jpg",
                 "macros": {
                   "protein": "7g",
-                  "fat": "9g",
-                  "carbs": "1g",
+                  "fat": "6g",
+                  "carbs": "5g",
                   "totalCalories": "110 calories"
-                }
-              },
-              {
-                "name": "Shredded Vegan Cheddar Cheese",
-                "photo_url": "http://example.com/shredded-vegan-cheddar-cheese.jpg",
-                "macros": {
-                  "protein": "0g",
-                  "fat": "5g",
-                  "carbs": "6g",
-                  "totalCalories": "70 calories"
-                }
-              },
-              {
-                "name": "Sliced Jalapeno Peppers",
-                "photo_url": "http://example.com/sliced-jalapeno-peppers.jpg",
-                "macros": {
-                  "protein": "0g",
-                  "fat": "0g",
-                  "carbs": "1g",
-                  "totalCalories": "0 calories"
-                }
-              },
-              {
-                "name": "Sliced Scallions",
-                "photo_url": "http://example.com/sliced-scallions.jpg",
-                "macros": {
-                  "protein": "0g",
-                  "fat": "0g",
-                  "carbs": "0g",
-                  "totalCalories": "0 calories"
-                }
-              },
-              {
-                "name": "Sour Cream Drizzle",
-                "photo_url": "http://example.com/sour-cream-drizzle.jpg",
-                "macros": {
-                  "protein": "< 1g",
-                  "fat": "3.5g",
-                  "carbs": "3g",
-                  "totalCalories": "50 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               }
             ]
           }
@@ -8324,14 +9984,17 @@ const diningHallsData = [
             "name": "Chef James Bistro",
             "items": [
               {
-                "name": "Bacon",
-                "photo_url": "http://example.com/bacon.jpg",
+                "name": "BEYOND Sausage Breakfast Skillet",
+                "photo_url": "http://example.com/beyond-sausage-breakfast-skillet.jpg",
                 "macros": {
                   "protein": "5g",
-                  "fat": "6g",
-                  "carbs": "0g",
+                  "fat": "4g",
+                  "carbs": "6g",
                   "totalCalories": "80 calories"
-                }
+                },
+                "allergens": [
+                  "Coconut"
+                ]
               },
               {
                 "name": "Biscuit",
@@ -8341,7 +10004,11 @@ const diningHallsData = [
                   "fat": "11g",
                   "carbs": "31g",
                   "totalCalories": "240 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy",
+                  "Gluten"
+                ]
               },
               {
                 "name": "Breakfast Gravy",
@@ -8351,17 +10018,11 @@ const diningHallsData = [
                   "fat": "1g",
                   "carbs": "4g",
                   "totalCalories": "30 calories"
-                }
-              },
-              {
-                "name": "Crispy Cube Breakfast Potatoes",
-                "photo_url": "http://example.com/crispy-cube-breakfast-potatoes.jpg",
-                "macros": {
-                  "protein": "3g",
-                  "fat": "6g",
-                  "carbs": "30g",
-                  "totalCalories": "170 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy",
+                  "Gluten"
+                ]
               },
               {
                 "name": "Fresh Cracked Eggs Scrambled",
@@ -8371,37 +10032,45 @@ const diningHallsData = [
                   "fat": "12g",
                   "carbs": "0g",
                   "totalCalories": "190 calories"
-                }
+                },
+                "allergens": [
+                  "Egg"
+                ]
               },
               {
-                "name": "JUST Egg Scramble",
-                "photo_url": "http://example.com/just-egg-scramble.jpg",
+                "name": "Grits",
+                "photo_url": "http://example.com/grits.jpg",
                 "macros": {
-                  "protein": "12g",
-                  "fat": "11g",
-                  "carbs": "0g",
-                  "totalCalories": "160 calories"
-                }
-              },
-              {
-                "name": "Oatmeal",
-                "photo_url": "http://example.com/oatmeal.jpg",
-                "macros": {
-                  "protein": "4g",
+                  "protein": "10g",
                   "fat": "2g",
-                  "carbs": "18g",
-                  "totalCalories": "100 calories"
-                }
+                  "carbs": "101g",
+                  "totalCalories": "470 calories"
+                },
+                "allergens": []
               },
               {
-                "name": "Turkey Sausage Patty",
-                "photo_url": "http://example.com/turkey-sausage-patty.jpg",
+                "name": "Pork Sausage Link",
+                "photo_url": "http://example.com/pork-sausage-link.jpg",
                 "macros": {
-                  "protein": "7g",
-                  "fat": "4g",
-                  "carbs": "< 1g",
-                  "totalCalories": "70 calories"
-                }
+                  "protein": "3g",
+                  "fat": "7g",
+                  "carbs": "1g",
+                  "totalCalories": "80 calories"
+                },
+                "allergens": [
+                  "Pork"
+                ]
+              },
+              {
+                "name": "Tater Tots",
+                "photo_url": "http://example.com/tater-tots.jpg",
+                "macros": {
+                  "protein": "2g",
+                  "fat": "12g",
+                  "carbs": "27g",
+                  "totalCalories": "220 calories"
+                },
+                "allergens": []
               }
             ]
           },
@@ -8416,7 +10085,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "2g",
                   "totalCalories": "10 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "BEYOND Meat Sausage Crumbles",
@@ -8426,7 +10096,10 @@ const diningHallsData = [
                   "fat": "6g",
                   "carbs": "< 1g",
                   "totalCalories": "80 calories"
-                }
+                },
+                "allergens": [
+                  "Coconut"
+                ]
               },
               {
                 "name": "Broccoli Florettes",
@@ -8436,7 +10109,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "2g",
                   "totalCalories": "10 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Cracked Eggs",
@@ -8446,7 +10120,10 @@ const diningHallsData = [
                   "fat": "8g",
                   "carbs": "0g",
                   "totalCalories": "140 calories"
-                }
+                },
+                "allergens": [
+                  "Egg"
+                ]
               },
               {
                 "name": "Crumbled Bacon",
@@ -8456,7 +10133,10 @@ const diningHallsData = [
                   "fat": "12g",
                   "carbs": "0g",
                   "totalCalories": "140 calories"
-                }
+                },
+                "allergens": [
+                  "Pork"
+                ]
               },
               {
                 "name": "Diced Green Pepper",
@@ -8466,7 +10146,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "1g",
                   "totalCalories": "5 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Diced Onion",
@@ -8476,7 +10157,19 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "2g",
                   "totalCalories": "10 calories"
-                }
+                },
+                "allergens": []
+              },
+              {
+                "name": "Diced Red Onion",
+                "photo_url": "http://example.com/diced-red-onion.jpg",
+                "macros": {
+                  "protein": "0g",
+                  "fat": "0g",
+                  "carbs": "3g",
+                  "totalCalories": "10 calories"
+                },
+                "allergens": []
               },
               {
                 "name": "Diced Tomatoes",
@@ -8486,7 +10179,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "1g",
                   "totalCalories": "5 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Egg Whites",
@@ -8496,17 +10190,10 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "2g",
                   "totalCalories": "70 calories"
-                }
-              },
-              {
-                "name": "Everything Bagel",
-                "photo_url": "http://example.com/everything-bagel.jpg",
-                "macros": {
-                  "protein": "10g",
-                  "fat": "0g",
-                  "carbs": "59g",
-                  "totalCalories": "290 calories"
-                }
+                },
+                "allergens": [
+                  "Egg"
+                ]
               },
               {
                 "name": "Ground Turkey Sausage",
@@ -8516,7 +10203,8 @@ const diningHallsData = [
                   "fat": "3g",
                   "carbs": "< 1g",
                   "totalCalories": "50 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Kimchi",
@@ -8526,7 +10214,24 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "< 1g",
                   "totalCalories": "5 calories"
-                }
+                },
+                "allergens": [
+                  "Fish",
+                  "Shellfish"
+                ]
+              },
+              {
+                "name": "Plain Bagel",
+                "photo_url": "http://example.com/plain-bagel.jpg",
+                "macros": {
+                  "protein": "10g",
+                  "fat": "1g",
+                  "carbs": "61g",
+                  "totalCalories": "290 calories"
+                },
+                "allergens": [
+                  "Gluten"
+                ]
               },
               {
                 "name": "Shredded Carrot",
@@ -8536,7 +10241,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "3g",
                   "totalCalories": "10 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Shredded Cheddar Cheese",
@@ -8546,7 +10252,10 @@ const diningHallsData = [
                   "fat": "9g",
                   "carbs": "0g",
                   "totalCalories": "110 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               },
               {
                 "name": "Shredded Vegan Cheddar Cheese",
@@ -8556,7 +10265,8 @@ const diningHallsData = [
                   "fat": "5g",
                   "carbs": "6g",
                   "totalCalories": "70 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sliced Mushrooms",
@@ -8566,7 +10276,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "< 1g",
                   "totalCalories": "5 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sliced Scallions",
@@ -8576,7 +10287,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "0g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sourdough Bread",
@@ -8586,7 +10298,11 @@ const diningHallsData = [
                   "fat": "1g",
                   "carbs": "18g",
                   "totalCalories": "100 calories"
-                }
+                },
+                "allergens": [
+                  "Gluten",
+                  "Soy"
+                ]
               },
               {
                 "name": "Spinach",
@@ -8596,7 +10312,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "1g",
                   "totalCalories": "5 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Vegan Egg",
@@ -8606,7 +10323,10 @@ const diningHallsData = [
                   "fat": "10g",
                   "carbs": "0g",
                   "totalCalories": "160 calories"
-                }
+                },
+                "allergens": [
+                  "Soy"
+                ]
               }
             ]
           },
@@ -8614,30 +10334,52 @@ const diningHallsData = [
             "name": "Bakery",
             "items": [
               {
-                "name": "Lemon Quick Bread",
-                "photo_url": "http://example.com/lemon-quick-bread.jpg",
+                "name": "Chocolate Muffin",
+                "photo_url": "http://example.com/chocolate-muffin.jpg",
                 "macros": {
-                  "protein": "3g",
-                  "fat": "14g",
-                  "carbs": "72g",
-                  "totalCalories": "420 calories"
-                }
-              },
-              {
-                "name": "Mocha Muffin",
-                "photo_url": "http://example.com/mocha-muffin.jpg",
-                "macros": {
-                  "protein": "2g",
+                  "protein": "4g",
                   "fat": "14g",
                   "carbs": "42g",
-                  "totalCalories": "300 calories"
-                }
+                  "totalCalories": "310 calories"
+                },
+                "allergens": [
+                  "Dairy",
+                  "Egg",
+                  "Gluten",
+                  "Soy"
+                ]
+              },
+              {
+                "name": "Cinnamon Roll",
+                "photo_url": "http://example.com/cinnamon-roll.jpg",
+                "macros": {
+                  "protein": "4g",
+                  "fat": "8g",
+                  "carbs": "31g",
+                  "totalCalories": "210 calories"
+                },
+                "allergens": [
+                  "Dairy",
+                  "Egg",
+                  "Gluten"
+                ]
               }
             ]
           },
           {
             "name": "Fruit & Yogurt Bar",
             "items": [
+              {
+                "name": "Blackberries",
+                "photo_url": "http://example.com/blackberries.jpg",
+                "macros": {
+                  "protein": "0g",
+                  "fat": "0g",
+                  "carbs": "3g",
+                  "totalCalories": "10 calories"
+                },
+                "allergens": []
+              },
               {
                 "name": "Cinnamon Honey Granola",
                 "photo_url": "http://example.com/cinnamon-honey-granola.jpg",
@@ -8646,7 +10388,10 @@ const diningHallsData = [
                   "fat": "5g",
                   "carbs": "41g",
                   "totalCalories": "210 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               },
               {
                 "name": "Cottage Cheese",
@@ -8656,7 +10401,10 @@ const diningHallsData = [
                   "fat": "1.5g",
                   "carbs": "1g",
                   "totalCalories": "30 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               },
               {
                 "name": "Craisins",
@@ -8666,7 +10414,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "28g",
                   "totalCalories": "110 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Dairy Free Vanilla Yogurt",
@@ -8676,7 +10425,10 @@ const diningHallsData = [
                   "fat": "1.5g",
                   "carbs": "3g",
                   "totalCalories": "25 calories"
-                }
+                },
+                "allergens": [
+                  "Coconut"
+                ]
               },
               {
                 "name": "Diced Cantaloupe",
@@ -8686,7 +10438,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "2g",
                   "totalCalories": "10 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Diced Pineapple",
@@ -8696,7 +10449,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "7g",
                   "totalCalories": "25 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Hard Boiled Egg",
@@ -8706,17 +10460,10 @@ const diningHallsData = [
                   "fat": "5g",
                   "carbs": "0g",
                   "totalCalories": "70 calories"
-                }
-              },
-              {
-                "name": "Low Fat Strawberry Yogurt",
-                "photo_url": "http://example.com/low-fat-strawberry-yogurt.jpg",
-                "macros": {
-                  "protein": "2g",
-                  "fat": "0g",
-                  "carbs": "10g",
-                  "totalCalories": "50 calories"
-                }
+                },
+                "allergens": [
+                  "Egg"
+                ]
               },
               {
                 "name": "Mini Chocolate Chips",
@@ -8726,7 +10473,11 @@ const diningHallsData = [
                   "fat": "8g",
                   "carbs": "19g",
                   "totalCalories": "130 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy",
+                  "Soy"
+                ]
               },
               {
                 "name": "Overnight Chia Oats",
@@ -8736,7 +10487,10 @@ const diningHallsData = [
                   "fat": "2g",
                   "carbs": "11g",
                   "totalCalories": "80 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               },
               {
                 "name": "Plain Greek Yogurt",
@@ -8746,7 +10500,10 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "1g",
                   "totalCalories": "15 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               },
               {
                 "name": "Red Grapes",
@@ -8756,17 +10513,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "5g",
                   "totalCalories": "20 calories"
-                }
-              },
-              {
-                "name": "Strawberry Halves",
-                "photo_url": "http://example.com/strawberry-halves.jpg",
-                "macros": {
-                  "protein": "0g",
-                  "fat": "0g",
-                  "carbs": "2g",
-                  "totalCalories": "10 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Toasted Coconut",
@@ -8776,7 +10524,23 @@ const diningHallsData = [
                   "fat": "7g",
                   "carbs": "9g",
                   "totalCalories": "130 calories"
-                }
+                },
+                "allergens": [
+                  "Coconut"
+                ]
+              },
+              {
+                "name": "Vanilla Greek Yogurt",
+                "photo_url": "http://example.com/vanilla-greek-yogurt.jpg",
+                "macros": {
+                  "protein": "3g",
+                  "fat": "0g",
+                  "carbs": "3g",
+                  "totalCalories": "25 calories"
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               }
             ]
           }
@@ -8796,7 +10560,10 @@ const diningHallsData = [
                   "fat": "5g",
                   "carbs": "2g",
                   "totalCalories": "100 calories"
-                }
+                },
+                "allergens": [
+                  "Soy"
+                ]
               },
               {
                 "name": "Bean Sprout",
@@ -8806,17 +10573,22 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "2g",
                   "totalCalories": "10 calories"
-                }
+                },
+                "allergens": []
               },
               {
-                "name": "Beef Pho",
-                "photo_url": "http://example.com/beef-pho.jpg",
+                "name": "Chicken Pho",
+                "photo_url": "http://example.com/chicken-pho.jpg",
                 "macros": {
                   "protein": "1g",
-                  "fat": "0.5g",
-                  "carbs": "3g",
-                  "totalCalories": "20 calories"
-                }
+                  "fat": "1.5g",
+                  "carbs": "2g",
+                  "totalCalories": "30 calories"
+                },
+                "allergens": [
+                  "Gluten",
+                  "Soy"
+                ]
               },
               {
                 "name": "Crushed Red Pepper",
@@ -8826,7 +10598,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "0g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Fresh Cilantro",
@@ -8836,7 +10609,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "1g",
                   "totalCalories": "5 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Fresh Sliced Jalapenos",
@@ -8846,7 +10620,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "< 1g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Kimchi",
@@ -8856,7 +10631,11 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "< 1g",
                   "totalCalories": "5 calories"
-                }
+                },
+                "allergens": [
+                  "Fish",
+                  "Shellfish"
+                ]
               },
               {
                 "name": "Lime Wedges",
@@ -8866,7 +10645,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "0g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Rice Noodles",
@@ -8876,17 +10656,23 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "24g",
                   "totalCalories": "110 calories"
-                }
+                },
+                "allergens": []
               },
               {
-                "name": "Seared Sesame-Soy Pork Loin",
-                "photo_url": "http://example.com/seared-sesame-soy-pork-loin.jpg",
+                "name": "Shaved Chicken Breast",
+                "photo_url": "http://example.com/shaved-chicken-breast.jpg",
                 "macros": {
-                  "protein": "24g",
-                  "fat": "16g",
-                  "carbs": "11g",
-                  "totalCalories": "310 calories"
-                }
+                  "protein": "20g",
+                  "fat": "3g",
+                  "carbs": "0g",
+                  "totalCalories": "100 calories"
+                },
+                "allergens": [
+                  "Alcohol",
+                  "Sesame",
+                  "Soy"
+                ]
               },
               {
                 "name": "Shredded Carrot",
@@ -8896,7 +10682,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "3g",
                   "totalCalories": "10 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sliced Mushroom",
@@ -8906,7 +10693,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "< 1g",
                   "totalCalories": "5 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sliced Peppers",
@@ -8916,7 +10704,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "1g",
                   "totalCalories": "5 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sliced Scallions",
@@ -8926,7 +10715,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "0g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Vegetable Pho",
@@ -8936,7 +10726,11 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "1g",
                   "totalCalories": "10 calories"
-                }
+                },
+                "allergens": [
+                  "Gluten",
+                  "Soy"
+                ]
               }
             ]
           },
@@ -8944,34 +10738,137 @@ const diningHallsData = [
             "name": "Pan-Asian",
             "items": [
               {
-                "name": "Ginger Garlic Shrimp",
-                "photo_url": "http://example.com/ginger-garlic-shrimp.jpg",
+                "name": "French Baguette Slice",
+                "photo_url": "http://example.com/french-baguette-slice.jpg",
                 "macros": {
-                  "protein": "13g",
-                  "fat": "3.5g",
-                  "carbs": "< 1g",
-                  "totalCalories": "100 calories"
-                }
-              },
-              {
-                "name": "Roasted Corn Pancake",
-                "photo_url": "http://example.com/roasted-corn-pancake.jpg",
-                "macros": {
-                  "protein": "6g",
-                  "fat": "11g",
+                  "protein": "7g",
+                  "fat": "0g",
                   "carbs": "35g",
-                  "totalCalories": "260 calories"
-                }
+                  "totalCalories": "170 calories"
+                },
+                "allergens": [
+                  "Gluten"
+                ]
               },
               {
-                "name": "Spicy Cauliflower & Chickpeas",
-                "photo_url": "http://example.com/spicy-cauliflower-&-chickpeas.jpg",
+                "name": "Fresh Cilantro",
+                "photo_url": "http://example.com/fresh-cilantro.jpg",
+                "macros": {
+                  "protein": "< 1g",
+                  "fat": "0g",
+                  "carbs": "1g",
+                  "totalCalories": "5 calories"
+                },
+                "allergens": []
+              },
+              {
+                "name": "Fresh Sliced Jalapenos",
+                "photo_url": "http://example.com/fresh-sliced-jalapenos.jpg",
+                "macros": {
+                  "protein": "0g",
+                  "fat": "0g",
+                  "carbs": "< 1g",
+                  "totalCalories": "0 calories"
+                },
+                "allergens": []
+              },
+              {
+                "name": "Hoisin Sauce",
+                "photo_url": "http://example.com/hoisin-sauce.jpg",
+                "macros": {
+                  "protein": "< 1g",
+                  "fat": "0g",
+                  "carbs": "16g",
+                  "totalCalories": "70 calories"
+                },
+                "allergens": [
+                  "Gluten",
+                  "Sesame",
+                  "Soy"
+                ]
+              },
+              {
+                "name": "Mayonnaise Substitute",
+                "photo_url": "http://example.com/mayonnaise-substitute.jpg",
+                "macros": {
+                  "protein": "0g",
+                  "fat": "20g",
+                  "carbs": "0g",
+                  "totalCalories": "180 calories"
+                },
+                "allergens": [
+                  "Soy"
+                ]
+              },
+              {
+                "name": "Papaya Salad",
+                "photo_url": "http://example.com/papaya-salad.jpg",
+                "macros": {
+                  "protein": "< 1g",
+                  "fat": "0g",
+                  "carbs": "6g",
+                  "totalCalories": "25 calories"
+                },
+                "allergens": [
+                  "Fish",
+                  "Gluten"
+                ]
+              },
+              {
+                "name": "Pickled Carrot & Daikon",
+                "photo_url": "http://example.com/pickled-carrot-&-daikon.jpg",
+                "macros": {
+                  "protein": "0g",
+                  "fat": "0g",
+                  "carbs": "12g",
+                  "totalCalories": "60 calories"
+                },
+                "allergens": []
+              },
+              {
+                "name": "Pork Banh Mi",
+                "photo_url": "http://example.com/pork-banh-mi.jpg",
+                "macros": {
+                  "protein": "22g",
+                  "fat": "21g",
+                  "carbs": "15g",
+                  "totalCalories": "340 calories"
+                },
+                "allergens": [
+                  "Alcohol",
+                  "Fish",
+                  "Gluten",
+                  "Pork",
+                  "Sesame",
+                  "Soy"
+                ]
+              },
+              {
+                "name": "Shiitake Banh Mi",
+                "photo_url": "http://example.com/shiitake-banh-mi.jpg",
                 "macros": {
                   "protein": "3g",
                   "fat": "0.5g",
-                  "carbs": "19g",
-                  "totalCalories": "90 calories"
-                }
+                  "carbs": "14g",
+                  "totalCalories": "70 calories"
+                },
+                "allergens": [
+                  "Alcohol",
+                  "Gluten",
+                  "Sesame",
+                  "Soy"
+                ]
+              },
+              {
+                "name": "Straight Cut Fries",
+                "photo_url": "http://example.com/straight-cut-fries.jpg",
+                "macros": {
+                  "protein": "2g",
+                  "fat": "6g",
+                  "carbs": "35g",
+                  "totalCalories": "200 calories"
+                },
+                "allergens": []
               }
             ]
           },
@@ -8986,7 +10883,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "< 1g",
                   "totalCalories": "5 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Bean Sprout",
@@ -8996,7 +10894,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "2g",
                   "totalCalories": "10 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Diced Chicken",
@@ -9006,7 +10905,8 @@ const diningHallsData = [
                   "fat": "1g",
                   "carbs": "0g",
                   "totalCalories": "35 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Diced Green Pepper",
@@ -9016,7 +10916,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "1g",
                   "totalCalories": "5 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Diced Onion",
@@ -9026,7 +10927,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "2g",
                   "totalCalories": "10 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Diced Tempeh",
@@ -9036,7 +10938,10 @@ const diningHallsData = [
                   "fat": "2.5g",
                   "carbs": "3g",
                   "totalCalories": "50 calories"
-                }
+                },
+                "allergens": [
+                  "Soy"
+                ]
               },
               {
                 "name": "Fresh Cracked Eggs Scrambled",
@@ -9046,7 +10951,10 @@ const diningHallsData = [
                   "fat": "12g",
                   "carbs": "0g",
                   "totalCalories": "190 calories"
-                }
+                },
+                "allergens": [
+                  "Egg"
+                ]
               },
               {
                 "name": "Fried Eggs",
@@ -9056,7 +10964,10 @@ const diningHallsData = [
                   "fat": "4g",
                   "carbs": "0g",
                   "totalCalories": "70 calories"
-                }
+                },
+                "allergens": [
+                  "Egg"
+                ]
               },
               {
                 "name": "Fried Rice",
@@ -9066,7 +10977,11 @@ const diningHallsData = [
                   "fat": "3g",
                   "carbs": "29g",
                   "totalCalories": "160 calories"
-                }
+                },
+                "allergens": [
+                  "Alcohol",
+                  "Soy"
+                ]
               },
               {
                 "name": "JUST Egg Scramble",
@@ -9076,7 +10991,10 @@ const diningHallsData = [
                   "fat": "11g",
                   "carbs": "0g",
                   "totalCalories": "160 calories"
-                }
+                },
+                "allergens": [
+                  "Soy"
+                ]
               },
               {
                 "name": "Kimchi",
@@ -9086,7 +11004,11 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "< 1g",
                   "totalCalories": "5 calories"
-                }
+                },
+                "allergens": [
+                  "Fish",
+                  "Shellfish"
+                ]
               },
               {
                 "name": "Shredded Carrot",
@@ -9096,7 +11018,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "3g",
                   "totalCalories": "10 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sliced Mushroom",
@@ -9106,7 +11029,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "< 1g",
                   "totalCalories": "5 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sliced Scallions",
@@ -9116,7 +11040,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "0g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Spinach",
@@ -9126,7 +11051,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "1g",
                   "totalCalories": "5 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Steamed Peas & Carrots",
@@ -9136,23 +11062,14 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "8g",
                   "totalCalories": "40 calories"
-                }
+                },
+                "allergens": []
               }
             ]
           },
           {
             "name": "Condiments",
             "items": [
-              {
-                "name": "Bean Sprout Salad",
-                "photo_url": "http://example.com/bean-sprout-salad.jpg",
-                "macros": {
-                  "protein": "2g",
-                  "fat": "0.5g",
-                  "carbs": "12g",
-                  "totalCalories": "60 calories"
-                }
-              },
               {
                 "name": "Crushed Red Pepper",
                 "photo_url": "http://example.com/crushed-red-pepper.jpg",
@@ -9161,17 +11078,19 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "0g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               },
               {
-                "name": "General Tso Sauce",
-                "photo_url": "http://example.com/general-tso-sauce.jpg",
+                "name": "Sauce Thai Sweet Chili",
+                "photo_url": "http://example.com/sauce-thai-sweet-chili.jpg",
                 "macros": {
-                  "protein": "< 1g",
+                  "protein": "0g",
                   "fat": "0g",
-                  "carbs": "16g",
-                  "totalCalories": "70 calories"
-                }
+                  "carbs": "12g",
+                  "totalCalories": "50 calories"
+                },
+                "allergens": []
               },
               {
                 "name": "Sriracha Sauce",
@@ -9181,17 +11100,10 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "6g",
                   "totalCalories": "30 calories"
-                }
-              },
-              {
-                "name": "Wasabi Avocado Aioli",
-                "photo_url": "http://example.com/wasabi-avocado-aioli.jpg",
-                "macros": {
-                  "protein": "< 1g",
-                  "fat": "33g",
-                  "carbs": "2g",
-                  "totalCalories": "310 calories"
-                }
+                },
+                "allergens": [
+                  "Soy"
+                ]
               },
               {
                 "name": "Yum Yum Sauce",
@@ -9201,7 +11113,11 @@ const diningHallsData = [
                   "fat": "22g",
                   "carbs": "4g",
                   "totalCalories": "220 calories"
-                }
+                },
+                "allergens": [
+                  "Alcohol",
+                  "Soy"
+                ]
               }
             ]
           }
@@ -9214,64 +11130,71 @@ const diningHallsData = [
             "name": "Chef James Bistro",
             "items": [
               {
-                "name": "BBQ Pulled Chicken",
-                "photo_url": "http://example.com/bbq-pulled-chicken.jpg",
+                "name": "Cavatappi w/ Marinara",
+                "photo_url": "http://example.com/cavatappi-w/-marinara.jpg",
                 "macros": {
-                  "protein": "28g",
-                  "fat": "3.5g",
-                  "carbs": "21g",
-                  "totalCalories": "220 calories"
-                }
-              },
-              {
-                "name": "Blackened Tofu",
-                "photo_url": "http://example.com/blackened-tofu.jpg",
-                "macros": {
-                  "protein": "11g",
-                  "fat": "6g",
-                  "carbs": "3g",
-                  "totalCalories": "110 calories"
-                }
-              },
-              {
-                "name": "Cajun Cream Sauce",
-                "photo_url": "http://example.com/cajun-cream-sauce.jpg",
-                "macros": {
-                  "protein": "NA",
-                  "fat": "4g",
-                  "carbs": "2g",
-                  "totalCalories": "45 calories"
-                }
-              },
-              {
-                "name": "Cajun Garlic Yukon Potatoes",
-                "photo_url": "http://example.com/cajun-garlic-yukon-potatoes.jpg",
-                "macros": {
-                  "protein": "3g",
-                  "fat": "2.5g",
-                  "carbs": "28g",
-                  "totalCalories": "140 calories"
-                }
-              },
-              {
-                "name": "Cajun Vegetables",
-                "photo_url": "http://example.com/cajun-vegetables.jpg",
-                "macros": {
-                  "protein": "< 1g",
+                  "protein": "7g",
                   "fat": "1g",
-                  "carbs": "7g",
-                  "totalCalories": "35 calories"
-                }
+                  "carbs": "45g",
+                  "totalCalories": "210 calories"
+                },
+                "allergens": [
+                  "Gluten"
+                ]
               },
               {
-                "name": "Jambalaya Rice",
-                "photo_url": "http://example.com/jambalaya-rice.jpg",
+                "name": "Chicken Parmesan",
+                "photo_url": "http://example.com/chicken-parmesan.jpg",
                 "macros": {
-                  "protein": "3g",
-                  "fat": "3g",
-                  "carbs": "23g",
+                  "protein": "17g",
+                  "fat": "11g",
+                  "carbs": "20g",
+                  "totalCalories": "250 calories"
+                },
+                "allergens": [
+                  "Dairy",
+                  "Egg",
+                  "Gluten",
+                  "Soy"
+                ]
+              },
+              {
+                "name": "Garlic Bread",
+                "photo_url": "http://example.com/garlic-bread.jpg",
+                "macros": {
+                  "protein": "4g",
+                  "fat": "5g",
+                  "carbs": "20g",
                   "totalCalories": "130 calories"
-                }
+                },
+                "allergens": [
+                  "Gluten",
+                  "Soy"
+                ]
+              },
+              {
+                "name": "Squash & Zucchini Medley",
+                "photo_url": "http://example.com/squash-&-zucchini-medley.jpg",
+                "macros": {
+                  "protein": "1g",
+                  "fat": "1.5g",
+                  "carbs": "6g",
+                  "totalCalories": "40 calories"
+                },
+                "allergens": []
+              },
+              {
+                "name": "Vegetable Rigatoni",
+                "photo_url": "http://example.com/vegetable-rigatoni.jpg",
+                "macros": {
+                  "protein": "5g",
+                  "fat": "3g",
+                  "carbs": "31g",
+                  "totalCalories": "160 calories"
+                },
+                "allergens": [
+                  "Gluten"
+                ]
               }
             ]
           },
@@ -9286,7 +11209,10 @@ const diningHallsData = [
                   "fat": "5g",
                   "carbs": "2g",
                   "totalCalories": "100 calories"
-                }
+                },
+                "allergens": [
+                  "Soy"
+                ]
               },
               {
                 "name": "Bean Sprout",
@@ -9296,17 +11222,22 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "2g",
                   "totalCalories": "10 calories"
-                }
+                },
+                "allergens": []
               },
               {
-                "name": "Beef Pho",
-                "photo_url": "http://example.com/beef-pho.jpg",
+                "name": "Chicken Pho",
+                "photo_url": "http://example.com/chicken-pho.jpg",
                 "macros": {
                   "protein": "1g",
-                  "fat": "0.5g",
-                  "carbs": "3g",
-                  "totalCalories": "20 calories"
-                }
+                  "fat": "1.5g",
+                  "carbs": "2g",
+                  "totalCalories": "30 calories"
+                },
+                "allergens": [
+                  "Gluten",
+                  "Soy"
+                ]
               },
               {
                 "name": "Crushed Red Pepper",
@@ -9316,7 +11247,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "0g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Fresh Cilantro",
@@ -9326,7 +11258,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "1g",
                   "totalCalories": "5 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Fresh Sliced Jalapenos",
@@ -9336,7 +11269,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "< 1g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Kimchi",
@@ -9346,7 +11280,11 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "< 1g",
                   "totalCalories": "5 calories"
-                }
+                },
+                "allergens": [
+                  "Fish",
+                  "Shellfish"
+                ]
               },
               {
                 "name": "Lime Wedges",
@@ -9356,7 +11294,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "0g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Rice Noodles",
@@ -9366,17 +11305,23 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "24g",
                   "totalCalories": "110 calories"
-                }
+                },
+                "allergens": []
               },
               {
-                "name": "Seared Sesame-Soy Pork Loin",
-                "photo_url": "http://example.com/seared-sesame-soy-pork-loin.jpg",
+                "name": "Shaved Chicken Breast",
+                "photo_url": "http://example.com/shaved-chicken-breast.jpg",
                 "macros": {
-                  "protein": "24g",
-                  "fat": "16g",
-                  "carbs": "11g",
-                  "totalCalories": "310 calories"
-                }
+                  "protein": "20g",
+                  "fat": "3g",
+                  "carbs": "0g",
+                  "totalCalories": "100 calories"
+                },
+                "allergens": [
+                  "Alcohol",
+                  "Sesame",
+                  "Soy"
+                ]
               },
               {
                 "name": "Shredded Carrot",
@@ -9386,7 +11331,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "3g",
                   "totalCalories": "10 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sliced Mushroom",
@@ -9396,7 +11342,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "< 1g",
                   "totalCalories": "5 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sliced Peppers",
@@ -9406,7 +11353,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "1g",
                   "totalCalories": "5 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sliced Scallions",
@@ -9416,7 +11364,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "0g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Vegetable Pho",
@@ -9426,7 +11375,11 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "1g",
                   "totalCalories": "10 calories"
-                }
+                },
+                "allergens": [
+                  "Gluten",
+                  "Soy"
+                ]
               }
             ]
           },
@@ -9441,102 +11394,63 @@ const diningHallsData = [
                   "fat": "1g",
                   "carbs": "33g",
                   "totalCalories": "160 calories"
-                }
+                },
+                "allergens": []
               },
               {
-                "name": "Hoisin Carrots",
-                "photo_url": "http://example.com/hoisin-carrots.jpg",
+                "name": "Commodore Tso Tofu",
+                "photo_url": "http://example.com/commodore-tso-tofu.jpg",
                 "macros": {
-                  "protein": "< 1g",
-                  "fat": "0g",
+                  "protein": "7g",
+                  "fat": "9g",
                   "carbs": "9g",
-                  "totalCalories": "40 calories"
-                }
+                  "totalCalories": "140 calories"
+                },
+                "allergens": [
+                  "Soy"
+                ]
               },
               {
-                "name": "Pork & Vegetable Eggroll",
-                "photo_url": "http://example.com/pork-&-vegetable-eggroll.jpg",
+                "name": "Sweet & Sour Chicken",
+                "photo_url": "http://example.com/sweet-&-sour-chicken.jpg",
                 "macros": {
-                  "protein": "6g",
-                  "fat": "8g",
-                  "carbs": "17g",
-                  "totalCalories": "150 calories"
-                }
-              },
-              {
-                "name": "Tempura Fried Chicken",
-                "photo_url": "http://example.com/tempura-fried-chicken.jpg",
-                "macros": {
-                  "protein": "22g",
-                  "fat": "14g",
-                  "carbs": "26g",
-                  "totalCalories": "330 calories"
-                }
-              }
-            ]
-          },
-          {
-            "name": "Ramadan Iftar",
-            "items": [
-              {
-                "name": "Basmati Rice",
-                "photo_url": "http://example.com/basmati-rice.jpg",
-                "macros": {
-                  "protein": "2g",
-                  "fat": "0g",
-                  "carbs": "22g",
-                  "totalCalories": "100 calories"
-                }
-              },
-              {
-                "name": "Butter Chicken",
-                "photo_url": "http://example.com/butter-chicken.jpg",
-                "macros": {
-                  "protein": "16g",
+                  "protein": "10g",
                   "fat": "7g",
-                  "carbs": "4g",
-                  "totalCalories": "150 calories"
-                }
-              },
-              {
-                "name": "Moroccan Roasted Carrots",
-                "photo_url": "http://example.com/moroccan-roasted-carrots.jpg",
-                "macros": {
-                  "protein": "< 1g",
-                  "fat": "2.5g",
-                  "carbs": "8g",
-                  "totalCalories": "50 calories"
-                }
-              },
-              {
-                "name": "Naan Bread",
-                "photo_url": "http://example.com/naan-bread.jpg",
-                "macros": {
-                  "protein": "9g",
-                  "fat": "7g",
-                  "carbs": "35g",
-                  "totalCalories": "230 calories"
-                }
-              },
-              {
-                "name": "Potato Patty",
-                "photo_url": "http://example.com/potato-patty.jpg",
-                "macros": {
-                  "protein": "3g",
-                  "fat": "6g",
-                  "carbs": "29g",
+                  "carbs": "18g",
                   "totalCalories": "180 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy",
+                  "Egg",
+                  "Gluten",
+                  "Soy"
+                ]
               },
               {
-                "name": "Samosas",
-                "photo_url": "http://example.com/samosas.jpg",
+                "name": "Sweet Thai Chili Vegetables",
+                "photo_url": "http://example.com/sweet-thai-chili-vegetables.jpg",
                 "macros": {
-                  "protein": "2g",
-                  "fat": "2.5g",
-                  "carbs": "12g",
-                  "totalCalories": "80 calories"
-                }
+                  "protein": "1g",
+                  "fat": "1g",
+                  "carbs": "9g",
+                  "totalCalories": "45 calories"
+                },
+                "allergens": []
+              },
+              {
+                "name": "Vegetable Spring Roll",
+                "photo_url": "http://example.com/vegetable-spring-roll.jpg",
+                "macros": {
+                  "protein": "1g",
+                  "fat": "3g",
+                  "carbs": "7g",
+                  "totalCalories": "50 calories"
+                },
+                "allergens": [
+                  "Gluten",
+                  "Sesame",
+                  "Soy"
+                ]
               }
             ]
           }
@@ -9549,14 +11463,15 @@ const diningHallsData = [
             "name": "Chef James Bistro",
             "items": [
               {
-                "name": "Santa Fe Tortilla Soup",
-                "photo_url": "http://example.com/santa-fe-tortilla-soup.jpg",
+                "name": "Native 3 Sisters Bean Soup",
+                "photo_url": "http://example.com/native-3-sisters-bean-soup.jpg",
                 "macros": {
-                  "protein": "2g",
-                  "fat": "1g",
-                  "carbs": "11g",
-                  "totalCalories": "60 calories"
-                }
+                  "protein": "3g",
+                  "fat": "2.5g",
+                  "carbs": "16g",
+                  "totalCalories": "90 calories"
+                },
+                "allergens": []
               }
             ]
           },
@@ -9571,7 +11486,10 @@ const diningHallsData = [
                   "fat": "21g",
                   "carbs": "8g",
                   "totalCalories": "230 calories"
-                }
+                },
+                "allergens": [
+                  "Egg"
+                ]
               },
               {
                 "name": "Bacon Crumbles Cooked",
@@ -9581,7 +11499,10 @@ const diningHallsData = [
                   "fat": "12g",
                   "carbs": "0g",
                   "totalCalories": "140 calories"
-                }
+                },
+                "allergens": [
+                  "Pork"
+                ]
               },
               {
                 "name": "Balsamic Vinaigrette",
@@ -9591,7 +11512,8 @@ const diningHallsData = [
                   "fat": "9g",
                   "carbs": "9g",
                   "totalCalories": "110 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Black Beans",
@@ -9601,7 +11523,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "6g",
                   "totalCalories": "35 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Black Olive",
@@ -9611,7 +11534,8 @@ const diningHallsData = [
                   "fat": "4g",
                   "carbs": "2g",
                   "totalCalories": "60 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Broccoli Florettes",
@@ -9621,17 +11545,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "2g",
                   "totalCalories": "10 calories"
-                }
-              },
-              {
-                "name": "Broccoli Salad",
-                "photo_url": "http://example.com/broccoli-salad.jpg",
-                "macros": {
-                  "protein": "2g",
-                  "fat": "20g",
-                  "carbs": "12g",
-                  "totalCalories": "230 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Caesar Dressing",
@@ -9641,7 +11556,26 @@ const diningHallsData = [
                   "fat": "27g",
                   "carbs": "2g",
                   "totalCalories": "250 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy",
+                  "Egg",
+                  "Fish",
+                  "Soy"
+                ]
+              },
+              {
+                "name": "Chicken Salad",
+                "photo_url": "http://example.com/chicken-salad.jpg",
+                "macros": {
+                  "protein": "6g",
+                  "fat": "9g",
+                  "carbs": "< 1g",
+                  "totalCalories": "110 calories"
+                },
+                "allergens": [
+                  "Soy"
+                ]
               },
               {
                 "name": "Chopped Egg",
@@ -9651,7 +11585,10 @@ const diningHallsData = [
                   "fat": "2.5g",
                   "carbs": "0g",
                   "totalCalories": "40 calories"
-                }
+                },
+                "allergens": [
+                  "Egg"
+                ]
               },
               {
                 "name": "Chopped Romaine Lettuce",
@@ -9661,7 +11598,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "< 1g",
                   "totalCalories": "5 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Cottage Cheese",
@@ -9671,7 +11609,10 @@ const diningHallsData = [
                   "fat": "1.5g",
                   "carbs": "1g",
                   "totalCalories": "30 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               },
               {
                 "name": "Craisins",
@@ -9681,7 +11622,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "28g",
                   "totalCalories": "110 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Croutons",
@@ -9691,7 +11633,11 @@ const diningHallsData = [
                   "fat": "4g",
                   "carbs": "20g",
                   "totalCalories": "120 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy",
+                  "Gluten"
+                ]
               },
               {
                 "name": "Diced Tofu",
@@ -9701,7 +11647,10 @@ const diningHallsData = [
                   "fat": "1.5g",
                   "carbs": "< 1g",
                   "totalCalories": "30 calories"
-                }
+                },
+                "allergens": [
+                  "Soy"
+                ]
               },
               {
                 "name": "Edamame",
@@ -9711,7 +11660,10 @@ const diningHallsData = [
                   "fat": "1.5g",
                   "carbs": "2g",
                   "totalCalories": "35 calories"
-                }
+                },
+                "allergens": [
+                  "Soy"
+                ]
               },
               {
                 "name": "Golden Raisins",
@@ -9721,7 +11673,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "7g",
                   "totalCalories": "25 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Grape Tomatoes",
@@ -9731,7 +11684,19 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "1g",
                   "totalCalories": "5 calories"
-                }
+                },
+                "allergens": []
+              },
+              {
+                "name": "Green Lentils",
+                "photo_url": "http://example.com/green-lentils.jpg",
+                "macros": {
+                  "protein": "10g",
+                  "fat": "0g",
+                  "carbs": "23g",
+                  "totalCalories": "130 calories"
+                },
+                "allergens": []
               },
               {
                 "name": "Honey Mustard Dressing",
@@ -9741,17 +11706,10 @@ const diningHallsData = [
                   "fat": "28g",
                   "carbs": "14g",
                   "totalCalories": "300 calories"
-                }
-              },
-              {
-                "name": "Hummus, Homemade",
-                "photo_url": "http://example.com/hummus,-homemade.jpg",
-                "macros": {
-                  "protein": "2g",
-                  "fat": "5g",
-                  "carbs": "4g",
-                  "totalCalories": "60 calories"
-                }
+                },
+                "allergens": [
+                  "Egg"
+                ]
               },
               {
                 "name": "Italian Dressing",
@@ -9761,7 +11719,8 @@ const diningHallsData = [
                   "fat": "23g",
                   "carbs": "4g",
                   "totalCalories": "220 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Ranch Dressing",
@@ -9771,7 +11730,24 @@ const diningHallsData = [
                   "fat": "25g",
                   "carbs": "6g",
                   "totalCalories": "250 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy",
+                  "Egg"
+                ]
+              },
+              {
+                "name": "Red Pepper Hummus",
+                "photo_url": "http://example.com/red-pepper-hummus.jpg",
+                "macros": {
+                  "protein": "1g",
+                  "fat": "1.5g",
+                  "carbs": "4g",
+                  "totalCalories": "35 calories"
+                },
+                "allergens": [
+                  "Sesame"
+                ]
               },
               {
                 "name": "Shredded Carrot",
@@ -9781,7 +11757,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "3g",
                   "totalCalories": "10 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Shredded Cheddar Cheese",
@@ -9791,7 +11768,10 @@ const diningHallsData = [
                   "fat": "9g",
                   "carbs": "0g",
                   "totalCalories": "110 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               },
               {
                 "name": "Shredded Vegan Cheddar Cheese",
@@ -9801,7 +11781,8 @@ const diningHallsData = [
                   "fat": "5g",
                   "carbs": "6g",
                   "totalCalories": "70 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sliced Cucumber",
@@ -9811,7 +11792,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "1g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sliced Peppers",
@@ -9821,7 +11803,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "1g",
                   "totalCalories": "5 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sliced Red Onion",
@@ -9831,7 +11814,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "3g",
                   "totalCalories": "10 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Spinach",
@@ -9841,7 +11825,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "1g",
                   "totalCalories": "5 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sunflower Seeds",
@@ -9851,17 +11836,8 @@ const diningHallsData = [
                   "fat": "15g",
                   "carbs": "5g",
                   "totalCalories": "180 calories"
-                }
-              },
-              {
-                "name": "Tri-Colored Quinoa",
-                "photo_url": "http://example.com/tri-colored-quinoa.jpg",
-                "macros": {
-                  "protein": "6g",
-                  "fat": "2.5g",
-                  "carbs": "30g",
-                  "totalCalories": "170 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Tuna",
@@ -9871,33 +11847,16 @@ const diningHallsData = [
                   "fat": "1g",
                   "carbs": "0g",
                   "totalCalories": "35 calories"
-                }
+                },
+                "allergens": [
+                  "Fish"
+                ]
               }
             ]
           },
           {
             "name": "Bakery",
             "items": [
-              {
-                "name": "Blueberry Cobbler",
-                "photo_url": "http://example.com/blueberry-cobbler.jpg",
-                "macros": {
-                  "protein": "3g",
-                  "fat": "15g",
-                  "carbs": "73g",
-                  "totalCalories": "440 calories"
-                }
-              },
-              {
-                "name": "Brookie",
-                "photo_url": "http://example.com/brookie.jpg",
-                "macros": {
-                  "protein": "2g",
-                  "fat": "8g",
-                  "carbs": "19g",
-                  "totalCalories": "160 calories"
-                }
-              },
               {
                 "name": "Chocolate Chip Cookie",
                 "photo_url": "http://example.com/chocolate-chip-cookie.jpg",
@@ -9906,17 +11865,56 @@ const diningHallsData = [
                   "fat": "15g",
                   "carbs": "44g",
                   "totalCalories": "320 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy",
+                  "Egg",
+                  "Gluten",
+                  "Soy"
+                ]
               },
               {
-                "name": "Vegan Snickerdoodle Cookie",
-                "photo_url": "http://example.com/vegan-snickerdoodle-cookie.jpg",
+                "name": "Oreo Bar",
+                "photo_url": "http://example.com/oreo-bar.jpg",
                 "macros": {
                   "protein": "3g",
-                  "fat": "10g",
-                  "carbs": "48g",
-                  "totalCalories": "280 calories"
-                }
+                  "fat": "21g",
+                  "carbs": "24g",
+                  "totalCalories": "300 calories"
+                },
+                "allergens": [
+                  "Dairy",
+                  "Gluten",
+                  "Soy"
+                ]
+              },
+              {
+                "name": "Red Velvet Cupcake",
+                "photo_url": "http://example.com/red-velvet-cupcake.jpg",
+                "macros": {
+                  "protein": "6g",
+                  "fat": "12g",
+                  "carbs": "57g",
+                  "totalCalories": "360 calories"
+                },
+                "allergens": [
+                  "Dairy",
+                  "Egg",
+                  "Gluten"
+                ]
+              },
+              {
+                "name": "Zucchini Bread",
+                "photo_url": "http://example.com/zucchini-bread.jpg",
+                "macros": {
+                  "protein": "2g",
+                  "fat": "7g",
+                  "carbs": "29g",
+                  "totalCalories": "180 calories"
+                },
+                "allergens": [
+                  "Gluten"
+                ]
               }
             ]
           },
@@ -9931,7 +11929,10 @@ const diningHallsData = [
                   "fat": "10g",
                   "carbs": "35g",
                   "totalCalories": "260 calories"
-                }
+                },
+                "allergens": [
+                  "Egg"
+                ]
               },
               {
                 "name": "GF Plain Bagel",
@@ -9941,7 +11942,10 @@ const diningHallsData = [
                   "fat": "6g",
                   "carbs": "29g",
                   "totalCalories": "190 calories"
-                }
+                },
+                "allergens": [
+                  "Egg"
+                ]
               },
               {
                 "name": "GF White Bread",
@@ -9951,7 +11955,8 @@ const diningHallsData = [
                   "fat": "2g",
                   "carbs": "17g",
                   "totalCalories": "80 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "GF Whole Grain Bread",
@@ -9961,7 +11966,8 @@ const diningHallsData = [
                   "fat": "2.5g",
                   "carbs": "26g",
                   "totalCalories": "130 calories"
-                }
+                },
+                "allergens": []
               }
             ]
           },
@@ -9976,7 +11982,11 @@ const diningHallsData = [
                   "fat": "5g",
                   "carbs": "42g",
                   "totalCalories": "220 calories"
-                }
+                },
+                "allergens": [
+                  "Gluten",
+                  "Soy"
+                ]
               },
               {
                 "name": "Cocoa Puffs",
@@ -9986,7 +11996,10 @@ const diningHallsData = [
                   "fat": "3g",
                   "carbs": "48g",
                   "totalCalories": "210 calories"
-                }
+                },
+                "allergens": [
+                  "Gluten"
+                ]
               },
               {
                 "name": "Creamer Coffee Liquid Original Bulk",
@@ -9996,7 +12009,10 @@ const diningHallsData = [
                   "fat": "6g",
                   "carbs": "0g",
                   "totalCalories": "60 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               },
               {
                 "name": "French Vanilla Creamer",
@@ -10006,7 +12022,10 @@ const diningHallsData = [
                   "fat": "8g",
                   "carbs": "20g",
                   "totalCalories": "140 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               },
               {
                 "name": "Froot Loops",
@@ -10016,7 +12035,12 @@ const diningHallsData = [
                   "fat": "2g",
                   "carbs": "49g",
                   "totalCalories": "220 calories"
-                }
+                },
+                "allergens": [
+                  "Coconut",
+                  "Gluten",
+                  "Soy"
+                ]
               },
               {
                 "name": "Frosted Flakes",
@@ -10026,7 +12050,11 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "51g",
                   "totalCalories": "220 calories"
-                }
+                },
+                "allergens": [
+                  "Gluten",
+                  "Soy"
+                ]
               },
               {
                 "name": "Lucky Charms",
@@ -10036,7 +12064,10 @@ const diningHallsData = [
                   "fat": "2g",
                   "carbs": "46g",
                   "totalCalories": "230 calories"
-                }
+                },
+                "allergens": [
+                  "Pork"
+                ]
               },
               {
                 "name": "Saltine Crackers",
@@ -10046,7 +12077,11 @@ const diningHallsData = [
                   "fat": "1g",
                   "carbs": "8g",
                   "totalCalories": "40 calories"
-                }
+                },
+                "allergens": [
+                  "Gluten",
+                  "Soy"
+                ]
               }
             ]
           },
@@ -10061,7 +12096,8 @@ const diningHallsData = [
                   "fat": "0.5g",
                   "carbs": "41g",
                   "totalCalories": "160 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Granny Smith Apple",
@@ -10071,7 +12107,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "21g",
                   "totalCalories": "90 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Honeycrisp Apple",
@@ -10081,7 +12118,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "25g",
                   "totalCalories": "100 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Orange",
@@ -10091,7 +12129,8 @@ const diningHallsData = [
                   "fat": "0.5g",
                   "carbs": "32g",
                   "totalCalories": "130 calories"
-                }
+                },
+                "allergens": []
               }
             ]
           },
@@ -10106,7 +12145,10 @@ const diningHallsData = [
                   "fat": "2.5g",
                   "carbs": "24g",
                   "totalCalories": "150 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               },
               {
                 "name": "2% Milk",
@@ -10116,7 +12158,10 @@ const diningHallsData = [
                   "fat": "4.5g",
                   "carbs": "12g",
                   "totalCalories": "120 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               },
               {
                 "name": "Anchor Down Decaf Coffee",
@@ -10126,7 +12171,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "0g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Chai Tea",
@@ -10136,7 +12182,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "0g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Dispenser Dole Orange Juice",
@@ -10146,7 +12193,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "7g",
                   "totalCalories": "30 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Dispenser Stubborn Cola",
@@ -10156,7 +12204,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "4g",
                   "totalCalories": "15 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Dole Apple Juice",
@@ -10166,7 +12215,8 @@ const diningHallsData = [
                   "fat": "NA",
                   "carbs": "7g",
                   "totalCalories": "30 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Earl Grey Tea",
@@ -10176,7 +12226,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "0g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "English Breakfast Tea",
@@ -10186,7 +12237,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "0g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Fruit Punch Gatorade",
@@ -10196,7 +12248,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "4g",
                   "totalCalories": "15 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Mr. Commodore Medium Roast Coffee",
@@ -10206,7 +12259,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "0g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Stubborn Agave Vanilla Cream Soda",
@@ -10216,7 +12270,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "6g",
                   "totalCalories": "25 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Stubborn Zero Sugar Cola",
@@ -10226,7 +12281,8 @@ const diningHallsData = [
                   "fat": "NA",
                   "carbs": "NA",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sweet Tea",
@@ -10236,7 +12292,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "30g",
                   "totalCalories": "110 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Tropicana Lemonade",
@@ -10246,7 +12303,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "7g",
                   "totalCalories": "25 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Unsweet Tea",
@@ -10256,7 +12314,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "0g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Wild Sweet Orange Tea",
@@ -10266,7 +12325,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "NA",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               }
             ]
           },
@@ -10281,7 +12341,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "10g",
                   "totalCalories": "40 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "BBQ Sauce",
@@ -10291,7 +12352,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "12g",
                   "totalCalories": "45 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Butter",
@@ -10301,7 +12363,10 @@ const diningHallsData = [
                   "fat": "8g",
                   "carbs": "0g",
                   "totalCalories": "80 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               },
               {
                 "name": "Cream Cheese",
@@ -10311,7 +12376,10 @@ const diningHallsData = [
                   "fat": "7g",
                   "carbs": "1g",
                   "totalCalories": "70 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               },
               {
                 "name": "Honey Cup",
@@ -10321,7 +12389,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "12g",
                   "totalCalories": "50 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Ketchup",
@@ -10331,7 +12400,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "8g",
                   "totalCalories": "35 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Louisiana Hot Sauce",
@@ -10341,7 +12411,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "0g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Mayonnaise",
@@ -10351,7 +12422,10 @@ const diningHallsData = [
                   "fat": "21g",
                   "carbs": "2g",
                   "totalCalories": "190 calories"
-                }
+                },
+                "allergens": [
+                  "Egg"
+                ]
               },
               {
                 "name": "Strawberry Cream Cheese",
@@ -10361,7 +12435,10 @@ const diningHallsData = [
                   "fat": "6g",
                   "carbs": "4g",
                   "totalCalories": "70 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               },
               {
                 "name": "Sugar",
@@ -10371,7 +12448,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "3g",
                   "totalCalories": "10 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sugar in the Raw",
@@ -10381,7 +12459,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "4g",
                   "totalCalories": "20 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sweet-N-Low",
@@ -10391,7 +12470,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "0g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Tabasco Pepper Hot Sauce",
@@ -10401,7 +12481,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "0g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Yellow Mustard",
@@ -10411,7 +12492,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "0g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               }
             ]
           }
@@ -10429,26 +12511,6 @@ const diningHallsData = [
             "name": "Breakfast",
             "items": [
               {
-                "name": "Belgian Waffle",
-                "photo_url": "http://example.com/belgian-waffle.jpg",
-                "macros": {
-                  "protein": "4g",
-                  "fat": "14g",
-                  "carbs": "37g",
-                  "totalCalories": "290 calories"
-                }
-              },
-              {
-                "name": "BEYOND Meat Sausage Patty",
-                "photo_url": "http://example.com/beyond-meat-sausage-patty.jpg",
-                "macros": {
-                  "protein": "9g",
-                  "fat": "10g",
-                  "carbs": "< 1g",
-                  "totalCalories": "130 calories"
-                }
-              },
-              {
                 "name": "Cracked Eggs",
                 "photo_url": "http://example.com/cracked-eggs.jpg",
                 "macros": {
@@ -10456,7 +12518,10 @@ const diningHallsData = [
                   "fat": "8g",
                   "carbs": "0g",
                   "totalCalories": "140 calories"
-                }
+                },
+                "allergens": [
+                  "Egg"
+                ]
               },
               {
                 "name": "Crispy Cube Breakfast Potatoes",
@@ -10466,7 +12531,26 @@ const diningHallsData = [
                   "fat": "6g",
                   "carbs": "30g",
                   "totalCalories": "170 calories"
-                }
+                },
+                "allergens": [
+                  "Gluten"
+                ]
+              },
+              {
+                "name": "Egg & Cheese Croissant",
+                "photo_url": "http://example.com/egg-&-cheese-croissant.jpg",
+                "macros": {
+                  "protein": "17g",
+                  "fat": "40g",
+                  "carbs": "39g",
+                  "totalCalories": "590 calories"
+                },
+                "allergens": [
+                  "Dairy",
+                  "Egg",
+                  "Gluten",
+                  "Soy"
+                ]
               },
               {
                 "name": "Pancakes",
@@ -10476,17 +12560,23 @@ const diningHallsData = [
                   "fat": "1g",
                   "carbs": "12g",
                   "totalCalories": "60 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy",
+                  "Egg",
+                  "Gluten"
+                ]
               },
               {
-                "name": "Pork Sausage Link",
-                "photo_url": "http://example.com/pork-sausage-link.jpg",
+                "name": "Turkey Sausage Patty",
+                "photo_url": "http://example.com/turkey-sausage-patty.jpg",
                 "macros": {
-                  "protein": "3g",
-                  "fat": "7g",
-                  "carbs": "1g",
-                  "totalCalories": "80 calories"
-                }
+                  "protein": "7g",
+                  "fat": "4g",
+                  "carbs": "< 1g",
+                  "totalCalories": "70 calories"
+                },
+                "allergens": []
               }
             ]
           },
@@ -10494,24 +12584,43 @@ const diningHallsData = [
             "name": "Bagel Bar",
             "items": [
               {
-                "name": "Blueberry Bagel",
-                "photo_url": "http://example.com/blueberry-bagel.jpg",
+                "name": "Blackberry Jam",
+                "photo_url": "http://example.com/blackberry-jam.jpg",
                 "macros": {
-                  "protein": "9g",
-                  "fat": "1.5g",
-                  "carbs": "60g",
-                  "totalCalories": "290 calories"
-                }
+                  "protein": "0g",
+                  "fat": "0g",
+                  "carbs": "36g",
+                  "totalCalories": "140 calories"
+                },
+                "allergens": []
               },
               {
-                "name": "Diced Avocado",
-                "photo_url": "http://example.com/diced-avocado.jpg",
+                "name": "Everything Bagel",
+                "photo_url": "http://example.com/everything-bagel.jpg",
                 "macros": {
-                  "protein": "< 1g",
-                  "fat": "4.5g",
-                  "carbs": "3g",
-                  "totalCalories": "45 calories"
-                }
+                  "protein": "10g",
+                  "fat": "0g",
+                  "carbs": "59g",
+                  "totalCalories": "290 calories"
+                },
+                "allergens": [
+                  "Gluten",
+                  "Sesame"
+                ]
+              },
+              {
+                "name": "Mini Chocolate Chips",
+                "photo_url": "http://example.com/mini-chocolate-chips.jpg",
+                "macros": {
+                  "protein": "1g",
+                  "fat": "8g",
+                  "carbs": "19g",
+                  "totalCalories": "130 calories"
+                },
+                "allergens": [
+                  "Dairy",
+                  "Soy"
+                ]
               },
               {
                 "name": "Plain Bagel",
@@ -10521,17 +12630,10 @@ const diningHallsData = [
                   "fat": "1g",
                   "carbs": "61g",
                   "totalCalories": "290 calories"
-                }
-              },
-              {
-                "name": "Sliced Tomatoes",
-                "photo_url": "http://example.com/sliced-tomatoes.jpg",
-                "macros": {
-                  "protein": "0g",
-                  "fat": "0g",
-                  "carbs": "< 1g",
-                  "totalCalories": "0 calories"
-                }
+                },
+                "allergens": [
+                  "Gluten"
+                ]
               },
               {
                 "name": "Strawberry Cream Cheese",
@@ -10541,17 +12643,10 @@ const diningHallsData = [
                   "fat": "7g",
                   "carbs": "5g",
                   "totalCalories": "90 calories"
-                }
-              },
-              {
-                "name": "Strawberry Jam",
-                "photo_url": "http://example.com/strawberry-jam.jpg",
-                "macros": {
-                  "protein": "0g",
-                  "fat": "0g",
-                  "carbs": "36g",
-                  "totalCalories": "140 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               },
               {
                 "name": "Whipped Cream Cheese",
@@ -10561,7 +12656,10 @@ const diningHallsData = [
                   "fat": "9g",
                   "carbs": "1g",
                   "totalCalories": "100 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               }
             ]
           },
@@ -10569,24 +12667,35 @@ const diningHallsData = [
             "name": "Bakery",
             "items": [
               {
-                "name": "Lemon Quick Bread",
-                "photo_url": "http://example.com/lemon-quick-bread.jpg",
+                "name": "Chocolate Muffin",
+                "photo_url": "http://example.com/chocolate-muffin.jpg",
                 "macros": {
-                  "protein": "3g",
-                  "fat": "14g",
-                  "carbs": "72g",
-                  "totalCalories": "420 calories"
-                }
-              },
-              {
-                "name": "Mocha Muffin",
-                "photo_url": "http://example.com/mocha-muffin.jpg",
-                "macros": {
-                  "protein": "2g",
+                  "protein": "4g",
                   "fat": "14g",
                   "carbs": "42g",
-                  "totalCalories": "300 calories"
-                }
+                  "totalCalories": "310 calories"
+                },
+                "allergens": [
+                  "Dairy",
+                  "Egg",
+                  "Gluten",
+                  "Soy"
+                ]
+              },
+              {
+                "name": "Cinnamon Roll",
+                "photo_url": "http://example.com/cinnamon-roll.jpg",
+                "macros": {
+                  "protein": "4g",
+                  "fat": "8g",
+                  "carbs": "31g",
+                  "totalCalories": "210 calories"
+                },
+                "allergens": [
+                  "Dairy",
+                  "Egg",
+                  "Gluten"
+                ]
               }
             ]
           },
@@ -10601,7 +12710,11 @@ const diningHallsData = [
                   "fat": "18g",
                   "carbs": "0g",
                   "totalCalories": "170 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy",
+                  "Soy"
+                ]
               },
               {
                 "name": "BEYOND Meat Sausage Crumbles",
@@ -10611,7 +12724,10 @@ const diningHallsData = [
                   "fat": "6g",
                   "carbs": "< 1g",
                   "totalCalories": "80 calories"
-                }
+                },
+                "allergens": [
+                  "Coconut"
+                ]
               },
               {
                 "name": "Broccoli Floret",
@@ -10621,7 +12737,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "2g",
                   "totalCalories": "10 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Caramelized Onions",
@@ -10631,7 +12748,8 @@ const diningHallsData = [
                   "fat": "1g",
                   "carbs": "3g",
                   "totalCalories": "20 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Chipotle Lime Crema",
@@ -10641,7 +12759,10 @@ const diningHallsData = [
                   "fat": "4.5g",
                   "carbs": "2g",
                   "totalCalories": "50 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               },
               {
                 "name": "Cracked Eggs",
@@ -10651,7 +12772,23 @@ const diningHallsData = [
                   "fat": "8g",
                   "carbs": "0g",
                   "totalCalories": "140 calories"
-                }
+                },
+                "allergens": [
+                  "Egg"
+                ]
+              },
+              {
+                "name": "Crumbled Bacon",
+                "photo_url": "http://example.com/crumbled-bacon.jpg",
+                "macros": {
+                  "protein": "8g",
+                  "fat": "12g",
+                  "carbs": "0g",
+                  "totalCalories": "140 calories"
+                },
+                "allergens": [
+                  "Pork"
+                ]
               },
               {
                 "name": "Diced Green Pepper",
@@ -10661,7 +12798,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "1g",
                   "totalCalories": "5 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Diced Tomatoes",
@@ -10671,17 +12809,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "1g",
                   "totalCalories": "5 calories"
-                }
-              },
-              {
-                "name": "Diced Turkey Sausage",
-                "photo_url": "http://example.com/diced-turkey-sausage.jpg",
-                "macros": {
-                  "protein": "9g",
-                  "fat": "7g",
-                  "carbs": "0g",
-                  "totalCalories": "90 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Egg Whites",
@@ -10691,7 +12820,10 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "2g",
                   "totalCalories": "70 calories"
-                }
+                },
+                "allergens": [
+                  "Egg"
+                ]
               },
               {
                 "name": "Feta Cheese",
@@ -10701,7 +12833,10 @@ const diningHallsData = [
                   "fat": "6g",
                   "carbs": "1g",
                   "totalCalories": "70 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               },
               {
                 "name": "Fire Roasted Jalapeno Salsa",
@@ -10711,17 +12846,19 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "1g",
                   "totalCalories": "5 calories"
-                }
+                },
+                "allergens": []
               },
               {
-                "name": "Ground Pork Sausage",
-                "photo_url": "http://example.com/ground-pork-sausage.jpg",
+                "name": "Ground Turkey Sausage",
+                "photo_url": "http://example.com/ground-turkey-sausage.jpg",
                 "macros": {
-                  "protein": "3g",
-                  "fat": "9g",
+                  "protein": "5g",
+                  "fat": "3g",
                   "carbs": "< 1g",
-                  "totalCalories": "100 calories"
-                }
+                  "totalCalories": "50 calories"
+                },
+                "allergens": []
               },
               {
                 "name": "Sauce Avocado Crema",
@@ -10731,7 +12868,10 @@ const diningHallsData = [
                   "fat": "5g",
                   "carbs": "2g",
                   "totalCalories": "60 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               },
               {
                 "name": "Shredded Cheddar Cheese",
@@ -10741,7 +12881,10 @@ const diningHallsData = [
                   "fat": "9g",
                   "carbs": "0g",
                   "totalCalories": "110 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               },
               {
                 "name": "Shredded Vegan Cheddar Cheese",
@@ -10751,7 +12894,8 @@ const diningHallsData = [
                   "fat": "5g",
                   "carbs": "6g",
                   "totalCalories": "70 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sliced Mushrooms",
@@ -10761,7 +12905,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "< 1g",
                   "totalCalories": "5 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Spinach",
@@ -10771,7 +12916,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "1g",
                   "totalCalories": "5 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Vegan Egg",
@@ -10781,7 +12927,10 @@ const diningHallsData = [
                   "fat": "10g",
                   "carbs": "0g",
                   "totalCalories": "160 calories"
-                }
+                },
+                "allergens": [
+                  "Soy"
+                ]
               }
             ]
           },
@@ -10796,7 +12945,10 @@ const diningHallsData = [
                   "fat": "1.5g",
                   "carbs": "1g",
                   "totalCalories": "30 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               },
               {
                 "name": "Craisins",
@@ -10806,7 +12958,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "28g",
                   "totalCalories": "110 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Diced Cantaloupe",
@@ -10816,7 +12969,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "2g",
                   "totalCalories": "10 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Diced Pineapple",
@@ -10826,7 +12980,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "7g",
                   "totalCalories": "25 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Hard Boiled Egg",
@@ -10836,7 +12991,10 @@ const diningHallsData = [
                   "fat": "5g",
                   "carbs": "0g",
                   "totalCalories": "70 calories"
-                }
+                },
+                "allergens": [
+                  "Egg"
+                ]
               },
               {
                 "name": "Light Brown Sugar",
@@ -10846,7 +13004,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "28g",
                   "totalCalories": "110 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Low Fat Strawberry Yogurt",
@@ -10856,7 +13015,10 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "10g",
                   "totalCalories": "50 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               },
               {
                 "name": "Mini Chocolate Chips",
@@ -10866,7 +13028,11 @@ const diningHallsData = [
                   "fat": "8g",
                   "carbs": "19g",
                   "totalCalories": "130 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy",
+                  "Soy"
+                ]
               },
               {
                 "name": "Plain Greek Yogurt",
@@ -10876,7 +13042,10 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "1g",
                   "totalCalories": "15 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               },
               {
                 "name": "Red Grapes",
@@ -10886,7 +13055,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "5g",
                   "totalCalories": "20 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Toasted Coconut",
@@ -10896,7 +13066,10 @@ const diningHallsData = [
                   "fat": "7g",
                   "carbs": "9g",
                   "totalCalories": "130 calories"
-                }
+                },
+                "allergens": [
+                  "Coconut"
+                ]
               },
               {
                 "name": "Toasted Oat Granola",
@@ -10906,7 +13079,11 @@ const diningHallsData = [
                   "fat": "1g",
                   "carbs": "23g",
                   "totalCalories": "100 calories"
-                }
+                },
+                "allergens": [
+                  "Gluten",
+                  "Soy"
+                ]
               },
               {
                 "name": "Vanilla Greek Yogurt",
@@ -10916,7 +13093,10 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "3g",
                   "totalCalories": "25 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               }
             ]
           }
@@ -10936,7 +13116,8 @@ const diningHallsData = [
                   "fat": "9g",
                   "carbs": "9g",
                   "totalCalories": "110 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Broccoli Florettes",
@@ -10946,7 +13127,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "2g",
                   "totalCalories": "10 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Caesar Dressing",
@@ -10956,7 +13138,13 @@ const diningHallsData = [
                   "fat": "27g",
                   "carbs": "2g",
                   "totalCalories": "250 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy",
+                  "Egg",
+                  "Fish",
+                  "Soy"
+                ]
               },
               {
                 "name": "Chopped Romaine Lettuce",
@@ -10966,7 +13154,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "< 1g",
                   "totalCalories": "5 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Craisins",
@@ -10976,7 +13165,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "28g",
                   "totalCalories": "110 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Diced Tofu",
@@ -10986,7 +13176,10 @@ const diningHallsData = [
                   "fat": "1.5g",
                   "carbs": "< 1g",
                   "totalCalories": "30 calories"
-                }
+                },
+                "allergens": [
+                  "Soy"
+                ]
               },
               {
                 "name": "Garbanzo Beans",
@@ -10996,7 +13189,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "5g",
                   "totalCalories": "30 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Grape Tomatoes",
@@ -11006,7 +13200,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "1g",
                   "totalCalories": "5 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Hard Boiled Egg",
@@ -11016,7 +13211,10 @@ const diningHallsData = [
                   "fat": "5g",
                   "carbs": "0g",
                   "totalCalories": "70 calories"
-                }
+                },
+                "allergens": [
+                  "Egg"
+                ]
               },
               {
                 "name": "Honey Mustard Dressing",
@@ -11026,7 +13224,10 @@ const diningHallsData = [
                   "fat": "28g",
                   "carbs": "14g",
                   "totalCalories": "300 calories"
-                }
+                },
+                "allergens": [
+                  "Egg"
+                ]
               },
               {
                 "name": "Italian Dressing",
@@ -11036,7 +13237,21 @@ const diningHallsData = [
                   "fat": "23g",
                   "carbs": "4g",
                   "totalCalories": "220 calories"
-                }
+                },
+                "allergens": []
+              },
+              {
+                "name": "Masala Cauliflower Soup",
+                "photo_url": "http://example.com/masala-cauliflower-soup.jpg",
+                "macros": {
+                  "protein": "2g",
+                  "fat": "3.5g",
+                  "carbs": "14g",
+                  "totalCalories": "90 calories"
+                },
+                "allergens": [
+                  "Coconut"
+                ]
               },
               {
                 "name": "Ranch Dressing",
@@ -11046,7 +13261,11 @@ const diningHallsData = [
                   "fat": "25g",
                   "carbs": "6g",
                   "totalCalories": "250 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy",
+                  "Egg"
+                ]
               },
               {
                 "name": "Shredded Carrot",
@@ -11056,7 +13275,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "3g",
                   "totalCalories": "10 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Shredded Cheddar Cheese",
@@ -11066,7 +13286,10 @@ const diningHallsData = [
                   "fat": "9g",
                   "carbs": "0g",
                   "totalCalories": "110 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               },
               {
                 "name": "Shredded Vegan Cheddar Cheese",
@@ -11076,7 +13299,8 @@ const diningHallsData = [
                   "fat": "5g",
                   "carbs": "6g",
                   "totalCalories": "70 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sliced Cucumber",
@@ -11086,7 +13310,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "1g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sliced Peppers",
@@ -11096,7 +13321,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "1g",
                   "totalCalories": "5 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sliced Red Onion",
@@ -11106,7 +13332,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "3g",
                   "totalCalories": "10 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Spinach",
@@ -11116,7 +13343,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "1g",
                   "totalCalories": "5 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Spring Salad Mix",
@@ -11126,7 +13354,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "< 1g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sunflower Seeds",
@@ -11136,17 +13365,8 @@ const diningHallsData = [
                   "fat": "15g",
                   "carbs": "5g",
                   "totalCalories": "180 calories"
-                }
-              },
-              {
-                "name": "Vegetable Chili",
-                "photo_url": "http://example.com/vegetable-chili.jpg",
-                "macros": {
-                  "protein": "3g",
-                  "fat": "2g",
-                  "carbs": "14g",
-                  "totalCalories": "80 calories"
-                }
+                },
+                "allergens": []
               }
             ]
           },
@@ -11154,64 +13374,19 @@ const diningHallsData = [
             "name": "Grill",
             "items": [
               {
-                "name": "Grilled Montreal Chicken Breast",
-                "photo_url": "http://example.com/grilled-montreal-chicken-breast.jpg",
+                "name": "Hot Chicken Wrap",
+                "photo_url": "http://example.com/hot-chicken-wrap.jpg",
                 "macros": {
-                  "protein": "23g",
-                  "fat": "4g",
-                  "carbs": "0g",
-                  "totalCalories": "130 calories"
-                }
-              },
-              {
-                "name": "Hamburger Bun",
-                "photo_url": "http://example.com/hamburger-bun.jpg",
-                "macros": {
-                  "protein": "5g",
-                  "fat": "2g",
-                  "carbs": "25g",
-                  "totalCalories": "140 calories"
-                }
-              },
-              {
-                "name": "Pesto Mayonnaise",
-                "photo_url": "http://example.com/pesto-mayonnaise.jpg",
-                "macros": {
-                  "protein": "< 1g",
-                  "fat": "19g",
-                  "carbs": "0g",
-                  "totalCalories": "180 calories"
-                }
-              },
-              {
-                "name": "Romaine Lettuce",
-                "photo_url": "http://example.com/romaine-lettuce.jpg",
-                "macros": {
-                  "protein": "< 1g",
-                  "fat": "0g",
-                  "carbs": "2g",
-                  "totalCalories": "10 calories"
-                }
-              },
-              {
-                "name": "Sliced Swiss Cheese",
-                "photo_url": "http://example.com/sliced-swiss-cheese.jpg",
-                "macros": {
-                  "protein": "8g",
-                  "fat": "9g",
-                  "carbs": "< 1g",
-                  "totalCalories": "110 calories"
-                }
-              },
-              {
-                "name": "Sliced Tomatoes",
-                "photo_url": "http://example.com/sliced-tomatoes.jpg",
-                "macros": {
-                  "protein": "0g",
-                  "fat": "0g",
-                  "carbs": "< 1g",
-                  "totalCalories": "0 calories"
-                }
+                  "protein": "22g",
+                  "fat": "31g",
+                  "carbs": "76g",
+                  "totalCalories": "680 calories"
+                },
+                "allergens": [
+                  "Dairy",
+                  "Gluten",
+                  "Soy"
+                ]
               },
               {
                 "name": "Straight Cut Fries",
@@ -11221,7 +13396,8 @@ const diningHallsData = [
                   "fat": "6g",
                   "carbs": "35g",
                   "totalCalories": "200 calories"
-                }
+                },
+                "allergens": []
               }
             ]
           },
@@ -11236,37 +13412,48 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "24g",
                   "totalCalories": "100 calories"
-                }
+                },
+                "allergens": []
               },
               {
-                "name": "Butter Chicken",
-                "photo_url": "http://example.com/butter-chicken.jpg",
+                "name": "Masoor Dal",
+                "photo_url": "http://example.com/masoor-dal.jpg",
                 "macros": {
-                  "protein": "16g",
-                  "fat": "7g",
-                  "carbs": "4g",
-                  "totalCalories": "150 calories"
-                }
+                  "protein": "8g",
+                  "fat": "4g",
+                  "carbs": "20g",
+                  "totalCalories": "140 calories"
+                },
+                "allergens": [
+                  "Peanut",
+                  "Tree Nut"
+                ]
               },
               {
-                "name": "Lobia Daal",
-                "photo_url": "http://example.com/lobia-daal.jpg",
+                "name": "Tandoori Chicken Leg Quarters",
+                "photo_url": "http://example.com/tandoori-chicken-leg-quarters.jpg",
                 "macros": {
-                  "protein": "< 1g",
-                  "fat": "1.5g",
-                  "carbs": "4g",
-                  "totalCalories": "30 calories"
-                }
+                  "protein": "28g",
+                  "fat": "28g",
+                  "carbs": "0g",
+                  "totalCalories": "360 calories"
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               },
               {
-                "name": "Saag Tofu",
-                "photo_url": "http://example.com/saag-tofu.jpg",
+                "name": "Vegetable Korma",
+                "photo_url": "http://example.com/vegetable-korma.jpg",
                 "macros": {
-                  "protein": "10g",
-                  "fat": "5g",
-                  "carbs": "5g",
-                  "totalCalories": "100 calories"
-                }
+                  "protein": "3g",
+                  "fat": "3g",
+                  "carbs": "14g",
+                  "totalCalories": "90 calories"
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               }
             ]
           },
@@ -11281,17 +13468,21 @@ const diningHallsData = [
                   "fat": "16g",
                   "carbs": "35g",
                   "totalCalories": "310 calories"
-                }
+                },
+                "allergens": []
               },
               {
-                "name": "Chipotle Lime Crema",
-                "photo_url": "http://example.com/chipotle-lime-crema.jpg",
+                "name": "Chicken Tinga",
+                "photo_url": "http://example.com/chicken-tinga.jpg",
                 "macros": {
-                  "protein": "< 1g",
-                  "fat": "4.5g",
-                  "carbs": "2g",
-                  "totalCalories": "50 calories"
-                }
+                  "protein": "12g",
+                  "fat": "6g",
+                  "carbs": "7g",
+                  "totalCalories": "130 calories"
+                },
+                "allergens": [
+                  "Pork"
+                ]
               },
               {
                 "name": "Chopped CIlantro",
@@ -11301,17 +13492,21 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "0g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               },
               {
-                "name": "Corn",
-                "photo_url": "http://example.com/corn.jpg",
+                "name": "Cilantro Garlic Crema",
+                "photo_url": "http://example.com/cilantro-garlic-crema.jpg",
                 "macros": {
                   "protein": "< 1g",
-                  "fat": "0g",
-                  "carbs": "6g",
-                  "totalCalories": "25 calories"
-                }
+                  "fat": "5g",
+                  "carbs": "2g",
+                  "totalCalories": "60 calories"
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               },
               {
                 "name": "Corn Tortilla",
@@ -11321,27 +13516,32 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "10g",
                   "totalCalories": "45 calories"
-                }
+                },
+                "allergens": []
               },
               {
-                "name": "Pork Carnitas",
-                "photo_url": "http://example.com/pork-carnitas.jpg",
+                "name": "Jalapeno Mango Salsa",
+                "photo_url": "http://example.com/jalapeno-mango-salsa.jpg",
                 "macros": {
-                  "protein": "19g",
-                  "fat": "19g",
+                  "protein": "0g",
+                  "fat": "0g",
                   "carbs": "3g",
-                  "totalCalories": "260 calories"
-                }
+                  "totalCalories": "10 calories"
+                },
+                "allergens": []
               },
               {
-                "name": "Queso Fresco",
-                "photo_url": "http://example.com/queso-fresco.jpg",
+                "name": "Queso Crumbles",
+                "photo_url": "http://example.com/queso-crumbles.jpg",
                 "macros": {
                   "protein": "6g",
                   "fat": "8g",
                   "carbs": "1g",
                   "totalCalories": "100 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               },
               {
                 "name": "Rice Spanish",
@@ -11351,7 +13551,19 @@ const diningHallsData = [
                   "fat": "2g",
                   "carbs": "24g",
                   "totalCalories": "120 calories"
-                }
+                },
+                "allergens": []
+              },
+              {
+                "name": "Roasted Sweet Potatoes Pieces",
+                "photo_url": "http://example.com/roasted-sweet-potatoes-pieces.jpg",
+                "macros": {
+                  "protein": "< 1g",
+                  "fat": "0g",
+                  "carbs": "11g",
+                  "totalCalories": "50 calories"
+                },
+                "allergens": []
               },
               {
                 "name": "Seasoned Black Beans",
@@ -11361,7 +13573,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "21g",
                   "totalCalories": "110 calories"
-                }
+                },
+                "allergens": []
               }
             ]
           }
@@ -11381,7 +13594,8 @@ const diningHallsData = [
                   "fat": "9g",
                   "carbs": "9g",
                   "totalCalories": "110 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Broccoli Florettes",
@@ -11391,7 +13605,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "2g",
                   "totalCalories": "10 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Caesar Dressing",
@@ -11401,7 +13616,13 @@ const diningHallsData = [
                   "fat": "27g",
                   "carbs": "2g",
                   "totalCalories": "250 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy",
+                  "Egg",
+                  "Fish",
+                  "Soy"
+                ]
               },
               {
                 "name": "Chopped Romaine Lettuce",
@@ -11411,7 +13632,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "< 1g",
                   "totalCalories": "5 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Craisins",
@@ -11421,7 +13643,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "28g",
                   "totalCalories": "110 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Diced Tofu",
@@ -11431,7 +13654,10 @@ const diningHallsData = [
                   "fat": "1.5g",
                   "carbs": "< 1g",
                   "totalCalories": "30 calories"
-                }
+                },
+                "allergens": [
+                  "Soy"
+                ]
               },
               {
                 "name": "Garbanzo Beans",
@@ -11441,7 +13667,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "5g",
                   "totalCalories": "30 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Grape Tomatoes",
@@ -11451,7 +13678,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "1g",
                   "totalCalories": "5 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Hard Boiled Egg",
@@ -11461,7 +13689,10 @@ const diningHallsData = [
                   "fat": "5g",
                   "carbs": "0g",
                   "totalCalories": "70 calories"
-                }
+                },
+                "allergens": [
+                  "Egg"
+                ]
               },
               {
                 "name": "Honey Mustard Dressing",
@@ -11471,7 +13702,10 @@ const diningHallsData = [
                   "fat": "28g",
                   "carbs": "14g",
                   "totalCalories": "300 calories"
-                }
+                },
+                "allergens": [
+                  "Egg"
+                ]
               },
               {
                 "name": "Italian Dressing",
@@ -11481,7 +13715,21 @@ const diningHallsData = [
                   "fat": "23g",
                   "carbs": "4g",
                   "totalCalories": "220 calories"
-                }
+                },
+                "allergens": []
+              },
+              {
+                "name": "Masala Cauliflower Soup",
+                "photo_url": "http://example.com/masala-cauliflower-soup.jpg",
+                "macros": {
+                  "protein": "2g",
+                  "fat": "3.5g",
+                  "carbs": "14g",
+                  "totalCalories": "90 calories"
+                },
+                "allergens": [
+                  "Coconut"
+                ]
               },
               {
                 "name": "Ranch Dressing",
@@ -11491,7 +13739,11 @@ const diningHallsData = [
                   "fat": "25g",
                   "carbs": "6g",
                   "totalCalories": "250 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy",
+                  "Egg"
+                ]
               },
               {
                 "name": "Shredded Carrot",
@@ -11501,7 +13753,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "3g",
                   "totalCalories": "10 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Shredded Cheddar Cheese",
@@ -11511,7 +13764,10 @@ const diningHallsData = [
                   "fat": "9g",
                   "carbs": "0g",
                   "totalCalories": "110 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               },
               {
                 "name": "Shredded Vegan Cheddar Cheese",
@@ -11521,7 +13777,8 @@ const diningHallsData = [
                   "fat": "5g",
                   "carbs": "6g",
                   "totalCalories": "70 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sliced Cucumber",
@@ -11531,7 +13788,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "1g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sliced Peppers",
@@ -11541,7 +13799,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "1g",
                   "totalCalories": "5 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sliced Red Onion",
@@ -11551,7 +13810,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "3g",
                   "totalCalories": "10 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Spinach",
@@ -11561,7 +13821,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "1g",
                   "totalCalories": "5 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Spring Salad Mix",
@@ -11571,7 +13832,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "< 1g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sunflower Seeds",
@@ -11581,17 +13843,8 @@ const diningHallsData = [
                   "fat": "15g",
                   "carbs": "5g",
                   "totalCalories": "180 calories"
-                }
-              },
-              {
-                "name": "Vegetable Chili",
-                "photo_url": "http://example.com/vegetable-chili.jpg",
-                "macros": {
-                  "protein": "3g",
-                  "fat": "2g",
-                  "carbs": "14g",
-                  "totalCalories": "80 calories"
-                }
+                },
+                "allergens": []
               }
             ]
           },
@@ -11599,54 +13852,64 @@ const diningHallsData = [
             "name": "Home Grown",
             "items": [
               {
-                "name": "Chili Garlic Green Beans",
-                "photo_url": "http://example.com/chili-garlic-green-beans.jpg",
+                "name": "Balsamic Eggplant w/ Farro Tomato Salad",
+                "photo_url": "http://example.com/balsamic-eggplant-w/-farro-tomato-salad.jpg",
                 "macros": {
-                  "protein": "2g",
-                  "fat": "2g",
-                  "carbs": "12g",
-                  "totalCalories": "60 calories"
-                }
+                  "protein": "5g",
+                  "fat": "11g",
+                  "carbs": "38g",
+                  "totalCalories": "270 calories"
+                },
+                "allergens": [
+                  "Gluten"
+                ]
               },
               {
-                "name": "Sweet & Sour Chicken",
-                "photo_url": "http://example.com/sweet-&-sour-chicken.jpg",
+                "name": "Herbed Baked Chicken",
+                "photo_url": "http://example.com/herbed-baked-chicken.jpg",
                 "macros": {
-                  "protein": "13g",
-                  "fat": "4.5g",
-                  "carbs": "9g",
-                  "totalCalories": "130 calories"
-                }
+                  "protein": "32g",
+                  "fat": "27g",
+                  "carbs": "< 1g",
+                  "totalCalories": "370 calories"
+                },
+                "allergens": []
               },
               {
-                "name": "Sweet & Sour Tofu",
-                "photo_url": "http://example.com/sweet-&-sour-tofu.jpg",
+                "name": "Orzo",
+                "photo_url": "http://example.com/orzo.jpg",
                 "macros": {
                   "protein": "4g",
-                  "fat": "4g",
-                  "carbs": "13g",
-                  "totalCalories": "100 calories"
-                }
+                  "fat": "1.5g",
+                  "carbs": "21g",
+                  "totalCalories": "120 calories"
+                },
+                "allergens": [
+                  "Egg",
+                  "Gluten"
+                ]
               },
               {
-                "name": "Vegetable Fried Rice",
-                "photo_url": "http://example.com/vegetable-fried-rice.jpg",
+                "name": "Squash & Zucchini Medley",
+                "photo_url": "http://example.com/squash-&-zucchini-medley.jpg",
                 "macros": {
-                  "protein": "3g",
-                  "fat": "6g",
-                  "carbs": "27g",
-                  "totalCalories": "180 calories"
-                }
+                  "protein": "1g",
+                  "fat": "1.5g",
+                  "carbs": "6g",
+                  "totalCalories": "40 calories"
+                },
+                "allergens": []
               },
               {
-                "name": "Vegetable Stir Fry",
-                "photo_url": "http://example.com/vegetable-stir-fry.jpg",
+                "name": "Steamed Broccoli",
+                "photo_url": "http://example.com/steamed-broccoli.jpg",
                 "macros": {
                   "protein": "2g",
-                  "fat": "2g",
+                  "fat": "0g",
                   "carbs": "6g",
-                  "totalCalories": "45 calories"
-                }
+                  "totalCalories": "30 calories"
+                },
+                "allergens": []
               }
             ]
           },
@@ -11654,80 +13917,38 @@ const diningHallsData = [
             "name": "Grill",
             "items": [
               {
-                "name": "Bacon",
-                "photo_url": "http://example.com/bacon.jpg",
+                "name": "Chicken Teriyaki Stir Fry",
+                "photo_url": "http://example.com/chicken-teriyaki-stir-fry.jpg",
                 "macros": {
-                  "protein": "5g",
-                  "fat": "6g",
-                  "carbs": "< 1g",
-                  "totalCalories": "80 calories"
-                }
+                  "protein": "20g",
+                  "fat": "8g",
+                  "carbs": "10g",
+                  "totalCalories": "210 calories"
+                },
+                "allergens": [
+                  "Alcohol",
+                  "Soy"
+                ]
               },
               {
-                "name": "Grilled Montreal Chicken Breast",
-                "photo_url": "http://example.com/grilled-montreal-chicken-breast.jpg",
+                "name": "Fried Rice",
+                "photo_url": "http://example.com/fried-rice.jpg",
                 "macros": {
-                  "protein": "23g",
-                  "fat": "4g",
-                  "carbs": "0g",
-                  "totalCalories": "130 calories"
-                }
-              },
-              {
-                "name": "Ranch Dressing",
-                "photo_url": "http://example.com/ranch-dressing.jpg",
-                "macros": {
-                  "protein": "2g",
-                  "fat": "25g",
-                  "carbs": "6g",
-                  "totalCalories": "250 calories"
-                }
-              },
-              {
-                "name": "Roll Hoagie 6\"",
-                "photo_url": "http://example.com/roll-hoagie-6\".jpg",
-                "macros": {
-                  "protein": "5g",
-                  "fat": "1.5g",
-                  "carbs": "26g",
-                  "totalCalories": "140 calories"
-                }
-              },
-              {
-                "name": "Shredded Cheddar Jack Cheese",
-                "photo_url": "http://example.com/shredded-cheddar-jack-cheese.jpg",
-                "macros": {
-                  "protein": "7g",
-                  "fat": "9g",
-                  "carbs": "1g",
-                  "totalCalories": "110 calories"
-                }
-              },
-              {
-                "name": "Tater Tots",
-                "photo_url": "http://example.com/tater-tots.jpg",
-                "macros": {
-                  "protein": "2g",
-                  "fat": "12g",
-                  "carbs": "27g",
-                  "totalCalories": "220 calories"
-                }
+                  "protein": "3g",
+                  "fat": "3g",
+                  "carbs": "29g",
+                  "totalCalories": "160 calories"
+                },
+                "allergens": [
+                  "Alcohol",
+                  "Soy"
+                ]
               }
             ]
           },
           {
             "name": "Italia",
             "items": [
-              {
-                "name": "Alfredo Sauce",
-                "photo_url": "http://example.com/alfredo-sauce.jpg",
-                "macros": {
-                  "protein": "1g",
-                  "fat": "6g",
-                  "carbs": "2g",
-                  "totalCalories": "70 calories"
-                }
-              },
               {
                 "name": "Crushed Red Pepper",
                 "photo_url": "http://example.com/crushed-red-pepper.jpg",
@@ -11736,17 +13957,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "0g",
                   "totalCalories": "0 calories"
-                }
-              },
-              {
-                "name": "Diavolo Sauce",
-                "photo_url": "http://example.com/diavolo-sauce.jpg",
-                "macros": {
-                  "protein": "< 1g",
-                  "fat": "2.5g",
-                  "carbs": "5g",
-                  "totalCalories": "45 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Grated Parmesan Cheese",
@@ -11756,47 +13968,58 @@ const diningHallsData = [
                   "fat": "6g",
                   "carbs": "5g",
                   "totalCalories": "110 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               },
               {
-                "name": "Grilled Chicken Thighs",
-                "photo_url": "http://example.com/grilled-chicken-thighs.jpg",
+                "name": "Ground Turkey Marinara Sauce",
+                "photo_url": "http://example.com/ground-turkey-marinara-sauce.jpg",
                 "macros": {
-                  "protein": "21g",
-                  "fat": "7g",
-                  "carbs": "NA",
-                  "totalCalories": "160 calories"
-                }
-              },
-              {
-                "name": "Marinara Sauce",
-                "photo_url": "http://example.com/marinara-sauce.jpg",
-                "macros": {
-                  "protein": "0g",
-                  "fat": "0g",
-                  "carbs": "3g",
-                  "totalCalories": "20 calories"
-                }
-              },
-              {
-                "name": "Penne Pasta",
-                "photo_url": "http://example.com/penne-pasta.jpg",
-                "macros": {
-                  "protein": "10g",
-                  "fat": "1.5g",
-                  "carbs": "63g",
-                  "totalCalories": "300 calories"
-                }
-              },
-              {
-                "name": "Steamed Peas & Carrots",
-                "photo_url": "http://example.com/steamed-peas-&-carrots.jpg",
-                "macros": {
-                  "protein": "3g",
-                  "fat": "0g",
+                  "protein": "8g",
+                  "fat": "4g",
                   "carbs": "8g",
-                  "totalCalories": "40 calories"
-                }
+                  "totalCalories": "100 calories"
+                },
+                "allergens": []
+              },
+              {
+                "name": "Rigatoni Pasta",
+                "photo_url": "http://example.com/rigatoni-pasta.jpg",
+                "macros": {
+                  "protein": "4g",
+                  "fat": "1g",
+                  "carbs": "21g",
+                  "totalCalories": "100 calories"
+                },
+                "allergens": [
+                  "Gluten"
+                ]
+              },
+              {
+                "name": "Roasted Brussels Sprouts",
+                "photo_url": "http://example.com/roasted-brussels-sprouts.jpg",
+                "macros": {
+                  "protein": "2g",
+                  "fat": "2.5g",
+                  "carbs": "6g",
+                  "totalCalories": "50 calories"
+                },
+                "allergens": []
+              },
+              {
+                "name": "Roasted Tomato Alfredo Sauce",
+                "photo_url": "http://example.com/roasted-tomato-alfredo-sauce.jpg",
+                "macros": {
+                  "protein": "1g",
+                  "fat": "4.5g",
+                  "carbs": "2g",
+                  "totalCalories": "50 calories"
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               }
             ]
           }
@@ -11816,7 +14039,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "16g",
                   "totalCalories": "60 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Honey Cup",
@@ -11826,7 +14050,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "12g",
                   "totalCalories": "50 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Peanut Butter Sauce",
@@ -11836,7 +14061,10 @@ const diningHallsData = [
                   "fat": "223g",
                   "carbs": "125g",
                   "totalCalories": "2640 calories"
-                }
+                },
+                "allergens": [
+                  "Peanut"
+                ]
               },
               {
                 "name": "Sourdough Bread",
@@ -11846,7 +14074,11 @@ const diningHallsData = [
                   "fat": "1g",
                   "carbs": "18g",
                   "totalCalories": "100 calories"
-                }
+                },
+                "allergens": [
+                  "Gluten",
+                  "Soy"
+                ]
               },
               {
                 "name": "Strawberry Spread",
@@ -11856,7 +14088,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "15g",
                   "totalCalories": "60 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Wheatberry Bread",
@@ -11866,33 +14099,18 @@ const diningHallsData = [
                   "fat": "1.5g",
                   "carbs": "18g",
                   "totalCalories": "100 calories"
-                }
+                },
+                "allergens": [
+                  "Gluten",
+                  "Sesame",
+                  "Soy"
+                ]
               }
             ]
           },
           {
             "name": "Bakery",
             "items": [
-              {
-                "name": "Blueberry Cobbler",
-                "photo_url": "http://example.com/blueberry-cobbler.jpg",
-                "macros": {
-                  "protein": "3g",
-                  "fat": "15g",
-                  "carbs": "73g",
-                  "totalCalories": "440 calories"
-                }
-              },
-              {
-                "name": "Brookie",
-                "photo_url": "http://example.com/brookie.jpg",
-                "macros": {
-                  "protein": "2g",
-                  "fat": "8g",
-                  "carbs": "19g",
-                  "totalCalories": "160 calories"
-                }
-              },
               {
                 "name": "Chocolate Chip Cookie",
                 "photo_url": "http://example.com/chocolate-chip-cookie.jpg",
@@ -11901,17 +14119,56 @@ const diningHallsData = [
                   "fat": "15g",
                   "carbs": "44g",
                   "totalCalories": "320 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy",
+                  "Egg",
+                  "Gluten",
+                  "Soy"
+                ]
               },
               {
-                "name": "Vegan Snickerdoodle Cookie",
-                "photo_url": "http://example.com/vegan-snickerdoodle-cookie.jpg",
+                "name": "Oreo Bar",
+                "photo_url": "http://example.com/oreo-bar.jpg",
                 "macros": {
                   "protein": "3g",
-                  "fat": "10g",
-                  "carbs": "48g",
-                  "totalCalories": "280 calories"
-                }
+                  "fat": "21g",
+                  "carbs": "24g",
+                  "totalCalories": "300 calories"
+                },
+                "allergens": [
+                  "Dairy",
+                  "Gluten",
+                  "Soy"
+                ]
+              },
+              {
+                "name": "Red Velvet Cupcake",
+                "photo_url": "http://example.com/red-velvet-cupcake.jpg",
+                "macros": {
+                  "protein": "6g",
+                  "fat": "12g",
+                  "carbs": "57g",
+                  "totalCalories": "360 calories"
+                },
+                "allergens": [
+                  "Dairy",
+                  "Egg",
+                  "Gluten"
+                ]
+              },
+              {
+                "name": "Zucchini Bread",
+                "photo_url": "http://example.com/zucchini-bread.jpg",
+                "macros": {
+                  "protein": "2g",
+                  "fat": "7g",
+                  "carbs": "29g",
+                  "totalCalories": "180 calories"
+                },
+                "allergens": [
+                  "Gluten"
+                ]
               }
             ]
           },
@@ -11926,7 +14183,8 @@ const diningHallsData = [
                   "fat": "4g",
                   "carbs": "0g",
                   "totalCalories": "190 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Ketchup",
@@ -11936,7 +14194,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "8g",
                   "totalCalories": "35 calories"
-                }
+                },
+                "allergens": []
               }
             ]
           },
@@ -11951,7 +14210,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "18g",
                   "totalCalories": "70 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Honeycrisp Apple",
@@ -11961,7 +14221,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "25g",
                   "totalCalories": "100 calories"
-                }
+                },
+                "allergens": []
               }
             ]
           },
@@ -11976,7 +14237,10 @@ const diningHallsData = [
                   "fat": "2.5g",
                   "carbs": "24g",
                   "totalCalories": "150 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               },
               {
                 "name": "2% Milk",
@@ -11986,7 +14250,10 @@ const diningHallsData = [
                   "fat": "4.5g",
                   "carbs": "12g",
                   "totalCalories": "120 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               },
               {
                 "name": "Chai Tea",
@@ -11996,7 +14263,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "0g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Dispenser Dole Orange Juice",
@@ -12006,7 +14274,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "7g",
                   "totalCalories": "30 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Dispenser Stubborn Cola",
@@ -12016,7 +14285,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "4g",
                   "totalCalories": "15 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Earl Grey Tea",
@@ -12026,7 +14296,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "0g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "English Breakfast Tea",
@@ -12036,7 +14307,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "0g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Fruit Punch Gatorade",
@@ -12046,7 +14318,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "4g",
                   "totalCalories": "15 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Mr. Commodore Medium Roast Coffee",
@@ -12056,7 +14329,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "0g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Orange Gatorade",
@@ -12066,7 +14340,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "4g",
                   "totalCalories": "15 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sobe Yumberry Pomegranate",
@@ -12076,7 +14351,8 @@ const diningHallsData = [
                   "fat": "NA",
                   "carbs": "0g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Stubborn Agave Vanilla Cream Soda",
@@ -12086,7 +14362,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "6g",
                   "totalCalories": "25 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Stubborn Soda Black Cherry Soda",
@@ -12096,7 +14373,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "6g",
                   "totalCalories": "25 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Stubborn Zero Sugar Cola",
@@ -12106,7 +14384,8 @@ const diningHallsData = [
                   "fat": "NA",
                   "carbs": "NA",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sweet Tea",
@@ -12116,7 +14395,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "30g",
                   "totalCalories": "110 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Unsweet Tea",
@@ -12126,7 +14406,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "0g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Wild Sweet Orange Tea",
@@ -12136,7 +14417,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "NA",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               }
             ]
           },
@@ -12151,7 +14433,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "0g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Hot Cholula Sauce",
@@ -12161,7 +14444,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "0g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Splenda",
@@ -12171,7 +14455,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "0g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sugar",
@@ -12181,7 +14466,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "3g",
                   "totalCalories": "10 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sugar in the Raw",
@@ -12191,7 +14477,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "4g",
                   "totalCalories": "20 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sweet-N-Low",
@@ -12201,7 +14488,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "0g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Yellow Mustard",
@@ -12211,7 +14499,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "0g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               }
             ]
           },
@@ -12226,7 +14515,10 @@ const diningHallsData = [
                   "fat": "3g",
                   "carbs": "46g",
                   "totalCalories": "210 calories"
-                }
+                },
+                "allergens": [
+                  "Tree Nut"
+                ]
               },
               {
                 "name": "Lucky Charms",
@@ -12236,7 +14528,10 @@ const diningHallsData = [
                   "fat": "2g",
                   "carbs": "46g",
                   "totalCalories": "230 calories"
-                }
+                },
+                "allergens": [
+                  "Pork"
+                ]
               },
               {
                 "name": "Reeses Puffs",
@@ -12246,7 +14541,10 @@ const diningHallsData = [
                   "fat": "6g",
                   "carbs": "43g",
                   "totalCalories": "230 calories"
-                }
+                },
+                "allergens": [
+                  "Peanut"
+                ]
               }
             ]
           }
@@ -12271,7 +14569,10 @@ const diningHallsData = [
                   "fat": "5g",
                   "carbs": "31g",
                   "totalCalories": "180 calories"
-                }
+                },
+                "allergens": [
+                  "Gluten"
+                ]
               },
               {
                 "name": "Brats w/ Peppers & Onions",
@@ -12281,7 +14582,11 @@ const diningHallsData = [
                   "fat": "63g",
                   "carbs": "66g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": [
+                  "Gluten",
+                  "Sesame"
+                ]
               },
               {
                 "name": "Burger, Hand-Pattied",
@@ -12291,7 +14596,11 @@ const diningHallsData = [
                   "fat": "32g",
                   "carbs": "NA",
                   "totalCalories": "410 calories"
-                }
+                },
+                "allergens": [
+                  "Fish",
+                  "Soy"
+                ]
               },
               {
                 "name": "Chicken Tenders",
@@ -12301,7 +14610,10 @@ const diningHallsData = [
                   "fat": "19g",
                   "carbs": "34g",
                   "totalCalories": "400 calories"
-                }
+                },
+                "allergens": [
+                  "Gluten"
+                ]
               },
               {
                 "name": "Grilled Chicken Sandwich",
@@ -12311,7 +14623,11 @@ const diningHallsData = [
                   "fat": "4g",
                   "carbs": "32g",
                   "totalCalories": "260 calories"
-                }
+                },
+                "allergens": [
+                  "Gluten",
+                  "Sesame"
+                ]
               },
               {
                 "name": "Hamburger Bun",
@@ -12321,7 +14637,11 @@ const diningHallsData = [
                   "fat": "2g",
                   "carbs": "25g",
                   "totalCalories": "140 calories"
-                }
+                },
+                "allergens": [
+                  "Gluten",
+                  "Sesame"
+                ]
               },
               {
                 "name": "Impossible Burger Patty",
@@ -12331,7 +14651,11 @@ const diningHallsData = [
                   "fat": "18g",
                   "carbs": "9g",
                   "totalCalories": "270 calories"
-                }
+                },
+                "allergens": [
+                  "Coconut",
+                  "Soy"
+                ]
               },
               {
                 "name": "Pork Carnitas",
@@ -12341,7 +14665,10 @@ const diningHallsData = [
                   "fat": "26g",
                   "carbs": "3g",
                   "totalCalories": "340 calories"
-                }
+                },
+                "allergens": [
+                  "Pork"
+                ]
               },
               {
                 "name": "Seasoned Wings",
@@ -12351,7 +14678,8 @@ const diningHallsData = [
                   "fat": "53g",
                   "carbs": "< 1g",
                   "totalCalories": "740 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Spiced Pulled Chicken",
@@ -12361,7 +14689,8 @@ const diningHallsData = [
                   "fat": "6g",
                   "carbs": "2g",
                   "totalCalories": "170 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Vegan Chickn Strip",
@@ -12371,7 +14700,11 @@ const diningHallsData = [
                   "fat": "1.5g",
                   "carbs": "1g",
                   "totalCalories": "70 calories"
-                }
+                },
+                "allergens": [
+                  "Gluten",
+                  "Soy"
+                ]
               }
             ]
           },
@@ -12386,7 +14719,8 @@ const diningHallsData = [
                   "fat": "15g",
                   "carbs": "3g",
                   "totalCalories": "140 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "BBQ Sauce",
@@ -12396,7 +14730,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "12g",
                   "totalCalories": "45 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Blue Cheese Dressing",
@@ -12406,7 +14741,11 @@ const diningHallsData = [
                   "fat": "32g",
                   "carbs": "7g",
                   "totalCalories": "320 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy",
+                  "Egg"
+                ]
               },
               {
                 "name": "Buffalo Ranch Dressing",
@@ -12416,7 +14755,11 @@ const diningHallsData = [
                   "fat": "9g",
                   "carbs": "2g",
                   "totalCalories": "90 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy",
+                  "Egg"
+                ]
               },
               {
                 "name": "Caesar Dressing",
@@ -12426,7 +14769,12 @@ const diningHallsData = [
                   "fat": "23g",
                   "carbs": "1g",
                   "totalCalories": "210 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy",
+                  "Fish",
+                  "Soy"
+                ]
               },
               {
                 "name": "Honey Mustard",
@@ -12436,7 +14784,10 @@ const diningHallsData = [
                   "fat": "11g",
                   "carbs": "7g",
                   "totalCalories": "120 calories"
-                }
+                },
+                "allergens": [
+                  "Egg"
+                ]
               },
               {
                 "name": "Hot Cholula Sauce",
@@ -12446,7 +14797,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "0g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Ketchup",
@@ -12456,7 +14808,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "8g",
                   "totalCalories": "35 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Nashville Hot Sauce",
@@ -12466,7 +14819,8 @@ const diningHallsData = [
                   "fat": "8g",
                   "carbs": "5g",
                   "totalCalories": "90 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Pepper",
@@ -12476,7 +14830,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "0g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Ranch Dressing",
@@ -12486,7 +14841,11 @@ const diningHallsData = [
                   "fat": "20g",
                   "carbs": "2g",
                   "totalCalories": "190 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy",
+                  "Egg"
+                ]
               },
               {
                 "name": "Salt",
@@ -12496,7 +14855,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "0g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sweet Sriracha Sauce",
@@ -12506,7 +14866,12 @@ const diningHallsData = [
                   "fat": "3.5g",
                   "carbs": "13g",
                   "totalCalories": "80 calories"
-                }
+                },
+                "allergens": [
+                  "Alcohol",
+                  "Dairy",
+                  "Soy"
+                ]
               },
               {
                 "name": "Teriyaki Sauce",
@@ -12516,7 +14881,12 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "5g",
                   "totalCalories": "35 calories"
-                }
+                },
+                "allergens": [
+                  "Alcohol",
+                  "Gluten",
+                  "Soy"
+                ]
               },
               {
                 "name": "Yellow Mustard",
@@ -12526,7 +14896,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "0g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               }
             ]
           },
@@ -12541,7 +14912,8 @@ const diningHallsData = [
                   "fat": "0.5g",
                   "carbs": "41g",
                   "totalCalories": "160 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Caesar Salad",
@@ -12551,7 +14923,13 @@ const diningHallsData = [
                   "fat": "26g",
                   "carbs": "11g",
                   "totalCalories": "290 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy",
+                  "Fish",
+                  "Gluten",
+                  "Soy"
+                ]
               },
               {
                 "name": "Corn Tortilla Chips",
@@ -12561,7 +14939,8 @@ const diningHallsData = [
                   "fat": "12g",
                   "carbs": "40g",
                   "totalCalories": "280 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Crisscut Fries",
@@ -12571,7 +14950,10 @@ const diningHallsData = [
                   "fat": "121g",
                   "carbs": "287g",
                   "totalCalories": "860 calories"
-                }
+                },
+                "allergens": [
+                  "Gluten"
+                ]
               },
               {
                 "name": "Fried Pickle Chips",
@@ -12581,7 +14963,11 @@ const diningHallsData = [
                   "fat": "20g",
                   "carbs": "46g",
                   "totalCalories": "390 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy",
+                  "Gluten"
+                ]
               },
               {
                 "name": "Granny Smith Apple",
@@ -12591,7 +14977,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "21g",
                   "totalCalories": "90 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Pretzel Bites",
@@ -12601,7 +14988,10 @@ const diningHallsData = [
                   "fat": "6g",
                   "carbs": "50g",
                   "totalCalories": "290 calories"
-                }
+                },
+                "allergens": [
+                  "Gluten"
+                ]
               },
               {
                 "name": "White Queso",
@@ -12611,7 +15001,10 @@ const diningHallsData = [
                   "fat": "4.5g",
                   "carbs": "1g",
                   "totalCalories": "60 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               }
             ]
           },
@@ -12626,7 +15019,10 @@ const diningHallsData = [
                   "fat": "27g",
                   "carbs": "63g",
                   "totalCalories": "540 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               },
               {
                 "name": "Strawberry Milkshake",
@@ -12636,7 +15032,10 @@ const diningHallsData = [
                   "fat": "25g",
                   "carbs": "61g",
                   "totalCalories": "520 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               },
               {
                 "name": "Vanilla Milkshake",
@@ -12646,7 +15045,11 @@ const diningHallsData = [
                   "fat": "28g",
                   "carbs": "62g",
                   "totalCalories": "530 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy",
+                  "Egg"
+                ]
               }
             ]
           },
@@ -12661,7 +15064,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "7g",
                   "totalCalories": "30 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Dole Apple Juice",
@@ -12671,7 +15075,8 @@ const diningHallsData = [
                   "fat": "NA",
                   "carbs": "7g",
                   "totalCalories": "30 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Dole Cranberry Juice",
@@ -12681,7 +15086,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "8g",
                   "totalCalories": "30 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Lemon Lime Gatorade",
@@ -12691,7 +15097,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "4g",
                   "totalCalories": "15 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Orange Gatorade",
@@ -12701,7 +15108,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "4g",
                   "totalCalories": "15 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sobe Yumberry Pomegranate",
@@ -12711,7 +15119,8 @@ const diningHallsData = [
                   "fat": "NA",
                   "carbs": "0g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Tropicana Lemonade",
@@ -12721,7 +15130,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "7g",
                   "totalCalories": "25 calories"
-                }
+                },
+                "allergens": []
               }
             ]
           },
@@ -12736,7 +15146,10 @@ const diningHallsData = [
                   "fat": "6g",
                   "carbs": "0g",
                   "totalCalories": "80 calories"
-                }
+                },
+                "allergens": [
+                  "Pork"
+                ]
               },
               {
                 "name": "Black Olive",
@@ -12746,7 +15159,8 @@ const diningHallsData = [
                   "fat": "3.5g",
                   "carbs": "2g",
                   "totalCalories": "50 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Chili w/ Out Beans",
@@ -12756,7 +15170,10 @@ const diningHallsData = [
                   "fat": "4.5g",
                   "carbs": "5g",
                   "totalCalories": "80 calories"
-                }
+                },
+                "allergens": [
+                  "Soy"
+                ]
               },
               {
                 "name": "Chopped CIlantro",
@@ -12766,7 +15183,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "0g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Dill Pickle Chips",
@@ -12776,7 +15194,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "0g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Leaf Lettuce",
@@ -12786,7 +15205,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "< 1g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Mild Salsa",
@@ -12796,7 +15216,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "2g",
                   "totalCalories": "10 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Shredded Cheddar Jack Cheese",
@@ -12806,7 +15227,10 @@ const diningHallsData = [
                   "fat": "9g",
                   "carbs": "1g",
                   "totalCalories": "110 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               },
               {
                 "name": "Sliced American Cheese",
@@ -12816,7 +15240,11 @@ const diningHallsData = [
                   "fat": "6g",
                   "carbs": "< 1g",
                   "totalCalories": "70 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy",
+                  "Soy"
+                ]
               },
               {
                 "name": "Sliced Cheddar Cheese",
@@ -12826,7 +15254,11 @@ const diningHallsData = [
                   "fat": "7g",
                   "carbs": "1g",
                   "totalCalories": "90 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy",
+                  "Sesame"
+                ]
               },
               {
                 "name": "Sliced Pepperjack Cheese",
@@ -12836,7 +15268,10 @@ const diningHallsData = [
                   "fat": "2.5g",
                   "carbs": "0g",
                   "totalCalories": "30 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               },
               {
                 "name": "Sliced Pickled Jalapenos",
@@ -12846,7 +15281,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "1g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sliced Scallions",
@@ -12856,7 +15292,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "0g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sliced Swiss Cheese",
@@ -12866,7 +15303,10 @@ const diningHallsData = [
                   "fat": "8g",
                   "carbs": "0g",
                   "totalCalories": "100 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               },
               {
                 "name": "Sliced Tomatoes",
@@ -12876,7 +15316,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "< 1g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sliced Yellow Onion",
@@ -12886,7 +15327,8 @@ const diningHallsData = [
                   "fat": "3g",
                   "carbs": "2g",
                   "totalCalories": "35 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sour Cream",
@@ -12896,7 +15338,10 @@ const diningHallsData = [
                   "fat": "9g",
                   "carbs": "4g",
                   "totalCalories": "110 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               }
             ]
           }
@@ -12921,7 +15366,10 @@ const diningHallsData = [
                   "fat": "5g",
                   "carbs": "41g",
                   "totalCalories": "210 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               },
               {
                 "name": "Cottage Cheese",
@@ -12931,7 +15379,10 @@ const diningHallsData = [
                   "fat": "1.5g",
                   "carbs": "1g",
                   "totalCalories": "30 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               },
               {
                 "name": "Craisins",
@@ -12941,7 +15392,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "28g",
                   "totalCalories": "110 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Dairy Free Vanilla Yogurt",
@@ -12951,7 +15403,10 @@ const diningHallsData = [
                   "fat": "1.5g",
                   "carbs": "3g",
                   "totalCalories": "25 calories"
-                }
+                },
+                "allergens": [
+                  "Coconut"
+                ]
               },
               {
                 "name": "Diced Cantaloupe",
@@ -12961,7 +15416,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "2g",
                   "totalCalories": "10 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Diced Pineapple",
@@ -12971,7 +15427,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "7g",
                   "totalCalories": "25 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Hard Boiled Egg",
@@ -12981,17 +15438,10 @@ const diningHallsData = [
                   "fat": "5g",
                   "carbs": "0g",
                   "totalCalories": "70 calories"
-                }
-              },
-              {
-                "name": "Mini Chocolate Chips",
-                "photo_url": "http://example.com/mini-chocolate-chips.jpg",
-                "macros": {
-                  "protein": "1g",
-                  "fat": "8g",
-                  "carbs": "19g",
-                  "totalCalories": "130 calories"
-                }
+                },
+                "allergens": [
+                  "Egg"
+                ]
               },
               {
                 "name": "Plain Greek Yogurt",
@@ -13001,7 +15451,10 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "1g",
                   "totalCalories": "15 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               },
               {
                 "name": "Red Grapes",
@@ -13011,7 +15464,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "5g",
                   "totalCalories": "20 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Toasted Coconut",
@@ -13021,7 +15475,10 @@ const diningHallsData = [
                   "fat": "7g",
                   "carbs": "9g",
                   "totalCalories": "130 calories"
-                }
+                },
+                "allergens": [
+                  "Coconut"
+                ]
               },
               {
                 "name": "Vanilla Greek Yogurt",
@@ -13031,13 +15488,29 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "3g",
                   "totalCalories": "25 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               }
             ]
           },
           {
             "name": "Bagel Bar",
             "items": [
+              {
+                "name": "Bacon",
+                "photo_url": "http://example.com/bacon.jpg",
+                "macros": {
+                  "protein": "5g",
+                  "fat": "6g",
+                  "carbs": "0g",
+                  "totalCalories": "80 calories"
+                },
+                "allergens": [
+                  "Pork"
+                ]
+              },
               {
                 "name": "Blackberry Jam",
                 "photo_url": "http://example.com/blackberry-jam.jpg",
@@ -13046,7 +15519,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "36g",
                   "totalCalories": "140 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Butter",
@@ -13056,7 +15530,10 @@ const diningHallsData = [
                   "fat": "8g",
                   "carbs": "0g",
                   "totalCalories": "80 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               },
               {
                 "name": "Cream Cheese",
@@ -13066,7 +15543,10 @@ const diningHallsData = [
                   "fat": "7g",
                   "carbs": "1g",
                   "totalCalories": "70 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               },
               {
                 "name": "Fried Eggs",
@@ -13076,7 +15556,10 @@ const diningHallsData = [
                   "fat": "4g",
                   "carbs": "0g",
                   "totalCalories": "70 calories"
-                }
+                },
+                "allergens": [
+                  "Egg"
+                ]
               },
               {
                 "name": "Plain Bagel",
@@ -13086,7 +15569,10 @@ const diningHallsData = [
                   "fat": "1g",
                   "carbs": "61g",
                   "totalCalories": "290 calories"
-                }
+                },
+                "allergens": [
+                  "Gluten"
+                ]
               },
               {
                 "name": "Sourdough Bread",
@@ -13096,7 +15582,11 @@ const diningHallsData = [
                   "fat": "1g",
                   "carbs": "18g",
                   "totalCalories": "100 calories"
-                }
+                },
+                "allergens": [
+                  "Gluten",
+                  "Soy"
+                ]
               },
               {
                 "name": "Strawberry Cream Cheese",
@@ -13106,7 +15596,10 @@ const diningHallsData = [
                   "fat": "6g",
                   "carbs": "4g",
                   "totalCalories": "70 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               },
               {
                 "name": "Strawberry Jalapeno Jam",
@@ -13116,17 +15609,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "36g",
                   "totalCalories": "140 calories"
-                }
-              },
-              {
-                "name": "Turkey Sausage Link",
-                "photo_url": "http://example.com/turkey-sausage-link.jpg",
-                "macros": {
-                  "protein": "3g",
-                  "fat": "2.5g",
-                  "carbs": "0g",
-                  "totalCalories": "35 calories"
-                }
+                },
+                "allergens": []
               }
             ]
           },
@@ -13134,24 +15618,35 @@ const diningHallsData = [
             "name": "Bakery",
             "items": [
               {
-                "name": "Lemon Quick Bread",
-                "photo_url": "http://example.com/lemon-quick-bread.jpg",
+                "name": "Chocolate Muffin",
+                "photo_url": "http://example.com/chocolate-muffin.jpg",
                 "macros": {
-                  "protein": "3g",
-                  "fat": "14g",
-                  "carbs": "72g",
-                  "totalCalories": "420 calories"
-                }
-              },
-              {
-                "name": "Mocha Muffin",
-                "photo_url": "http://example.com/mocha-muffin.jpg",
-                "macros": {
-                  "protein": "2g",
+                  "protein": "4g",
                   "fat": "14g",
                   "carbs": "42g",
-                  "totalCalories": "300 calories"
-                }
+                  "totalCalories": "310 calories"
+                },
+                "allergens": [
+                  "Dairy",
+                  "Egg",
+                  "Gluten",
+                  "Soy"
+                ]
+              },
+              {
+                "name": "Cinnamon Roll",
+                "photo_url": "http://example.com/cinnamon-roll.jpg",
+                "macros": {
+                  "protein": "4g",
+                  "fat": "8g",
+                  "carbs": "31g",
+                  "totalCalories": "210 calories"
+                },
+                "allergens": [
+                  "Dairy",
+                  "Egg",
+                  "Gluten"
+                ]
               }
             ]
           },
@@ -13166,7 +15661,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "1g",
                   "totalCalories": "5 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Egg Whites",
@@ -13176,7 +15672,10 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "2g",
                   "totalCalories": "70 calories"
-                }
+                },
+                "allergens": [
+                  "Egg"
+                ]
               },
               {
                 "name": "Ground Pork Sausage",
@@ -13186,7 +15685,10 @@ const diningHallsData = [
                   "fat": "9g",
                   "carbs": "< 1g",
                   "totalCalories": "100 calories"
-                }
+                },
+                "allergens": [
+                  "Pork"
+                ]
               },
               {
                 "name": "Large Egg - Cage Free Grade A",
@@ -13196,7 +15698,10 @@ const diningHallsData = [
                   "fat": "4.5g",
                   "carbs": "0g",
                   "totalCalories": "70 calories"
-                }
+                },
+                "allergens": [
+                  "Egg"
+                ]
               },
               {
                 "name": "Liquid Egg",
@@ -13206,7 +15711,10 @@ const diningHallsData = [
                   "fat": "14g",
                   "carbs": "2g",
                   "totalCalories": "190 calories"
-                }
+                },
+                "allergens": [
+                  "Egg"
+                ]
               },
               {
                 "name": "Plant-Based Chipotle Chorizo",
@@ -13216,7 +15724,10 @@ const diningHallsData = [
                   "fat": "4g",
                   "carbs": "3g",
                   "totalCalories": "80 calories"
-                }
+                },
+                "allergens": [
+                  "Gluten"
+                ]
               },
               {
                 "name": "Sauteed Peppers & Onions",
@@ -13226,7 +15737,8 @@ const diningHallsData = [
                   "fat": "3g",
                   "carbs": "2g",
                   "totalCalories": "35 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Shredded Cheddar Cheese",
@@ -13236,7 +15748,10 @@ const diningHallsData = [
                   "fat": "9g",
                   "carbs": "0g",
                   "totalCalories": "110 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               },
               {
                 "name": "Shredded Vegan Cheddar Cheese",
@@ -13246,7 +15761,8 @@ const diningHallsData = [
                   "fat": "5g",
                   "carbs": "6g",
                   "totalCalories": "70 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Spinach",
@@ -13256,7 +15772,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "1g",
                   "totalCalories": "5 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Vegan Egg",
@@ -13266,7 +15783,10 @@ const diningHallsData = [
                   "fat": "10g",
                   "carbs": "0g",
                   "totalCalories": "160 calories"
-                }
+                },
+                "allergens": [
+                  "Soy"
+                ]
               }
             ]
           },
@@ -13281,7 +15801,10 @@ const diningHallsData = [
                   "fat": "9g",
                   "carbs": "< 1g",
                   "totalCalories": "90 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               },
               {
                 "name": "Breakfast Gravy",
@@ -13291,7 +15814,11 @@ const diningHallsData = [
                   "fat": "1g",
                   "carbs": "4g",
                   "totalCalories": "30 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy",
+                  "Gluten"
+                ]
               },
               {
                 "name": "Cauliflower Pizza Crust",
@@ -13301,7 +15828,8 @@ const diningHallsData = [
                   "fat": "9g",
                   "carbs": "155g",
                   "totalCalories": "660 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Diced Tomatoes",
@@ -13311,7 +15839,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "1g",
                   "totalCalories": "5 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Ground Pork Sausage",
@@ -13321,7 +15850,10 @@ const diningHallsData = [
                   "fat": "9g",
                   "carbs": "< 1g",
                   "totalCalories": "100 calories"
-                }
+                },
+                "allergens": [
+                  "Pork"
+                ]
               },
               {
                 "name": "Naan Flatbread",
@@ -13331,7 +15863,14 @@ const diningHallsData = [
                   "fat": "7g",
                   "carbs": "35g",
                   "totalCalories": "230 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy",
+                  "Egg",
+                  "Gluten",
+                  "Sesame",
+                  "Soy"
+                ]
               },
               {
                 "name": "Sauteed Peppers & Onions",
@@ -13341,7 +15880,8 @@ const diningHallsData = [
                   "fat": "3g",
                   "carbs": "2g",
                   "totalCalories": "35 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Scrambled Eggs",
@@ -13351,7 +15891,10 @@ const diningHallsData = [
                   "fat": "21g",
                   "carbs": "3g",
                   "totalCalories": "280 calories"
-                }
+                },
+                "allergens": [
+                  "Egg"
+                ]
               },
               {
                 "name": "Shredded Cheddar Cheese",
@@ -13361,7 +15904,10 @@ const diningHallsData = [
                   "fat": "9g",
                   "carbs": "0g",
                   "totalCalories": "110 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               },
               {
                 "name": "Shredded Vegan Cheddar Cheese",
@@ -13371,7 +15917,8 @@ const diningHallsData = [
                   "fat": "5g",
                   "carbs": "6g",
                   "totalCalories": "70 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sliced Mushroom",
@@ -13381,7 +15928,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "< 1g",
                   "totalCalories": "5 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Spinach",
@@ -13391,7 +15939,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "1g",
                   "totalCalories": "5 calories"
-                }
+                },
+                "allergens": []
               }
             ]
           }
@@ -13411,7 +15960,10 @@ const diningHallsData = [
                   "fat": "21g",
                   "carbs": "8g",
                   "totalCalories": "230 calories"
-                }
+                },
+                "allergens": [
+                  "Egg"
+                ]
               },
               {
                 "name": "Balsamic Vinaigrette",
@@ -13421,7 +15973,8 @@ const diningHallsData = [
                   "fat": "9g",
                   "carbs": "9g",
                   "totalCalories": "110 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Caesar Dressing",
@@ -13431,7 +15984,13 @@ const diningHallsData = [
                   "fat": "27g",
                   "carbs": "2g",
                   "totalCalories": "250 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy",
+                  "Egg",
+                  "Fish",
+                  "Soy"
+                ]
               },
               {
                 "name": "Chopped Romaine Lettuce",
@@ -13441,7 +16000,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "< 1g",
                   "totalCalories": "5 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Croutons",
@@ -13451,7 +16011,11 @@ const diningHallsData = [
                   "fat": "4g",
                   "carbs": "20g",
                   "totalCalories": "120 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy",
+                  "Gluten"
+                ]
               },
               {
                 "name": "Garbanzo Beans",
@@ -13461,7 +16025,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "5g",
                   "totalCalories": "30 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Grape Tomatoes",
@@ -13471,7 +16036,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "1g",
                   "totalCalories": "5 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Honey Mustard Dressing",
@@ -13481,17 +16047,10 @@ const diningHallsData = [
                   "fat": "28g",
                   "carbs": "14g",
                   "totalCalories": "300 calories"
-                }
-              },
-              {
-                "name": "Masala Cauliflower Soup",
-                "photo_url": "http://example.com/masala-cauliflower-soup.jpg",
-                "macros": {
-                  "protein": "2g",
-                  "fat": "3.5g",
-                  "carbs": "14g",
-                  "totalCalories": "90 calories"
-                }
+                },
+                "allergens": [
+                  "Egg"
+                ]
               },
               {
                 "name": "Ranch Dressing",
@@ -13501,7 +16060,22 @@ const diningHallsData = [
                   "fat": "25g",
                   "carbs": "6g",
                   "totalCalories": "250 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy",
+                  "Egg"
+                ]
+              },
+              {
+                "name": "Santa Fe Tortilla Soup",
+                "photo_url": "http://example.com/santa-fe-tortilla-soup.jpg",
+                "macros": {
+                  "protein": "2g",
+                  "fat": "1g",
+                  "carbs": "11g",
+                  "totalCalories": "60 calories"
+                },
+                "allergens": []
               },
               {
                 "name": "Shredded Carrot",
@@ -13511,7 +16085,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "3g",
                   "totalCalories": "10 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Shredded Cheddar Cheese",
@@ -13521,7 +16096,10 @@ const diningHallsData = [
                   "fat": "9g",
                   "carbs": "0g",
                   "totalCalories": "110 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               },
               {
                 "name": "Shredded Vegan Cheddar Cheese",
@@ -13531,7 +16109,8 @@ const diningHallsData = [
                   "fat": "5g",
                   "carbs": "6g",
                   "totalCalories": "70 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sliced Mushroom",
@@ -13541,7 +16120,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "< 1g",
                   "totalCalories": "5 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sliced Peppers",
@@ -13551,7 +16131,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "1g",
                   "totalCalories": "5 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Spring Salad Mix",
@@ -13561,7 +16142,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "< 1g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Tri-Colored Quinoa",
@@ -13571,7 +16153,8 @@ const diningHallsData = [
                   "fat": "2g",
                   "carbs": "22g",
                   "totalCalories": "130 calories"
-                }
+                },
+                "allergens": []
               }
             ]
           },
@@ -13586,7 +16169,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "1g",
                   "totalCalories": "5 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Basil Pesto",
@@ -13596,7 +16180,10 @@ const diningHallsData = [
                   "fat": "9g",
                   "carbs": "< 1g",
                   "totalCalories": "90 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               },
               {
                 "name": "Black Olive",
@@ -13606,7 +16193,8 @@ const diningHallsData = [
                   "fat": "3.5g",
                   "carbs": "2g",
                   "totalCalories": "50 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Cauliflower Pizza Crust",
@@ -13616,7 +16204,8 @@ const diningHallsData = [
                   "fat": "9g",
                   "carbs": "155g",
                   "totalCalories": "660 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Diced Chicken Thigh",
@@ -13626,7 +16215,8 @@ const diningHallsData = [
                   "fat": "2g",
                   "carbs": "NA",
                   "totalCalories": "40 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Grated Parmesan Cheese",
@@ -13636,7 +16226,10 @@ const diningHallsData = [
                   "fat": "6g",
                   "carbs": "5g",
                   "totalCalories": "110 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               },
               {
                 "name": "Ground Pork Sausage",
@@ -13646,7 +16239,10 @@ const diningHallsData = [
                   "fat": "9g",
                   "carbs": "< 1g",
                   "totalCalories": "100 calories"
-                }
+                },
+                "allergens": [
+                  "Pork"
+                ]
               },
               {
                 "name": "Marinara Sauce",
@@ -13656,7 +16252,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "3g",
                   "totalCalories": "20 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Naan Flatbread",
@@ -13666,7 +16263,14 @@ const diningHallsData = [
                   "fat": "7g",
                   "carbs": "35g",
                   "totalCalories": "230 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy",
+                  "Egg",
+                  "Gluten",
+                  "Sesame",
+                  "Soy"
+                ]
               },
               {
                 "name": "Pineapple Tidbit Chunks",
@@ -13676,7 +16280,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "3g",
                   "totalCalories": "15 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sauteed Peppers & Onions",
@@ -13686,7 +16291,8 @@ const diningHallsData = [
                   "fat": "3g",
                   "carbs": "2g",
                   "totalCalories": "35 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Shredded Mozzarella Cheese",
@@ -13696,7 +16302,10 @@ const diningHallsData = [
                   "fat": "3.5g",
                   "carbs": "0g",
                   "totalCalories": "45 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               },
               {
                 "name": "Shredded Vegan Mozzarella Cheese",
@@ -13706,7 +16315,8 @@ const diningHallsData = [
                   "fat": "5g",
                   "carbs": "6g",
                   "totalCalories": "70 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sliced Mushroom",
@@ -13716,7 +16326,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "< 1g",
                   "totalCalories": "5 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sliced Pepperoni",
@@ -13726,7 +16337,8 @@ const diningHallsData = [
                   "fat": "10g",
                   "carbs": "0g",
                   "totalCalories": "110 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Spinach",
@@ -13736,7 +16348,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "1g",
                   "totalCalories": "5 calories"
-                }
+                },
+                "allergens": []
               }
             ]
           },
@@ -13751,17 +16364,21 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "0g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               },
               {
-                "name": "Citrus Chicken",
-                "photo_url": "http://example.com/citrus-chicken.jpg",
+                "name": "Cilantro Lime Slaw",
+                "photo_url": "http://example.com/cilantro-lime-slaw.jpg",
                 "macros": {
-                  "protein": "20g",
-                  "fat": "4.5g",
-                  "carbs": "3g",
-                  "totalCalories": "140 calories"
-                }
+                  "protein": "< 1g",
+                  "fat": "11g",
+                  "carbs": "2g",
+                  "totalCalories": "110 calories"
+                },
+                "allergens": [
+                  "Soy"
+                ]
               },
               {
                 "name": "Flour Tortilla 6\"",
@@ -13771,7 +16388,21 @@ const diningHallsData = [
                   "fat": "2.5g",
                   "carbs": "16g",
                   "totalCalories": "100 calories"
-                }
+                },
+                "allergens": [
+                  "Gluten"
+                ]
+              },
+              {
+                "name": "Lentil Taco Filling",
+                "photo_url": "http://example.com/lentil-taco-filling.jpg",
+                "macros": {
+                  "protein": "6g",
+                  "fat": "0g",
+                  "carbs": "14g",
+                  "totalCalories": "80 calories"
+                },
+                "allergens": []
               },
               {
                 "name": "Lime Wedges",
@@ -13781,7 +16412,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "0g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Mild Salsa",
@@ -13791,27 +16423,21 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "2g",
                   "totalCalories": "10 calories"
-                }
+                },
+                "allergens": []
               },
               {
-                "name": "Mushroom Birria",
-                "photo_url": "http://example.com/mushroom-birria.jpg",
+                "name": "Pork Barbacoa",
+                "photo_url": "http://example.com/pork-barbacoa.jpg",
                 "macros": {
-                  "protein": "4g",
-                  "fat": "1.5g",
+                  "protein": "19g",
+                  "fat": "13g",
                   "carbs": "7g",
-                  "totalCalories": "50 calories"
-                }
-              },
-              {
-                "name": "Pico de Gallo",
-                "photo_url": "http://example.com/pico-de-gallo.jpg",
-                "macros": {
-                  "protein": "0g",
-                  "fat": "0g",
-                  "carbs": "1g",
-                  "totalCalories": "5 calories"
-                }
+                  "totalCalories": "230 calories"
+                },
+                "allergens": [
+                  "Pork"
+                ]
               },
               {
                 "name": "Rice Spanish",
@@ -13821,7 +16447,8 @@ const diningHallsData = [
                   "fat": "2g",
                   "carbs": "24g",
                   "totalCalories": "120 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Seasoned Black Beans",
@@ -13831,7 +16458,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "21g",
                   "totalCalories": "110 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sour Cream",
@@ -13841,7 +16469,10 @@ const diningHallsData = [
                   "fat": "9g",
                   "carbs": "4g",
                   "totalCalories": "110 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               },
               {
                 "name": "Tortilla Chips",
@@ -13851,7 +16482,8 @@ const diningHallsData = [
                   "fat": "6g",
                   "carbs": "20g",
                   "totalCalories": "140 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "White Queso",
@@ -13861,7 +16493,10 @@ const diningHallsData = [
                   "fat": "4.5g",
                   "carbs": "1g",
                   "totalCalories": "60 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               }
             ]
           }
@@ -13881,7 +16516,10 @@ const diningHallsData = [
                   "fat": "21g",
                   "carbs": "8g",
                   "totalCalories": "230 calories"
-                }
+                },
+                "allergens": [
+                  "Egg"
+                ]
               },
               {
                 "name": "Balsamic Vinaigrette",
@@ -13891,7 +16529,8 @@ const diningHallsData = [
                   "fat": "9g",
                   "carbs": "9g",
                   "totalCalories": "110 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Caesar Dressing",
@@ -13901,7 +16540,13 @@ const diningHallsData = [
                   "fat": "27g",
                   "carbs": "2g",
                   "totalCalories": "250 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy",
+                  "Egg",
+                  "Fish",
+                  "Soy"
+                ]
               },
               {
                 "name": "Chopped Romaine Lettuce",
@@ -13911,7 +16556,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "< 1g",
                   "totalCalories": "5 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Croutons",
@@ -13921,7 +16567,11 @@ const diningHallsData = [
                   "fat": "4g",
                   "carbs": "20g",
                   "totalCalories": "120 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy",
+                  "Gluten"
+                ]
               },
               {
                 "name": "Garbanzo Beans",
@@ -13931,7 +16581,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "5g",
                   "totalCalories": "30 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Grape Tomatoes",
@@ -13941,7 +16592,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "1g",
                   "totalCalories": "5 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Honey Mustard Dressing",
@@ -13951,7 +16603,10 @@ const diningHallsData = [
                   "fat": "28g",
                   "carbs": "14g",
                   "totalCalories": "300 calories"
-                }
+                },
+                "allergens": [
+                  "Egg"
+                ]
               },
               {
                 "name": "Ranch Dressing",
@@ -13961,7 +16616,11 @@ const diningHallsData = [
                   "fat": "25g",
                   "carbs": "6g",
                   "totalCalories": "250 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy",
+                  "Egg"
+                ]
               },
               {
                 "name": "Shredded Carrot",
@@ -13971,7 +16630,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "3g",
                   "totalCalories": "10 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Shredded Cheddar Cheese",
@@ -13981,7 +16641,10 @@ const diningHallsData = [
                   "fat": "9g",
                   "carbs": "0g",
                   "totalCalories": "110 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               },
               {
                 "name": "Shredded Vegan Cheddar Cheese",
@@ -13991,7 +16654,8 @@ const diningHallsData = [
                   "fat": "5g",
                   "carbs": "6g",
                   "totalCalories": "70 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sliced Mushroom",
@@ -14001,7 +16665,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "< 1g",
                   "totalCalories": "5 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sliced Peppers",
@@ -14011,7 +16676,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "1g",
                   "totalCalories": "5 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Spring Salad Mix",
@@ -14021,7 +16687,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "< 1g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Tri-Colored Quinoa",
@@ -14031,7 +16698,8 @@ const diningHallsData = [
                   "fat": "2g",
                   "carbs": "22g",
                   "totalCalories": "130 calories"
-                }
+                },
+                "allergens": []
               }
             ]
           },
@@ -14046,7 +16714,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "1g",
                   "totalCalories": "5 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Basil Pesto",
@@ -14056,7 +16725,10 @@ const diningHallsData = [
                   "fat": "9g",
                   "carbs": "< 1g",
                   "totalCalories": "90 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               },
               {
                 "name": "Black Olive",
@@ -14066,7 +16738,8 @@ const diningHallsData = [
                   "fat": "3.5g",
                   "carbs": "2g",
                   "totalCalories": "50 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Cauliflower Pizza Crust",
@@ -14076,7 +16749,8 @@ const diningHallsData = [
                   "fat": "9g",
                   "carbs": "155g",
                   "totalCalories": "660 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Diced Chicken Thigh",
@@ -14086,7 +16760,8 @@ const diningHallsData = [
                   "fat": "2g",
                   "carbs": "NA",
                   "totalCalories": "40 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Grated Parmesan Cheese",
@@ -14096,7 +16771,10 @@ const diningHallsData = [
                   "fat": "6g",
                   "carbs": "5g",
                   "totalCalories": "110 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               },
               {
                 "name": "Ground Pork Sausage",
@@ -14106,7 +16784,10 @@ const diningHallsData = [
                   "fat": "9g",
                   "carbs": "< 1g",
                   "totalCalories": "100 calories"
-                }
+                },
+                "allergens": [
+                  "Pork"
+                ]
               },
               {
                 "name": "Marinara Sauce",
@@ -14116,7 +16797,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "3g",
                   "totalCalories": "20 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Naan Flatbread",
@@ -14126,7 +16808,14 @@ const diningHallsData = [
                   "fat": "7g",
                   "carbs": "35g",
                   "totalCalories": "230 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy",
+                  "Egg",
+                  "Gluten",
+                  "Sesame",
+                  "Soy"
+                ]
               },
               {
                 "name": "Pineapple Tidbit Chunks",
@@ -14136,7 +16825,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "3g",
                   "totalCalories": "15 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sauteed Peppers & Onions",
@@ -14146,7 +16836,8 @@ const diningHallsData = [
                   "fat": "3g",
                   "carbs": "2g",
                   "totalCalories": "35 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Shredded Mozzarella Cheese",
@@ -14156,7 +16847,10 @@ const diningHallsData = [
                   "fat": "3.5g",
                   "carbs": "0g",
                   "totalCalories": "45 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               },
               {
                 "name": "Shredded Vegan Mozzarella Cheese",
@@ -14166,7 +16860,8 @@ const diningHallsData = [
                   "fat": "5g",
                   "carbs": "6g",
                   "totalCalories": "70 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sliced Mushroom",
@@ -14176,7 +16871,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "< 1g",
                   "totalCalories": "5 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sliced Pepperoni",
@@ -14186,7 +16882,8 @@ const diningHallsData = [
                   "fat": "10g",
                   "carbs": "0g",
                   "totalCalories": "110 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Spinach",
@@ -14196,72 +16893,79 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "1g",
                   "totalCalories": "5 calories"
-                }
+                },
+                "allergens": []
               }
             ]
           },
           {
-            "name": "Specialty",
+            "name": "Special Event",
             "items": [
               {
-                "name": "Braised Red Cabbage w/ Apple",
-                "photo_url": "http://example.com/braised-red-cabbage-w/-apple.jpg",
+                "name": "Injera",
+                "photo_url": "http://example.com/injera.jpg",
                 "macros": {
-                  "protein": "1g",
-                  "fat": "0g",
-                  "carbs": "15g",
-                  "totalCalories": "60 calories"
-                }
+                  "protein": "NA",
+                  "fat": "NA",
+                  "carbs": "NA",
+                  "totalCalories": "0 calories"
+                },
+                "allergens": []
               },
               {
-                "name": "Gurkensalat (Cucumber Salad)",
-                "photo_url": "http://example.com/gurkensalat-(cucumber-salad).jpg",
+                "name": "Misir Wot",
+                "photo_url": "http://example.com/misir-wot.jpg",
                 "macros": {
-                  "protein": "< 1g",
-                  "fat": "2.5g",
-                  "carbs": "4g",
-                  "totalCalories": "35 calories"
-                }
+                  "protein": "4g",
+                  "fat": "9g",
+                  "carbs": "13g",
+                  "totalCalories": "140 calories"
+                },
+                "allergens": []
               },
               {
-                "name": "Hot German Potato Salad",
-                "photo_url": "http://example.com/hot-german-potato-salad.jpg",
+                "name": "Rice w/ Lamb",
+                "photo_url": "http://example.com/rice-w/-lamb.jpg",
+                "macros": {
+                  "protein": "NA",
+                  "fat": "NA",
+                  "carbs": "NA",
+                  "totalCalories": "0 calories"
+                },
+                "allergens": []
+              },
+              {
+                "name": "Shiro",
+                "photo_url": "http://example.com/shiro.jpg",
+                "macros": {
+                  "protein": "NA",
+                  "fat": "NA",
+                  "carbs": "NA",
+                  "totalCalories": "0 calories"
+                },
+                "allergens": []
+              },
+              {
+                "name": "Tibs",
+                "photo_url": "http://example.com/tibs.jpg",
+                "macros": {
+                  "protein": "NA",
+                  "fat": "NA",
+                  "carbs": "NA",
+                  "totalCalories": "0 calories"
+                },
+                "allergens": []
+              },
+              {
+                "name": "Ye'abesha Gomen",
+                "photo_url": "http://example.com/ye'abesha-gomen.jpg",
                 "macros": {
                   "protein": "2g",
-                  "fat": "1g",
-                  "carbs": "18g",
-                  "totalCalories": "80 calories"
-                }
-              },
-              {
-                "name": "Kartoffelknodel (Potato Dumpling)",
-                "photo_url": "http://example.com/kartoffelknodel-(potato-dumpling).jpg",
-                "macros": {
-                  "protein": "2g",
-                  "fat": "1.5g",
-                  "carbs": "17g",
-                  "totalCalories": "90 calories"
-                }
-              },
-              {
-                "name": "Kasespatzle",
-                "photo_url": "http://example.com/kasespatzle.jpg",
-                "macros": {
-                  "protein": "11g",
-                  "fat": "14g",
-                  "carbs": "27g",
-                  "totalCalories": "290 calories"
-                }
-              },
-              {
-                "name": "Pork Schnitzel",
-                "photo_url": "http://example.com/pork-schnitzel.jpg",
-                "macros": {
-                  "protein": "40g",
-                  "fat": "25g",
-                  "carbs": "21g",
-                  "totalCalories": "480 calories"
-                }
+                  "fat": "19g",
+                  "carbs": "9g",
+                  "totalCalories": "200 calories"
+                },
+                "allergens": []
               }
             ]
           }
@@ -14274,26 +16978,6 @@ const diningHallsData = [
             "name": "Bakery",
             "items": [
               {
-                "name": "Blueberry Cobbler",
-                "photo_url": "http://example.com/blueberry-cobbler.jpg",
-                "macros": {
-                  "protein": "3g",
-                  "fat": "15g",
-                  "carbs": "73g",
-                  "totalCalories": "440 calories"
-                }
-              },
-              {
-                "name": "Brookie",
-                "photo_url": "http://example.com/brookie.jpg",
-                "macros": {
-                  "protein": "2g",
-                  "fat": "8g",
-                  "carbs": "19g",
-                  "totalCalories": "160 calories"
-                }
-              },
-              {
                 "name": "Chocolate Chip Cookie",
                 "photo_url": "http://example.com/chocolate-chip-cookie.jpg",
                 "macros": {
@@ -14301,17 +16985,56 @@ const diningHallsData = [
                   "fat": "15g",
                   "carbs": "44g",
                   "totalCalories": "320 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy",
+                  "Egg",
+                  "Gluten",
+                  "Soy"
+                ]
               },
               {
-                "name": "Vegan Snickerdoodle Cookie",
-                "photo_url": "http://example.com/vegan-snickerdoodle-cookie.jpg",
+                "name": "Oreo Bar",
+                "photo_url": "http://example.com/oreo-bar.jpg",
                 "macros": {
                   "protein": "3g",
-                  "fat": "10g",
-                  "carbs": "48g",
-                  "totalCalories": "280 calories"
-                }
+                  "fat": "21g",
+                  "carbs": "24g",
+                  "totalCalories": "300 calories"
+                },
+                "allergens": [
+                  "Dairy",
+                  "Gluten",
+                  "Soy"
+                ]
+              },
+              {
+                "name": "Red Velvet Cupcake",
+                "photo_url": "http://example.com/red-velvet-cupcake.jpg",
+                "macros": {
+                  "protein": "6g",
+                  "fat": "12g",
+                  "carbs": "57g",
+                  "totalCalories": "360 calories"
+                },
+                "allergens": [
+                  "Dairy",
+                  "Egg",
+                  "Gluten"
+                ]
+              },
+              {
+                "name": "Zucchini Bread",
+                "photo_url": "http://example.com/zucchini-bread.jpg",
+                "macros": {
+                  "protein": "2g",
+                  "fat": "7g",
+                  "carbs": "29g",
+                  "totalCalories": "180 calories"
+                },
+                "allergens": [
+                  "Gluten"
+                ]
               }
             ]
           },
@@ -14326,7 +17049,8 @@ const diningHallsData = [
                   "fat": "0.5g",
                   "carbs": "41g",
                   "totalCalories": "160 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Granny Smith Apple",
@@ -14336,7 +17060,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "21g",
                   "totalCalories": "90 calories"
-                }
+                },
+                "allergens": []
               }
             ]
           },
@@ -14351,7 +17076,10 @@ const diningHallsData = [
                   "fat": "2.5g",
                   "carbs": "24g",
                   "totalCalories": "150 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               },
               {
                 "name": "2% Milk",
@@ -14361,7 +17089,10 @@ const diningHallsData = [
                   "fat": "4.5g",
                   "carbs": "12g",
                   "totalCalories": "120 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               },
               {
                 "name": "Chai Tea",
@@ -14371,7 +17102,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "0g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Creamer Coffee Liquid Original Bulk",
@@ -14381,7 +17113,10 @@ const diningHallsData = [
                   "fat": "6g",
                   "carbs": "0g",
                   "totalCalories": "60 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               },
               {
                 "name": "Dispenser Dole Orange Juice",
@@ -14391,7 +17126,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "7g",
                   "totalCalories": "30 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Dispenser Stubborn Cola",
@@ -14401,7 +17137,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "4g",
                   "totalCalories": "15 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Dole Apple Juice",
@@ -14411,7 +17148,8 @@ const diningHallsData = [
                   "fat": "NA",
                   "carbs": "7g",
                   "totalCalories": "30 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Earl Grey Tea",
@@ -14421,7 +17159,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "0g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "English Breakfast Tea",
@@ -14431,7 +17170,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "0g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "French Vanilla Creamer",
@@ -14441,7 +17181,10 @@ const diningHallsData = [
                   "fat": "8g",
                   "carbs": "20g",
                   "totalCalories": "140 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               },
               {
                 "name": "Fruit Punch Gatorade",
@@ -14451,7 +17194,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "4g",
                   "totalCalories": "15 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Mr. Commodore Medium Roast Coffee",
@@ -14461,7 +17205,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "0g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Stubborn Agave Vanilla Cream Soda",
@@ -14471,7 +17216,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "6g",
                   "totalCalories": "25 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Stubborn Soda Black Cherry Soda",
@@ -14481,7 +17227,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "6g",
                   "totalCalories": "25 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Stubborn Zero Sugar Cola",
@@ -14491,7 +17238,8 @@ const diningHallsData = [
                   "fat": "NA",
                   "carbs": "NA",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Tropicana Lemonade",
@@ -14501,7 +17249,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "7g",
                   "totalCalories": "25 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Wild Sweet Orange Tea",
@@ -14511,7 +17260,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "NA",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               }
             ]
           },
@@ -14526,7 +17276,10 @@ const diningHallsData = [
                   "fat": "10g",
                   "carbs": "35g",
                   "totalCalories": "260 calories"
-                }
+                },
+                "allergens": [
+                  "Egg"
+                ]
               },
               {
                 "name": "GF Plain Bagel",
@@ -14536,7 +17289,10 @@ const diningHallsData = [
                   "fat": "6g",
                   "carbs": "29g",
                   "totalCalories": "190 calories"
-                }
+                },
+                "allergens": [
+                  "Egg"
+                ]
               },
               {
                 "name": "GF Whole Grain Bread",
@@ -14546,7 +17302,8 @@ const diningHallsData = [
                   "fat": "2.5g",
                   "carbs": "26g",
                   "totalCalories": "130 calories"
-                }
+                },
+                "allergens": []
               }
             ]
           },
@@ -14561,7 +17318,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "0g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Hot Cholula Sauce",
@@ -14571,7 +17329,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "0g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Ketchup",
@@ -14581,7 +17340,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "8g",
                   "totalCalories": "35 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Louisiana Hot Sauce",
@@ -14591,7 +17351,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "0g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Splenda",
@@ -14601,7 +17362,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "0g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sugar",
@@ -14611,7 +17373,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "3g",
                   "totalCalories": "10 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sugar in the Raw",
@@ -14621,7 +17384,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "4g",
                   "totalCalories": "20 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Sweet-N-Low",
@@ -14631,7 +17395,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "0g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Yellow Mustard",
@@ -14641,7 +17406,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "0g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": []
               }
             ]
           }
@@ -14662,11 +17428,16 @@ const diningHallsData = [
                 "name": "Blueberry Overnight Oats",
                 "photo_url": "http://example.com/blueberry-overnight-oats.jpg",
                 "macros": {
-                  "protein": "4g",
-                  "fat": "8g",
-                  "carbs": "28g",
-                  "totalCalories": "200 calories"
-                }
+                  "protein": "11g",
+                  "fat": "5g",
+                  "carbs": "58g",
+                  "totalCalories": "310 calories"
+                },
+                "allergens": [
+                  "Dairy",
+                  "Gluten",
+                  "Soy"
+                ]
               },
               {
                 "name": "Carrot & Celery Sticks",
@@ -14676,7 +17447,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "11g",
                   "totalCalories": "45 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Chickpea & Veggie Bowl",
@@ -14686,7 +17458,10 @@ const diningHallsData = [
                   "fat": "7g",
                   "carbs": "23g",
                   "totalCalories": "190 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               },
               {
                 "name": "Fruit & Cheese Snack Pack",
@@ -14696,7 +17471,13 @@ const diningHallsData = [
                   "fat": "20g",
                   "carbs": "20g",
                   "totalCalories": "330 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy",
+                  "Egg",
+                  "Gluten",
+                  "Sesame"
+                ]
               },
               {
                 "name": "Grape Cup Side",
@@ -14706,7 +17487,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "20g",
                   "totalCalories": "80 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Grilled Chicken Cup",
@@ -14716,7 +17498,8 @@ const diningHallsData = [
                   "fat": "7g",
                   "carbs": "0g",
                   "totalCalories": "180 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Hot Chicken Wrap",
@@ -14726,7 +17509,11 @@ const diningHallsData = [
                   "fat": "33g",
                   "carbs": "68g",
                   "totalCalories": "710 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy",
+                  "Gluten"
+                ]
               },
               {
                 "name": "Mandarin Orange Cup Side",
@@ -14736,7 +17523,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "27g",
                   "totalCalories": "110 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Pasta w/ Marinara Bowl",
@@ -14746,7 +17534,10 @@ const diningHallsData = [
                   "fat": "2.5g",
                   "carbs": "96g",
                   "totalCalories": "470 calories"
-                }
+                },
+                "allergens": [
+                  "Gluten"
+                ]
               },
               {
                 "name": "Plant Based Breakfast Burrito",
@@ -14756,7 +17547,12 @@ const diningHallsData = [
                   "fat": "30g",
                   "carbs": "59g",
                   "totalCalories": "620 calories"
-                }
+                },
+                "allergens": [
+                  "Coconut",
+                  "Gluten",
+                  "Soy"
+                ]
               },
               {
                 "name": "Popcorn Chicken Cup",
@@ -14766,7 +17562,11 @@ const diningHallsData = [
                   "fat": "26g",
                   "carbs": "28g",
                   "totalCalories": "450 calories"
-                }
+                },
+                "allergens": [
+                  "Gluten",
+                  "Soy"
+                ]
               },
               {
                 "name": "Turkey & Cheddar Ciabatta Sandwich",
@@ -14776,7 +17576,12 @@ const diningHallsData = [
                   "fat": "12g",
                   "carbs": "44g",
                   "totalCalories": "400 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy",
+                  "Gluten",
+                  "Sesame"
+                ]
               },
               {
                 "name": "Turkey Sausage, Egg, Cheese Muffin",
@@ -14786,7 +17591,13 @@ const diningHallsData = [
                   "fat": "20g",
                   "carbs": "26g",
                   "totalCalories": "380 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy",
+                  "Egg",
+                  "Gluten",
+                  "Sesame"
+                ]
               }
             ]
           }
@@ -14807,11 +17618,16 @@ const diningHallsData = [
                 "name": "Blueberry Overnight Oats",
                 "photo_url": "http://example.com/blueberry-overnight-oats.jpg",
                 "macros": {
-                  "protein": "4g",
-                  "fat": "8g",
-                  "carbs": "28g",
-                  "totalCalories": "200 calories"
-                }
+                  "protein": "11g",
+                  "fat": "5g",
+                  "carbs": "58g",
+                  "totalCalories": "310 calories"
+                },
+                "allergens": [
+                  "Dairy",
+                  "Gluten",
+                  "Soy"
+                ]
               },
               {
                 "name": "Caesar Salad",
@@ -14821,7 +17637,11 @@ const diningHallsData = [
                   "fat": "3g",
                   "carbs": "9g",
                   "totalCalories": "70 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy",
+                  "Gluten"
+                ]
               },
               {
                 "name": "Carrot & Celery Sticks",
@@ -14831,7 +17651,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "11g",
                   "totalCalories": "45 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Chickpea & Veggie Bowl",
@@ -14841,7 +17662,10 @@ const diningHallsData = [
                   "fat": "7g",
                   "carbs": "23g",
                   "totalCalories": "190 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               },
               {
                 "name": "Chickpea Quinoa Salad",
@@ -14851,7 +17675,8 @@ const diningHallsData = [
                   "fat": "6g",
                   "carbs": "15g",
                   "totalCalories": "120 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Fruit & Cheese Snack Pack",
@@ -14861,7 +17686,13 @@ const diningHallsData = [
                   "fat": "20g",
                   "carbs": "20g",
                   "totalCalories": "330 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy",
+                  "Egg",
+                  "Gluten",
+                  "Sesame"
+                ]
               },
               {
                 "name": "Grape Cup Side",
@@ -14871,7 +17702,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "20g",
                   "totalCalories": "80 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Grilled Chicken Cup",
@@ -14881,7 +17713,8 @@ const diningHallsData = [
                   "fat": "7g",
                   "carbs": "0g",
                   "totalCalories": "180 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Hot Chicken Wrap",
@@ -14891,7 +17724,11 @@ const diningHallsData = [
                   "fat": "33g",
                   "carbs": "68g",
                   "totalCalories": "710 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy",
+                  "Gluten"
+                ]
               },
               {
                 "name": "Mandarin Orange Cup Side",
@@ -14901,7 +17738,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "27g",
                   "totalCalories": "110 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Pasta w/ Marinara Bowl",
@@ -14911,7 +17749,25 @@ const diningHallsData = [
                   "fat": "2.5g",
                   "carbs": "96g",
                   "totalCalories": "470 calories"
-                }
+                },
+                "allergens": [
+                  "Gluten"
+                ]
+              },
+              {
+                "name": "Plant Based Breakfast Burrito",
+                "photo_url": "http://example.com/plant-based-breakfast-burrito.jpg",
+                "macros": {
+                  "protein": "26g",
+                  "fat": "30g",
+                  "carbs": "59g",
+                  "totalCalories": "620 calories"
+                },
+                "allergens": [
+                  "Coconut",
+                  "Gluten",
+                  "Soy"
+                ]
               },
               {
                 "name": "Popcorn Chicken Cup",
@@ -14921,7 +17777,11 @@ const diningHallsData = [
                   "fat": "26g",
                   "carbs": "28g",
                   "totalCalories": "450 calories"
-                }
+                },
+                "allergens": [
+                  "Gluten",
+                  "Soy"
+                ]
               },
               {
                 "name": "Tomato, Spinach & Egg Scrambler",
@@ -14931,7 +17791,11 @@ const diningHallsData = [
                   "fat": "45g",
                   "carbs": "8g",
                   "totalCalories": "580 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy",
+                  "Egg"
+                ]
               },
               {
                 "name": "Turkey & Cheddar Ciabatta Sandwich",
@@ -14941,7 +17805,12 @@ const diningHallsData = [
                   "fat": "12g",
                   "carbs": "44g",
                   "totalCalories": "400 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy",
+                  "Gluten",
+                  "Sesame"
+                ]
               },
               {
                 "name": "Turkey Sausage, Egg, Cheese Muffin",
@@ -14951,17 +17820,13 @@ const diningHallsData = [
                   "fat": "20g",
                   "carbs": "26g",
                   "totalCalories": "380 calories"
-                }
-              },
-              {
-                "name": "Vegan Breakfast Burrito",
-                "photo_url": "http://example.com/vegan-breakfast-burrito.jpg",
-                "macros": {
-                  "protein": "34g",
-                  "fat": "18g",
-                  "carbs": "69g",
-                  "totalCalories": "620 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy",
+                  "Egg",
+                  "Gluten",
+                  "Sesame"
+                ]
               }
             ]
           }
@@ -14982,11 +17847,16 @@ const diningHallsData = [
                 "name": "Blueberry Overnight Oats",
                 "photo_url": "http://example.com/blueberry-overnight-oats.jpg",
                 "macros": {
-                  "protein": "4g",
-                  "fat": "8g",
-                  "carbs": "28g",
-                  "totalCalories": "200 calories"
-                }
+                  "protein": "11g",
+                  "fat": "5g",
+                  "carbs": "58g",
+                  "totalCalories": "310 calories"
+                },
+                "allergens": [
+                  "Dairy",
+                  "Gluten",
+                  "Soy"
+                ]
               },
               {
                 "name": "Caesar Salad",
@@ -14996,7 +17866,11 @@ const diningHallsData = [
                   "fat": "3g",
                   "carbs": "9g",
                   "totalCalories": "70 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy",
+                  "Gluten"
+                ]
               },
               {
                 "name": "Carrot & Celery Sticks",
@@ -15006,7 +17880,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "11g",
                   "totalCalories": "45 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Chickpea & Veggie Bowl",
@@ -15016,7 +17891,10 @@ const diningHallsData = [
                   "fat": "7g",
                   "carbs": "23g",
                   "totalCalories": "190 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               },
               {
                 "name": "Chickpea Quinoa Salad",
@@ -15026,7 +17904,8 @@ const diningHallsData = [
                   "fat": "6g",
                   "carbs": "15g",
                   "totalCalories": "120 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Fruit & Cheese Snack Pack",
@@ -15036,7 +17915,13 @@ const diningHallsData = [
                   "fat": "20g",
                   "carbs": "20g",
                   "totalCalories": "330 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy",
+                  "Egg",
+                  "Gluten",
+                  "Sesame"
+                ]
               },
               {
                 "name": "Grape Cup Side",
@@ -15046,7 +17931,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "20g",
                   "totalCalories": "80 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Grilled Chicken Cup",
@@ -15056,7 +17942,8 @@ const diningHallsData = [
                   "fat": "7g",
                   "carbs": "0g",
                   "totalCalories": "180 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Hot Chicken Wrap",
@@ -15066,7 +17953,11 @@ const diningHallsData = [
                   "fat": "33g",
                   "carbs": "68g",
                   "totalCalories": "710 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy",
+                  "Gluten"
+                ]
               },
               {
                 "name": "Mandarin Orange Cup Side",
@@ -15076,7 +17967,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "27g",
                   "totalCalories": "110 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Pasta w/ Marinara Bowl",
@@ -15086,7 +17978,10 @@ const diningHallsData = [
                   "fat": "2.5g",
                   "carbs": "96g",
                   "totalCalories": "470 calories"
-                }
+                },
+                "allergens": [
+                  "Gluten"
+                ]
               },
               {
                 "name": "Plant Based Breakfast Burrito",
@@ -15096,7 +17991,12 @@ const diningHallsData = [
                   "fat": "30g",
                   "carbs": "59g",
                   "totalCalories": "620 calories"
-                }
+                },
+                "allergens": [
+                  "Coconut",
+                  "Gluten",
+                  "Soy"
+                ]
               },
               {
                 "name": "Popcorn Chicken Cup",
@@ -15106,7 +18006,11 @@ const diningHallsData = [
                   "fat": "26g",
                   "carbs": "28g",
                   "totalCalories": "450 calories"
-                }
+                },
+                "allergens": [
+                  "Gluten",
+                  "Soy"
+                ]
               },
               {
                 "name": "Tomato, Spinach & Egg Scrambler",
@@ -15116,7 +18020,11 @@ const diningHallsData = [
                   "fat": "45g",
                   "carbs": "8g",
                   "totalCalories": "580 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy",
+                  "Egg"
+                ]
               },
               {
                 "name": "Turkey & Cheddar Ciabatta Sandwich",
@@ -15126,7 +18034,12 @@ const diningHallsData = [
                   "fat": "12g",
                   "carbs": "44g",
                   "totalCalories": "400 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy",
+                  "Gluten",
+                  "Sesame"
+                ]
               },
               {
                 "name": "Turkey Sausage, Egg, Cheese Muffin",
@@ -15136,7 +18049,13 @@ const diningHallsData = [
                   "fat": "20g",
                   "carbs": "26g",
                   "totalCalories": "380 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy",
+                  "Egg",
+                  "Gluten",
+                  "Sesame"
+                ]
               }
             ]
           }
@@ -15157,11 +18076,16 @@ const diningHallsData = [
                 "name": "Blueberry Overnight Oats",
                 "photo_url": "http://example.com/blueberry-overnight-oats.jpg",
                 "macros": {
-                  "protein": "4g",
-                  "fat": "8g",
-                  "carbs": "28g",
-                  "totalCalories": "200 calories"
-                }
+                  "protein": "11g",
+                  "fat": "5g",
+                  "carbs": "58g",
+                  "totalCalories": "310 calories"
+                },
+                "allergens": [
+                  "Dairy",
+                  "Gluten",
+                  "Soy"
+                ]
               },
               {
                 "name": "Caesar Salad",
@@ -15171,7 +18095,11 @@ const diningHallsData = [
                   "fat": "3g",
                   "carbs": "9g",
                   "totalCalories": "70 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy",
+                  "Gluten"
+                ]
               },
               {
                 "name": "Carrot & Celery Sticks",
@@ -15181,7 +18109,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "11g",
                   "totalCalories": "45 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Chickpea & Veggie Bowl",
@@ -15191,7 +18120,10 @@ const diningHallsData = [
                   "fat": "7g",
                   "carbs": "23g",
                   "totalCalories": "190 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               },
               {
                 "name": "Chickpea Quinoa Salad",
@@ -15201,7 +18133,8 @@ const diningHallsData = [
                   "fat": "6g",
                   "carbs": "15g",
                   "totalCalories": "120 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Fruit & Cheese Snack Pack",
@@ -15211,7 +18144,13 @@ const diningHallsData = [
                   "fat": "20g",
                   "carbs": "20g",
                   "totalCalories": "330 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy",
+                  "Egg",
+                  "Gluten",
+                  "Sesame"
+                ]
               },
               {
                 "name": "Grape Cup Side",
@@ -15221,7 +18160,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "20g",
                   "totalCalories": "80 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Grilled Chicken Cup",
@@ -15231,7 +18171,8 @@ const diningHallsData = [
                   "fat": "7g",
                   "carbs": "0g",
                   "totalCalories": "180 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Hot Chicken Wrap",
@@ -15241,7 +18182,11 @@ const diningHallsData = [
                   "fat": "33g",
                   "carbs": "68g",
                   "totalCalories": "710 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy",
+                  "Gluten"
+                ]
               },
               {
                 "name": "Mandarin Orange Cup Side",
@@ -15251,7 +18196,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "27g",
                   "totalCalories": "110 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Pasta w/ Marinara Bowl",
@@ -15261,7 +18207,10 @@ const diningHallsData = [
                   "fat": "2.5g",
                   "carbs": "96g",
                   "totalCalories": "470 calories"
-                }
+                },
+                "allergens": [
+                  "Gluten"
+                ]
               },
               {
                 "name": "Plant Based Breakfast Burrito",
@@ -15271,7 +18220,12 @@ const diningHallsData = [
                   "fat": "30g",
                   "carbs": "59g",
                   "totalCalories": "620 calories"
-                }
+                },
+                "allergens": [
+                  "Coconut",
+                  "Gluten",
+                  "Soy"
+                ]
               },
               {
                 "name": "Popcorn Chicken Cup",
@@ -15281,7 +18235,11 @@ const diningHallsData = [
                   "fat": "26g",
                   "carbs": "28g",
                   "totalCalories": "450 calories"
-                }
+                },
+                "allergens": [
+                  "Gluten",
+                  "Soy"
+                ]
               },
               {
                 "name": "Tomato, Spinach & Egg Scrambler",
@@ -15291,7 +18249,11 @@ const diningHallsData = [
                   "fat": "45g",
                   "carbs": "8g",
                   "totalCalories": "580 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy",
+                  "Egg"
+                ]
               },
               {
                 "name": "Turkey & Cheddar Ciabatta Sandwich",
@@ -15301,7 +18263,12 @@ const diningHallsData = [
                   "fat": "12g",
                   "carbs": "44g",
                   "totalCalories": "400 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy",
+                  "Gluten",
+                  "Sesame"
+                ]
               },
               {
                 "name": "Turkey Sausage, Egg, Cheese Muffin",
@@ -15311,7 +18278,13 @@ const diningHallsData = [
                   "fat": "20g",
                   "carbs": "26g",
                   "totalCalories": "380 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy",
+                  "Egg",
+                  "Gluten",
+                  "Sesame"
+                ]
               }
             ]
           }
@@ -15332,11 +18305,16 @@ const diningHallsData = [
                 "name": "Blueberry Overnight Oats",
                 "photo_url": "http://example.com/blueberry-overnight-oats.jpg",
                 "macros": {
-                  "protein": "4g",
-                  "fat": "8g",
-                  "carbs": "28g",
-                  "totalCalories": "200 calories"
-                }
+                  "protein": "11g",
+                  "fat": "5g",
+                  "carbs": "58g",
+                  "totalCalories": "310 calories"
+                },
+                "allergens": [
+                  "Dairy",
+                  "Gluten",
+                  "Soy"
+                ]
               },
               {
                 "name": "Caesar Salad",
@@ -15346,7 +18324,11 @@ const diningHallsData = [
                   "fat": "3g",
                   "carbs": "9g",
                   "totalCalories": "70 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy",
+                  "Gluten"
+                ]
               },
               {
                 "name": "Carrot & Celery Sticks",
@@ -15356,7 +18338,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "11g",
                   "totalCalories": "45 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Chickpea & Veggie Bowl",
@@ -15366,7 +18349,10 @@ const diningHallsData = [
                   "fat": "7g",
                   "carbs": "23g",
                   "totalCalories": "190 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               },
               {
                 "name": "Chickpea Quinoa Salad",
@@ -15376,7 +18362,8 @@ const diningHallsData = [
                   "fat": "6g",
                   "carbs": "15g",
                   "totalCalories": "120 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Fruit & Cheese Snack Pack",
@@ -15386,7 +18373,13 @@ const diningHallsData = [
                   "fat": "20g",
                   "carbs": "20g",
                   "totalCalories": "330 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy",
+                  "Egg",
+                  "Gluten",
+                  "Sesame"
+                ]
               },
               {
                 "name": "Grape Cup Side",
@@ -15396,7 +18389,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "20g",
                   "totalCalories": "80 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Grilled Chicken Cup",
@@ -15406,7 +18400,8 @@ const diningHallsData = [
                   "fat": "7g",
                   "carbs": "0g",
                   "totalCalories": "180 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Hot Chicken Wrap",
@@ -15416,7 +18411,11 @@ const diningHallsData = [
                   "fat": "33g",
                   "carbs": "68g",
                   "totalCalories": "710 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy",
+                  "Gluten"
+                ]
               },
               {
                 "name": "Mandarin Orange Cup Side",
@@ -15426,7 +18425,8 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "27g",
                   "totalCalories": "110 calories"
-                }
+                },
+                "allergens": []
               },
               {
                 "name": "Pasta w/ Marinara Bowl",
@@ -15436,7 +18436,10 @@ const diningHallsData = [
                   "fat": "2.5g",
                   "carbs": "96g",
                   "totalCalories": "470 calories"
-                }
+                },
+                "allergens": [
+                  "Gluten"
+                ]
               },
               {
                 "name": "Plant Based Breakfast Burrito",
@@ -15446,7 +18449,12 @@ const diningHallsData = [
                   "fat": "30g",
                   "carbs": "59g",
                   "totalCalories": "620 calories"
-                }
+                },
+                "allergens": [
+                  "Coconut",
+                  "Gluten",
+                  "Soy"
+                ]
               },
               {
                 "name": "Popcorn Chicken Cup",
@@ -15456,7 +18464,11 @@ const diningHallsData = [
                   "fat": "26g",
                   "carbs": "28g",
                   "totalCalories": "450 calories"
-                }
+                },
+                "allergens": [
+                  "Gluten",
+                  "Soy"
+                ]
               },
               {
                 "name": "Tomato, Spinach & Egg Scrambler",
@@ -15466,7 +18478,11 @@ const diningHallsData = [
                   "fat": "45g",
                   "carbs": "8g",
                   "totalCalories": "580 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy",
+                  "Egg"
+                ]
               },
               {
                 "name": "Turkey & Cheddar Ciabatta Sandwich",
@@ -15476,7 +18492,12 @@ const diningHallsData = [
                   "fat": "12g",
                   "carbs": "44g",
                   "totalCalories": "400 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy",
+                  "Gluten",
+                  "Sesame"
+                ]
               },
               {
                 "name": "Turkey Sausage, Egg, Cheese Muffin",
@@ -15486,7 +18507,13 @@ const diningHallsData = [
                   "fat": "20g",
                   "carbs": "26g",
                   "totalCalories": "380 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy",
+                  "Egg",
+                  "Gluten",
+                  "Sesame"
+                ]
               }
             ]
           }
@@ -15511,7 +18538,10 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "22g",
                   "totalCalories": "140 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               },
               {
                 "name": "Butter",
@@ -15521,7 +18551,10 @@ const diningHallsData = [
                   "fat": "8g",
                   "carbs": "0g",
                   "totalCalories": "80 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               },
               {
                 "name": "Butter Large Croissant",
@@ -15531,7 +18564,12 @@ const diningHallsData = [
                   "fat": "14g",
                   "carbs": "32g",
                   "totalCalories": "280 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy",
+                  "Egg",
+                  "Gluten"
+                ]
               },
               {
                 "name": "Chocolat Croissant",
@@ -15541,7 +18579,29 @@ const diningHallsData = [
                   "fat": "15g",
                   "carbs": "28g",
                   "totalCalories": "260 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy",
+                  "Egg",
+                  "Gluten",
+                  "Soy"
+                ]
+              },
+              {
+                "name": "Chocolate Muffin",
+                "photo_url": "http://example.com/chocolate-muffin.jpg",
+                "macros": {
+                  "protein": "4g",
+                  "fat": "14g",
+                  "carbs": "42g",
+                  "totalCalories": "310 calories"
+                },
+                "allergens": [
+                  "Dairy",
+                  "Egg",
+                  "Gluten",
+                  "Soy"
+                ]
               },
               {
                 "name": "Cinnamon Raisin Bagel",
@@ -15551,7 +18611,11 @@ const diningHallsData = [
                   "fat": "1g",
                   "carbs": "68g",
                   "totalCalories": "320 calories"
-                }
+                },
+                "allergens": [
+                  "Gluten",
+                  "Soy"
+                ]
               },
               {
                 "name": "Commodore Veggie Sandwich",
@@ -15561,7 +18625,13 @@ const diningHallsData = [
                   "fat": "43g",
                   "carbs": "16g",
                   "totalCalories": "0 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy",
+                  "Gluten",
+                  "Sesame",
+                  "Soy"
+                ]
               },
               {
                 "name": "Cream Cheese",
@@ -15571,7 +18641,10 @@ const diningHallsData = [
                   "fat": "7g",
                   "carbs": "1g",
                   "totalCalories": "70 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               },
               {
                 "name": "Egg & Cheese Danish",
@@ -15581,7 +18654,13 @@ const diningHallsData = [
                   "fat": "16g",
                   "carbs": "25g",
                   "totalCalories": "250 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy",
+                  "Egg",
+                  "Gluten",
+                  "Soy"
+                ]
               },
               {
                 "name": "Everything Bagel",
@@ -15591,7 +18670,11 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "59g",
                   "totalCalories": "290 calories"
-                }
+                },
+                "allergens": [
+                  "Gluten",
+                  "Sesame"
+                ]
               },
               {
                 "name": "Ham & Cheese Danish",
@@ -15601,7 +18684,13 @@ const diningHallsData = [
                   "fat": "15g",
                   "carbs": "24g",
                   "totalCalories": "280 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy",
+                  "Egg",
+                  "Gluten",
+                  "Pork"
+                ]
               },
               {
                 "name": "Light Cream Cheese",
@@ -15611,17 +18700,10 @@ const diningHallsData = [
                   "fat": "3.5g",
                   "carbs": "2g",
                   "totalCalories": "45 calories"
-                }
-              },
-              {
-                "name": "Mocha Muffin",
-                "photo_url": "http://example.com/mocha-muffin.jpg",
-                "macros": {
-                  "protein": "2g",
-                  "fat": "14g",
-                  "carbs": "42g",
-                  "totalCalories": "300 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               },
               {
                 "name": "Multigrain Large Croissant",
@@ -15631,7 +18713,13 @@ const diningHallsData = [
                   "fat": "14g",
                   "carbs": "32g",
                   "totalCalories": "270 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy",
+                  "Egg",
+                  "Gluten",
+                  "Sesame"
+                ]
               },
               {
                 "name": "Mushroom, Tomato, Spinach & Egg Bagel",
@@ -15641,7 +18729,12 @@ const diningHallsData = [
                   "fat": "44g",
                   "carbs": "65g",
                   "totalCalories": "780 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy",
+                  "Egg",
+                  "Gluten"
+                ]
               },
               {
                 "name": "Pesto Turkey Sandwich",
@@ -15651,7 +18744,13 @@ const diningHallsData = [
                   "fat": "25g",
                   "carbs": "48g",
                   "totalCalories": "560 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy",
+                  "Gluten",
+                  "Sesame",
+                  "Soy"
+                ]
               },
               {
                 "name": "Plain Bagel",
@@ -15661,7 +18760,10 @@ const diningHallsData = [
                   "fat": "1g",
                   "carbs": "61g",
                   "totalCalories": "290 calories"
-                }
+                },
+                "allergens": [
+                  "Gluten"
+                ]
               },
               {
                 "name": "Sausage Egg & Cheese Danish",
@@ -15671,7 +18773,14 @@ const diningHallsData = [
                   "fat": "17g",
                   "carbs": "25g",
                   "totalCalories": "240 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy",
+                  "Egg",
+                  "Gluten",
+                  "Pork",
+                  "Soy"
+                ]
               },
               {
                 "name": "Scone",
@@ -15681,7 +18790,13 @@ const diningHallsData = [
                   "fat": "18g",
                   "carbs": "45g",
                   "totalCalories": "360 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy",
+                  "Egg",
+                  "Gluten",
+                  "Soy"
+                ]
               },
               {
                 "name": "Smoked Sausage, Egg, & Pepperjack Bagel",
@@ -15691,7 +18806,13 @@ const diningHallsData = [
                   "fat": "69g",
                   "carbs": "66g",
                   "totalCalories": "1060 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy",
+                  "Egg",
+                  "Gluten",
+                  "Pork"
+                ]
               },
               {
                 "name": "Spinach & Cheese Danish",
@@ -15701,7 +18822,12 @@ const diningHallsData = [
                   "fat": "14g",
                   "carbs": "28g",
                   "totalCalories": "260 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy",
+                  "Egg",
+                  "Gluten"
+                ]
               },
               {
                 "name": "Strawberry Cream Cheese",
@@ -15711,7 +18837,10 @@ const diningHallsData = [
                   "fat": "6g",
                   "carbs": "4g",
                   "totalCalories": "70 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               },
               {
                 "name": "Strawberry Raspberry Greek Yogurt",
@@ -15721,7 +18850,10 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "23g",
                   "totalCalories": "140 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               },
               {
                 "name": "Vanilla Greek Yogurt",
@@ -15731,7 +18863,10 @@ const diningHallsData = [
                   "fat": "0g",
                   "carbs": "10g",
                   "totalCalories": "100 calories"
-                }
+                },
+                "allergens": [
+                  "Dairy"
+                ]
               }
             ]
           }
@@ -15739,6 +18874,8 @@ const diningHallsData = [
       }
     ]
   }
+
 ];
+
 
 export default diningHallsData

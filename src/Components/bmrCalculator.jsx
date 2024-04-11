@@ -165,15 +165,6 @@ function BMRCalculator() {
           <option value="improve_overall">Improve Overall Health and Fitness</option>
         </select>
         <button className='bmr-calculator' onClick={calculateBMR}>Calculate Daily Calorie Needs</button>
-        {/* Additional Goal Button
-        <div>
-         <h2>Primary Goal Selection:</h2>
-         <button onClick={() => handleGoalSelection('Lose Weight')}>Lose Weight</button>
-         <button onClick={() => handleGoalSelection('Build Muscle')}>Build Muscle</button>
-         <button onClick={() => handleGoalSelection('Recomposition')}>Recomposition (Losing fat while gaining muscle)</button>
-         <button onClick={() => handleGoalSelection('Maintain Current Weight')}>Maintain Current Weight</button>
-         <button onClick={() => handleGoalSelection('Improve Overall Health and Fitness')}>Improve Overall Health and Fitness</button>
-        </div> */}
       </form>
       <p>{result}</p>
     </div>

@@ -28,11 +28,12 @@ const parseHallsData = (hallsData) => {
 
       mealCategories.forEach(category => {
         Object.entries(category).forEach(([categoryName, items]) => {
-          // Convert items object to array of items with name and macros
+          // Convert items object to array of items with name, macros, and allergens
           const itemsArray = Object.entries(items).map(([itemName, itemDetails]) => ({
             name: itemName,
             photo_url: `http://example.com/${itemName.toLowerCase().replace(/\s+/g, '-')}.jpg`,
             macros: itemDetails.macros, // Assuming the structure is compatible
+            allergens: itemDetails.allergens || [] // Include allergens, default to empty array if not present
           }));
 
           categoriesAndItems.push({
@@ -55,6 +56,5 @@ const parseHallsData = (hallsData) => {
   }).filter(hall => hall !== null);
 };
 
-  const transformedData = parseHallsData(hallsData);
-  console.log(JSON.stringify(transformedData, null, 2));
-  
+const transformedData = parseHallsData(hallsData);
+console.log(JSON.stringify(transformedData, null, 2));

@@ -38,7 +38,8 @@ async function openNutritionLabelAndScrapeInfo(page) {
         fat: nutritionalInfo.macros.fat,
         carbs: nutritionalInfo.macros.carbs,
         totalCalories: nutritionalInfo.macros.totalCalories
-      }
+      },
+      allergens: nutritionalInfo.allergens // Adding allergen information
     };
   }
   // After loop finishes, click back to continue navigating to all different meal of days
