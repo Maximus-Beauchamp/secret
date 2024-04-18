@@ -1,0 +1,126 @@
+/* ProfileInfo.css */
+
+/* Basic reset for margins and padding */
+:root {
+    --primary: #e7d287; /* Gold color */
+    --text-color: #000; /* Black text color */
+    --hover-primary: #ccac00; /* Darker shade of gold for hover effect */
+    --shadow-color: rgba(0, 0, 0, 0); /* No shadow for minimalism */
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Style for the main container */
+.profile-info {
+  font-family: 'Arial', sans-serif;
+  color: black;
+  padding: 2rem;
+  max-width: 100%; /* Adjusted for full width */
+  margin: 2rem auto;
+  background-color: #fff;
+}
+
+/* Headings styling */
+.profile-info h2 {
+  color: black; /* Gold color for headings */
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.profile-info h3 {
+  margin-bottom: 0.5rem;
+}
+  /* Section container styles for grouping related information */
+  .section-container {
+    border-bottom: 1px solid #eaeaea;
+    padding-bottom: 1rem;
+    margin-bottom: 2rem; /* Increased bottom margin for spacing between sections */
+    align-items: center;
+  }
+
+  .section-container .metrics-table {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .section-container:last-child {
+    border: none;
+  }
+  
+  /* Paragraph styles for better readability */
+  .profile-info p {
+    line-height: 1.6;
+    color: #666;
+    margin-bottom: 0.5rem; /* Space after each paragraph for better separation */
+  }
+  
+  /* Step container specific styles */
+  .step-container h3 {
+    font-size: 1.1rem;
+    font-weight: normal;
+    margin-bottom: 0.5rem;
+  }
+
+  /* Button styles */
+  .button, .profile-info button {
+    display: inline-block;
+    background-color: var(--primary);
+    color: white;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 1rem; /* Space above the button */
+  }
+  
+  .button:hover, .profile-info button:hover {
+    background-color: var(--hover-primary);
+  }
+  
+  /* Loading and Error message styles */
+  .loading, .error {
+    text-align: center;
+    margin-top: 2rem;
+  }
+  
+  .metrics-table {
+    width: auto; /* Allows table to be as wide as its content */
+    max-width: 100%; /* Ensures table doesn't overflow the profile-info */
+    border-collapse: collapse;
+    margin-top: 1rem;
+    table-layout: fixed; /* Makes the table layout more predictable */
+  }
+  
+  .metrics-table th, .metrics-table td {
+    border: 1px solid #eaeaea;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .metrics-table th {
+    background-color: #f8f8f8;
+  }
+  
+  /* Responsive design breakpoints */
+  @media (max-width: 768px) {
+    .profile-info {
+      padding: 1rem;
+    }
+  
+    .section-container {
+      padding-bottom: 0.5rem;
+      margin-bottom: 1rem;
+    }
+  
+    .btn {
+      margin-right: 0; /* Remove margin for smaller screens */
+    }
+  }
+  

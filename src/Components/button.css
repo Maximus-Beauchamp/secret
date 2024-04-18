@@ -1,0 +1,38 @@
+:root {
+    --primary:  #e7d287; /* Gold color remains unchanged */
+    --text-color: #000; /* Black text color remains unchanged */
+    --hover-primary: #ccac00; /* Darker shade of gold for hover effect remains unchanged */
+    --shadow-color: rgba(0, 0, 0, 0); /* Shadow effect already removed for minimalism */
+}
+
+.btn {
+    padding: 0.5rem 2rem; /* Increased right and left padding for wider buttons */
+    font-size: 0.875rem; /* Existing font size, consider if you want it larger for visibility */
+    font-family: "Bebas Neue", sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    border-radius: 20px; /* Ovular shape maintained */
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.2s, font-weight 0.2s; /* Added font-weight to transitions */
+    background-color: var(--primary);
+    color: var(--text-color);
+    border: 1px solid var(--primary);
+    margin-right: 20px; /* Added right margin for spacing in nav bar */
+    display: inline-block; /* Ensures margin takes effect */
+}
+
+.btn--outline {
+    background-color: transparent;
+    color: var(--primary);
+    padding: 0.5rem 2rem; /* Consistency in wider buttons */
+    border: 1px solid var(--primary);
+    transition: all 0.3s ease-out;
+    margin-right: 20px; /* Consistent spacing for outlined buttons */
+}
+
+.btn:hover, .btn:focus {
+    background-color: var(--hover-primary);
+    transform: translateY(-2px);
+    font-weight: bold; /* Text becomes bold on hover */
+    box-shadow: none;
+}

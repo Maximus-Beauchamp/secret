@@ -1,0 +1,30 @@
+/* AreaChartComponent.css */
+
+/* Styles the container of the AreaChart to ensure it's centered */
+.AreaChart{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 10%;
+    height: 100%;
+  }
+  
+  /* Styles the title of the chart */
+  .chart-title {
+    font-size: 20px;
+    color: #D4AF37; /* Gold color for the title */
+    margin-bottom: 10px; /* Adds some space between the title and the chart */
+  }
+  
+  /* Customizes the chart's color scheme */
+  .recharts-surface {
+    stroke: #000; /* Black lines for the chart */
+  }
+  
+  .recharts-area-dot, .recharts-tooltip-cursor {
+    fill: #D4AF37; /* Gold dots and cursor line */
+  }
+  
+  /* Optional: If you're setting specific colors through the Area component, you might not need to adjust .recharts-area-dot */
+  

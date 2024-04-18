@@ -1,0 +1,65 @@
+.preferences-form {
+  font-family: "Dela Gothic One", sans-serif;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.preferences-form h2, .preferences-form h3, .preferences-form p, .preferences-form label {
+  margin-bottom: 20px;
+}
+
+.button {
+  background-color: #e7d287; /* Original button background */
+  color: black; /* Black text color */
+  padding: 10px; /* Padding inside the button */
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 30px;
+  border-radius: 20px; /* Ovular shape maintained */
+  cursor: pointer;
+  transition: background-color 0.2s, transform 0.2s, font-weight 0.2s; /* Added font-weight to transitions */
+}
+
+.submit-button {
+  background-color: #ccac00; /* Blue background for submit button */
+  padding: 10px; /* Padding inside the button */
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 20px;
+  border-radius: 20px; /* Ovular shape maintained */
+  cursor: pointer;
+  transition: background-color 0.2s, transform 0.2s, font-weight 0.2s; /* Added font-weight to transitions */
+}
+
+.submit-container {
+  text-align: center;
+}
+
+.button.active, .clicked {
+  background-color: #E74C3C; /* Red background for active or clicked state */
+  color: white; /* White text color for active or clicked state */
+  transform: scale(0.9); /* Make button slightly smaller */
+}
+
+.preferences .button.active, /* New class for clicked preference buttons */
+.preferences .clicked { /* Ensuring consistency if .clicked is used for preferences */
+  background-color: #27AE60; /* Green background for clicked preferences */
+  color: white;
+}
+
+.allergies, .preferences {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: 10px;
+}
+
+/* Hover effects for dynamically changed background colors */
+.button:hover, .clicked:hover {
+  transform: translateY(-2px);
+}
+
+.preferences .button.active:hover, .preferences .clicked:hover {
+  background-color: #229954; /* Slightly darker green on hover */
+}

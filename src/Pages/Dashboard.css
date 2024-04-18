@@ -1,0 +1,23 @@
+.dashboard {
+  display: flex;
+  flex-wrap: wrap; /* Allows elements to wrap as needed */
+  gap: 20px; /* Spacing between boxes */
+  max-width: 100%; /* Ensures dashboard does not exceed the width of its container */
+}
+
+.box {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Specific styling for each box */
+.box1, .box2 {
+  flex-basis: calc(50% - 20px); /* Adjusts width to account for the gap, ensures two boxes fit in one row */
+  flex-grow: 1;
+}
+
+.box3, .box4{
+  flex-basis: 100%; /* Box 3 takes up the full width of the flex container */
+}

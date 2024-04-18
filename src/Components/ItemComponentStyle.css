@@ -1,0 +1,71 @@
+.diningHallDetails {
+    margin: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #fcfcf3; /* Light cream background, change as needed */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for each meal category component */
+.mealTypeButton {
+    display: block;
+    width: 100%;
+    padding: 15px 20px;
+    margin: 10px 0;
+    background-color: var(--primary, #e7d287); /* Primary color, fallback to gold */
+    color: white;
+    font-size: 1.2rem;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.mealTypeButton:hover, .mealTypeButton:focus {
+    background-color: #ccac00; /* Darker shade for hover/focus */
+    transform: scale(1.05);
+}
+
+/* Item container within each meal category */
+.itemContainer {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #fff; /* White background for contrast */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+}
+
+.itemName {
+    cursor: pointer;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.itemName:hover {
+    text-decoration: underline; /* Style as needed */
+}
+  
+  /* Button to add meal to journal */
+.addButton {
+    padding: 10px 20px;
+    background-color: var(--primary, #e7d287);
+    color: white;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.addButton:hover {
+    background-color: #ccac00;
+}
+
+/* Nutritional content styling - ensuring it is displayed when required */
+.nutritionContent {
+    padding: 10px;
+    font-size: 0.9rem;
+    text-align: center;
+    display: block; /* Changed from none to block to ensure it's displayed */
+  }
